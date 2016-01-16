@@ -5,7 +5,7 @@ date:   2016-01-15 10:00:27 -0500
 categories: ":lifter:"
 ---
 
-<p>I've been allergic to caffeine for about four years. Long story short: I overdid coffee during my middler year at Northeastern in order to minimize my need for sleep and work ridiculously long hours. After about a year of this lifestyle, my body began to react poorly to the drug. And now I get a rash if I consume anything with even the smallest amount of caffeine in it. (Sadly this includes chocolate.)</p>
+<p>I've been allergic to caffeine for about four years. To make a long story short, I overdid coffee during my middler year at Northeastern in order to minimize my need for sleep and work ridiculously long hours. After about a year of this lifestyle, my body began to react poorly to the drug. And now I get a rash if I consume anything with even the smallest amount of caffeine in it. (Sadly this includes chocolate.)</p>
 
 <p>I won't lie. It stinks not being able to grab an energy drink when I need a quick pick-me-up. But you can either mope about your problems or attack them head on. And I for one prefer the latter. So a productivity hack that I've discovered has been to take Scottish showers when I'm feeling sluggish. They work wonders. You leave the shower feeling rejuvenated and ready to tackle anything that's ahead.</p> 
 
