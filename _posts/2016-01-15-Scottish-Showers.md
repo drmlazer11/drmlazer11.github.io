@@ -11,4 +11,4 @@ categories: ":lifter:"
 
 <p>If you're asking, "What the heck is a Scottish shower?" You're probably not alone. The practice isn't very common. But really there's not much to explain. At a fundamental level it's just a shower. The only difference is that you're alternating between extremely hot and cold water temperatures throughout your cleanse.</p>
 
-<p>I figured I'd post about this because of the new year and our resolutions that come with it. The formula for success is simple. Subtract an hour of sleep and add two Scottish showers. Badda bing, badda boom.</p>
+<p>I figured I'd post about this because of the new year and the resolutions that come with it. The formula for success is simple. Subtract an hour of sleep and add two Scottish showers. Badda bing, badda boom.</p>
