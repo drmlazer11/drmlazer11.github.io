@@ -9,6 +9,6 @@ categories: ":lifter:"
 
 <p>I won't lie. It stinks not being able to grab an energy drink when I need a quick pick-me-up. But you can either mope about your problems or attack them head on. And I prefer the latter. So one productivity hack I've discovered has been to take Scottish showers when I'm feeling sluggish. They work <i>wonders</i>. You leave the bathroom feeling rejuvenated and ready to tackle anything that's ahead.</p> 
 
-<p>If you're asking, "What the heck is a Scottish shower?" You're probably not alone. The practice isn't very common. But really there's not much to explain. At a fundamental level it's just a shower. The only difference is that you're alternating between extremely hot and cold water temperatures throughout your cleanse.</p>
+<p>If you're thinking - "What the heck is a Scottish shower?" - You're probably not alone. The practice isn't very common. But really there's not much to explain. At a fundamental level it's just a shower. The only difference is that you're alternating between extremely hot and cold water temperatures throughout your cleanse.</p>
 
 <p>I wanted to post about this because of the new year and the resolutions that come with it. Many of our ambitions end in failure because we make excuses like, "I couldn't find enough time." Or, "It was just too much effort." I'm here to tell you that the formula for success is simple. <span style="font-weight: bold; color: #333;">Subtract an hour of sleep and add two Scottish showers.</span> Badda bing, badda boom.</p>
