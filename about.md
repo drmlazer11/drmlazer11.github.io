@@ -112,3 +112,5 @@ permalink: /about/
     		</div>
     	</div>
 </div>
+
+<script src="/js/jquery-2.0.0.min.js"></script>
