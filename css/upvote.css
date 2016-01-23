@@ -1,0 +1,315 @@
+/**************************************************************/
+/****************** Generic Body, HTML CSS ********************/
+/**************************************************************/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+html {
+	font-size: 1em;
+}
+
+div, span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.container {
+	position: relative;
+	height: 4em;
+	margin: 0 auto;
+	margin-top: .5em;
+	max-width: 32em;
+	width: 96%;
+}
+
+.container.top {
+	margin-top: 0;
+}
+	
+.category-container {
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	height: 100%;
+	margin-top: .5em;
+	width: 49%;
+	margin-left: 2%;
+	border-radius: 4px;
+	-webkit-transition: -webkit-transform .18s;
+	z-index: 1000;
+}
+
+
+.category-container.left {
+	margin-left: 0%;
+}
+
+.category-container:hover {
+	-webkit-transform: scale(.96);
+}
+
+.category-container.us {
+	background-color: rgba(52, 152, 219, .8);
+	border-bottom: 10px solid rgba(52, 152, 219, 1);  
+}
+.category-container.world {
+    background-color: rgba(255, 140, 0, .8); 
+    border-bottom: 10px solid rgba(255, 140, 0, 1);  
+}
+.category-container.sports {
+    background-color: rgba(231, 76, 60, .8);
+    border-bottom: 10px solid rgba(231, 76, 60, 1);
+}
+.category-container.business {
+    background-color: rgba(0, 128, 0, .75);
+    border-bottom: 10px solid rgba(0, 128, 0, 1);
+}
+.category-container.technology {
+    background-color: rgba(0, 154, 136, .8);
+    border-bottom: 10px solid rgba(0, 154, 136, 1);
+}
+.category-container.entertainment {
+    background-color: rgba(164, 121, 228, .8);
+    border-bottom: 10px solid rgba(164, 121, 228, 1);
+}
+
+.category-text {
+	position: absolute;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	top: .3em;
+	font-size: 2em;
+	font-family: 'Source Sans Pro Black';
+}
+
+.upvote-outer-container {
+	width: 100%;
+	height: 5em;
+	background-color: #fff;
+	position: relative;
+	margin: 0 auto;
+	border-radius: 10px;
+	/*margin-top:-6em;*/
+	margin-top: 4em;
+	margin-bottom: 4em;
+	-webkit-transform: translate3d(0,0,0);
+}
+	
+.upvote-container {
+	width:5em;
+	height:6em;
+	margin: 0 auto;
+	border-radius:6px;
+	position: relative;
+	-webkit-transition: -webkit-transform .6s, background-color .25s;
+	background-color: #f0f0f0;
+	/*margin-top: 10em;*/
+}
+
+.upvoted {
+	-webkit-transform: rotateY(360deg);
+}
+
+.upvote-container:hover {
+	cursor: pointer;
+}
+
+.upvote-container.tapped.world {
+	background-color: rgba(255, 140, 0, .8);
+	background-color: rgba(255, 140, 0, .06);
+}
+.upvote-container.tapped.us {
+	background-color: rgba(52, 152, 219, .8);
+	background-color: rgba(52, 152, 219, .06);
+}
+.upvote-container.tapped.sports {
+	background-color: rgba(231, 76, 60, .8);
+	background-color: rgba(231, 76, 60, .06);
+}
+.upvote-container.tapped.business {
+	background-color: rgba(0, 128, 0, .75);
+	background-color: rgba(0, 128, 0, .08);
+}
+.upvote-container.tapped.technology {
+	background-color: rgba(0, 154, 136, .8);
+	background-color: rgba(0, 154, 136, .06);
+}
+.upvote-container.tapped.entertainment {
+	background-color: rgba(164, 121, 228, .8);
+	background-color: rgba(164, 121, 228, .09);
+}
+	
+.upvote-text {
+	position: absolute;
+	font-family: 'Source Sans Pro Black';
+	text-align: center;
+	top: 1.2em;
+	color: #8f8f8f;
+	opacity:.8;
+	font-size: 2em;
+	width: 100%;
+	-webkit-transform: translate3d(0,0,0);
+}
+
+.upvote-text.us {
+	color: rgba(52, 152, 219, .8);
+	opacity: 1;
+	color: #fff;
+	color: rgba(52, 152, 219, .8);
+}
+.upvote-text.world {
+	color: rgba(255, 140, 0, .8);
+	opacity: 1;
+	color: #fff;
+	color: rgba(255, 140, 0, .8);
+}
+.upvote-text.sports {
+	color: rgba(231, 76, 60, .8);
+	opacity: 1;
+	color: #fff;
+	color: rgba(231, 76, 60, .8);
+}
+.upvote-text.technology {
+	color: rgba(0, 154, 136, .8);
+	opacity: 1;
+	color: #fff;
+	color: rgba(0, 154, 136, .8);
+}
+.upvote-text.entertainment {
+	color: rgba(164, 121, 228, .8);
+	opacity: 1;
+	color: #fff;
+	color: rgba(164, 121, 228, .8);
+}
+.upvote-text.business {
+	color: rgba(0, 128, 0, .8);
+	opacity: 1;
+	color: #fff;
+	color: rgba(0, 128, 0, .8);
+}
+
+.upvote-icon {
+	background:url('grey-upvote-icon.png');
+	background-size: cover !important;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	margin: 0 auto;
+	top:20px;
+	left:30px;
+	opacity: .8;
+	/*opacity:1;*/
+	-webkit-transform:translate3d(0,0,0);
+}
+
+.upvote-icon.us {
+	background: url('us-upvote-icon.png');
+}
+.upvote-icon.world {
+	background: url('world-upvote-icon.png');
+}
+.upvote-icon.sports {
+	background: url('sports-upvote-icon.png');
+	
+}
+.upvote-icon.business {
+	background: url('business-upvote-icon.png');
+}
+.upvote-icon.technology {
+	background: url('technology-upvote-icon.png');
+}
+.upvote-icon.entertainment {
+	background: url('entertainment-upvote-icon.png');
+}
+
+.photo-container {
+	position: relative;
+	width: 100%; 
+	margin-top: 4em; 
+	padding-bottom: 5em; 
+	background: #f2f2f2;
+	padding-top:1em;
+}
+
+.photo-bucket {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+}
+
+img {
+	display: block;
+	margin: 0 0 1rem;
+	border-radius: .25rem;
+	margin: 0 auto;
+	margin-top: 4em;
+	/*max-width: 80%;*/
+	max-width:48%;
+	/*max-height:600px;*/
+	display: inline-block;
+	margin-left: 4%;
+	box-shadow: 0 0 15px rgba(0, 0, 0, .25);
+}
+
+img.left {
+	margin-left: 0;
+}
+
+img.top {
+	margin-top: 2em;
+}
+
+@media (max-width: 40em) {
+	img {
+		display: block;
+		max-width: 100%;
+		margin-left: 0;
+	}
+	.photo-bucket {
+		max-width: 100%;
+		width: 86%;
+	}
+}
+
+/*******************************************************************/
+/************************* Miscellaneous ***************************/
+/*******************************************************************/
+
+.display-none { 
+    display: none; 
+}
+
+.selected { opacity: 1; }
+
+.unselected { opacity: .16; }
+
+/*******************************************************************/
+/***************************** Fonts *******************************/
+/*******************************************************************/
+
+@font-face {
+	font-family: 'Source Sans Pro Black';
+	font-style: normal;
+	src: url('SourceSansPro-Black.ttf') format('truetype'); 
+}
+
+@font-face {
+	font-family: 'Open Sans Light';
+	font-style: normal;
+	src: url('OpenSans-Light.ttf') format('truetype'); 
+}
