@@ -207,7 +207,7 @@ div, span {
 }
 
 .upvote-icon {
-	background:url('grey-upvote-icon.png');
+	background:url('/css/grey-upvote-icon.png');
 	background-size: cover !important;
 	width: 20px;
 	height: 20px;
@@ -220,23 +220,23 @@ div, span {
 }
 
 .upvote-icon.us {
-	background: url('css/us-upvote-icon.png');
+	background: url('/css/us-upvote-icon.png');
 }
 .upvote-icon.world {
-	background: url('css/world-upvote-icon.png');
+	background: url('/css/world-upvote-icon.png');
 }
 .upvote-icon.sports {
-	background: url('css/sports-upvote-icon.png');
+	background: url('/css/sports-upvote-icon.png');
 	
 }
 .upvote-icon.business {
-	background: url('css/business-upvote-icon.png');
+	background: url('/css/business-upvote-icon.png');
 }
 .upvote-icon.technology {
-	background: url('css/technology-upvote-icon.png');
+	background: url('/css/technology-upvote-icon.png');
 }
 .upvote-icon.entertainment {
-	background: url('css/entertainment-upvote-icon.png');
+	background: url('/css/entertainment-upvote-icon.png');
 }
 
 .photo-container {
