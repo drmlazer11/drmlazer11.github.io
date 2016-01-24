@@ -7,7 +7,7 @@ permalink: /upvote/
 <div class="upvote-outer-container">
 	<div class="upvote-container">
 		<div class="upvote-icon"></div>
-		<div class="upvote-text">14</div>
+		<div class="upvote-text">30</div>
 	</div>
 </div>
     	
