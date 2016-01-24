@@ -30,7 +30,7 @@ permalink: /upvote/
 <div class="photo-container">
     	
     <div class="photo-bucket">
-		<img class="left" src="css/screenshot-upvote.png"><img class="top" src="css/upvote-contribute.png">
+		<img class="left" src="http://davemuench.com/css/screenshot-upvote.png"><img class="top" src="http://davemuench.com/css/upvote-contribute.png">
     </div>
     	
 </div>
@@ -40,9 +40,6 @@ permalink: /upvote/
 <script src="js/fastclick.js"></script>
 <script src="js/upvote.js"></script>
 
-
 <script>
-
 	new Upvote();
-	
 </script>
