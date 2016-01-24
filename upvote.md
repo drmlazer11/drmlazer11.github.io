@@ -3,8 +3,6 @@ layout: upvote
 title: Upvote
 permalink: /upvote/
 ---
-
-<body> 
 	
 <div class="upvote-outer-container">
 	<div class="upvote-container">
@@ -48,5 +46,3 @@ permalink: /upvote/
 	new Upvote();
 	
 </script>
-
-</body>
