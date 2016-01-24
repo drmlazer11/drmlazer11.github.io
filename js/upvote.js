@@ -66,7 +66,7 @@ var Upvote = (function (window, document) {
 				setTimeout(function() {
         			$('.upvote-container').removeClass('tapped us world sports business technology entertainment');
         			$('.upvote-text').removeClass('us world sports business technology entertainment');
-        			$('.upvote-text').html(14);
+        			$('.upvote-text').html(30);
         			$('.upvote-icon').removeClass('us world sports business technology entertainment');
         		}, 300);
         	}
@@ -76,7 +76,7 @@ var Upvote = (function (window, document) {
     			setTimeout(function() {
         			$('.upvote-container').addClass('tapped ' + that.current_category);
         			$('.upvote-text').addClass(that.current_category);
-        			$('.upvote-text').html(15);
+        			$('.upvote-text').html(31);
         			$('.upvote-icon').addClass(that.current_category);
     			}, 300);
 			}
