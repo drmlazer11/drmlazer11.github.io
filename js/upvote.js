@@ -38,7 +38,7 @@ var Upvote = (function (window, document) {
         
         fn_change_category: function(e) {
         	
-        	space_index = e.target.className.indexOf(" ");
+        	space_index = e.target.className.lastIndexOf(" ");
         	category_class = e.target.className.substr(space_index);
         	
         	if ($('.upvote-container').hasClass('upvoted') == true) {
