@@ -108,7 +108,6 @@ div, span {
 	position: relative;
 	margin: 0 auto;
 	border-radius: 10px;
-	/*margin-top:-6em;*/
 	margin-top: 4em;
 	margin-bottom: 4em;
 	-webkit-transform: translate3d(0,0,0);
@@ -217,28 +216,27 @@ div, span {
 	top:20px;
 	left:30px;
 	opacity: .8;
-	/*opacity:1;*/
 	-webkit-transform:translate3d(0,0,0);
 }
 
 .upvote-icon.us {
-	background: url('us-upvote-icon.png');
+	background: url('css/us-upvote-icon.png');
 }
 .upvote-icon.world {
-	background: url('world-upvote-icon.png');
+	background: url('css/world-upvote-icon.png');
 }
 .upvote-icon.sports {
-	background: url('sports-upvote-icon.png');
+	background: url('css/sports-upvote-icon.png');
 	
 }
 .upvote-icon.business {
-	background: url('business-upvote-icon.png');
+	background: url('css/business-upvote-icon.png');
 }
 .upvote-icon.technology {
-	background: url('technology-upvote-icon.png');
+	background: url('css/technology-upvote-icon.png');
 }
 .upvote-icon.entertainment {
-	background: url('entertainment-upvote-icon.png');
+	background: url('css/entertainment-upvote-icon.png');
 }
 
 .photo-container {
@@ -297,10 +295,6 @@ img.top {
 .display-none { 
     display: none; 
 }
-
-.selected { opacity: 1; }
-
-.unselected { opacity: .16; }
 
 /*******************************************************************/
 /***************************** Fonts *******************************/
