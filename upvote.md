@@ -39,7 +39,6 @@ permalink: /upvote/
     
     	
 <script src="js/jquery-2.0.0.min.js"></script>
-<script src="js/swipe.js"></script>
 <script src="js/fastclick.js"></script>
 <script src="js/upvote.js"></script>
 
