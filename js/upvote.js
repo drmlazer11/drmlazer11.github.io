@@ -29,7 +29,8 @@ var Upvote = (function (window, document) {
 		}, false);
 		
 	this.fn_hide_rendering_icons();
-       
+       	this.fn_reveal_content();
+       	
     };
     
 	Upvote.prototype = {
@@ -37,6 +38,15 @@ var Upvote = (function (window, document) {
 		// ------------------------------------------------------
 		// Skimmin Core Functions
 		// ------------------------------------------------------
+        
+        fn_reveal_content: function() {
+        	
+        	setTimeout(function() {
+        		$('body').fadeIn(0);
+        		$('body').addClass('animated bounceInUp');
+        	}, 300);
+        
+        },
         
         fn_hide_rendering_icons: function() {
         	
