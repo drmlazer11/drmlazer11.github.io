@@ -254,6 +254,43 @@ div, span {
 	-webkit-transform: translate3d(0, 0, 0);
 }
 
+.rendering-container {
+	position: relative;
+	width: 100%;
+	height:1em;
+	overflow: hidden;
+}
+
+.render-icon {
+	background-size: cover !important;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	right: 0;
+	top:0;
+	opacity: .5;
+	-webkit-transform:translate3d(0,0,0);
+}
+
+#render-us-icon {
+	background: url('us-upvote-icon.png');
+}
+#render-world-icon {
+	background: url('world-upvote-icon.png');
+}
+#render-sports-icon {
+	background: url('sports-upvote-icon.png');
+}
+#render-business-icon {
+	background: url('business-upvote-icon.png');
+}
+#render-technology-icon {
+	background: url('technology-upvote-icon.png');
+}
+#render-entertainment-icon {
+	background: url('entertainment-upvote-icon.png');
+}
+
 .photo-container {
 	position: relative;
 	width: 100%; 
