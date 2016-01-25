@@ -27,6 +27,8 @@ var Upvote = (function (window, document) {
 		window.addEventListener('load', function() {
 		    FastClick.attach(document.body);
 		}, false);
+		
+	this.fn_hide_rendering_icons();
        
     };
     
@@ -35,6 +37,14 @@ var Upvote = (function (window, document) {
 		// ------------------------------------------------------
 		// Skimmin Core Functions
 		// ------------------------------------------------------
+        
+        fn_hide_rendering_icons: function() {
+        	
+        	setTimeout(function() {
+        		$('.rendering-container').addClass('display-none');
+        	}, 1500);
+        	
+        },
         
         fn_change_category: function(e) {
         	
