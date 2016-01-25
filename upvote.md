@@ -14,7 +14,7 @@ permalink: /upvote/
     	
     	
 <div class="container top">
-    <div class="category-container us left"><div class="category-text us"><i class="fa fa-home us"></i></div></div><div class="category-container world"><div class="category-text world"><i class="fa fa-globe world"></i></div></div>
+    <div class="category-container us left selected"><div class="category-text us"><i class="fa fa-home us"></i></div></div><div class="category-container world"><div class="category-text world"><i class="fa fa-globe world"></i></div></div>
 </div>
     
 <div class="container">
