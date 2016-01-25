@@ -63,32 +63,55 @@ div, span {
 }
 
 .category-container:hover {
-	-webkit-transform: scale(.96);
+	opacity: .9;
 }
-
 .category-container.us {
 	background-color: rgba(52, 152, 219, .8);
-	border-bottom: 10px solid rgba(52, 152, 219, 1);  
+	border-bottom: .65em solid rgba(52, 152, 219, 1);
+}
+.category-container.us.selected {
+	border: .65em solid rgba(52, 152, 219, 1);
+	background-color: #fff;
 }
 .category-container.world {
     background-color: rgba(255, 140, 0, .8); 
-    border-bottom: 10px solid rgba(255, 140, 0, 1);  
+    border-bottom: .65em solid rgba(255, 140, 0, 1);  
+}
+.category-container.world.selected {
+	border: .65em solid rgba(255, 140, 0, 1);
+	background-color: #fff;
 }
 .category-container.sports {
     background-color: rgba(231, 76, 60, .8);
-    border-bottom: 10px solid rgba(231, 76, 60, 1);
+    border-bottom: .65em solid rgba(231, 76, 60, 1);
+}
+.category-container.sports.selected {
+    background-color: #fff;
+    border: .65em solid rgba(231, 76, 60, 1);
 }
 .category-container.business {
     background-color: rgba(0, 128, 0, .75);
-    border-bottom: 10px solid rgba(0, 128, 0, 1);
+    border-bottom: .65em solid rgba(0, 128, 0, 1);
+}
+.category-container.business.selected {
+    background-color: #fff;
+    border: .65em solid rgba(0, 128, 0, 1);
 }
 .category-container.technology {
     background-color: rgba(0, 154, 136, .8);
-    border-bottom: 10px solid rgba(0, 154, 136, 1);
+    border-bottom: .65em solid rgba(0, 154, 136, 1);
+}
+.category-container.technology.selected {
+    background-color: #fff;
+    border: .65em solid rgba(0, 154, 136, 1);
 }
 .category-container.entertainment {
     background-color: rgba(164, 121, 228, .8);
-    border-bottom: 10px solid rgba(164, 121, 228, 1);
+    border-bottom: .65em solid rgba(164, 121, 228, 1);
+}
+.category-container.entertainment.selected {
+    background-color: #fff;
+    border: .65em solid rgba(164, 121, 228, 1);
 }
 
 .category-text {
