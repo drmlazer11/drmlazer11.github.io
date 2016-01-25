@@ -14,7 +14,7 @@ permalink: /upvote/
     	
     	
 <div class="container top">
-    	<div id="us-container" class="category-container us left selected"><div id="us-text" class="category-text us display-none"><i id="us-icon" class="fa fa-home us"></i></div></div><div id="world-container" class="category-container world"><div id="world-text" class="category-text world"><i id="world-icon" class="fa fa-globe world"></i></div></div>
+    	<div id="us-container" class="category-container us left selected"><div id="us-text" class="category-text us"><i id="us-icon" class="fa fa-home us"></i></div></div><div id="world-container" class="category-container world"><div id="world-text" class="category-text world"><i id="world-icon" class="fa fa-globe world"></i></div></div>
     </div>
     
     <div class="container">
