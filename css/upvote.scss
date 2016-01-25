@@ -51,13 +51,20 @@ div, span {
 	position: relative;
 	display: inline-block;
 	height: 100%;
-	width: 48.5%;
+	width: 49%;
 	/*width: calc(50% - .32em);*/
 	margin-left: .65em;
-	margin-left: 3%;
+	margin-left: 2%;
 	border-radius: 4px;
 	-webkit-transition: opacity .05s;
 	z-index: 1000;
+}
+
+@media (max-width: 40em) {
+	.category-container {
+		width: 48%;
+		margin-left: 4%;
+	}
 }
 
 .category-container.left {
