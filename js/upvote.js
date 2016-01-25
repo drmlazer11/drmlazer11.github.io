@@ -44,7 +44,7 @@ var Upvote = (function (window, document) {
         	setTimeout(function() {
         		$('body').fadeIn(0);
         		$('body').addClass('animated bounceInUp');
-        	}, 700);
+        	}, 300);
         
         },
         
