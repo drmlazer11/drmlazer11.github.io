@@ -38,28 +38,26 @@ var Upvote = (function (window, document) {
         
         fn_change_category: function(e) {
         	
-        	space_index = e.target.className.lastIndexOf(" ");
-        	category_class = e.target.className.substr(space_index);
+        	hyphen_index = e.target.id.indexOf("-");
+        	element_id = e.target.id.substr(0, hyphen_index);
         	
-        	category_class = category_class.slice(1);
+        	if (element_id == this.current_category) {
+        		return;
+        	}
         	
-        	$('.selected').toggleClass('selected');
-        	$('.category-container.' + category_class).toggleClass('selected');
-        	
-        	// $('.category-container.' + category_class).addClass('selected');
+        	$('#' + element_id + '-container').addClass('selected');
+        	$('#' + this.current_category + '-container').removeClass('selected');
         	
         	if ($('.upvote-container').hasClass('upvoted') == true) {
         		$('.upvote-container').removeClass(this.current_category);
         		$('.upvote-text').removeClass(this.current_category);
         		$('.upvote-icon').removeClass(this.current_category);
-        		
-        		$('.upvote-container').addClass(category_class);
-        		$('.upvote-text').addClass(category_class);
-        		$('.upvote-icon').addClass(category_class);
-        		
+        		$('.upvote-container').addClass(element_id);
+        		$('.upvote-text').addClass(element_id);
+        		$('.upvote-icon').addClass(element_id);	
         	}
         	
-        	this.current_category = category_class;
+        	this.current_category = element_id;
         
         },
         
