@@ -41,6 +41,13 @@ var Upvote = (function (window, document) {
         	space_index = e.target.className.lastIndexOf(" ");
         	category_class = e.target.className.substr(space_index);
         	
+        	category_class = category_class.slice(1);
+        	
+        	$('.selected').toggleClass('selected');
+        	$('.category-container.' + category_class).toggleClass('selected');
+        	
+        	// $('.category-container.' + category_class).addClass('selected');
+        	
         	if ($('.upvote-container').hasClass('upvoted') == true) {
         		$('.upvote-container').removeClass(this.current_category);
         		$('.upvote-text').removeClass(this.current_category);
