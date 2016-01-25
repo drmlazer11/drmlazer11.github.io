@@ -38,8 +38,6 @@ div, span {
 	margin-top: .65em;
 	max-width: 32em;
 	width: 94%;
-	/*width: 100%;
-	width: calc(100% - 1.3em);*/
 }
 
 .container.top {
@@ -52,8 +50,6 @@ div, span {
 	display: inline-block;
 	height: 100%;
 	width: 49%;
-	/*width: calc(50% - .32em);*/
-	margin-left: .65em;
 	margin-left: 2%;
 	border-radius: 4px;
 	-webkit-transition: opacity .05s;
@@ -81,6 +77,7 @@ div, span {
 .category-container.us.selected {
 	border: .65em solid rgba(52, 152, 219, 1);
 	background-color: #fff;
+	background-color: rgba(52, 152, 219, .8);
 }
 .category-container.world {
     background-color: rgba(255, 140, 0, .8); 
@@ -153,7 +150,6 @@ div, span {
 	position: relative;
 	-webkit-transition: -webkit-transform .6s, background-color .1s;
 	background-color: #f0f0f0;
-	/*margin-top: 10em;*/
 }
 
 .upvoted {
@@ -165,27 +161,21 @@ div, span {
 }
 
 .upvote-container.tapped.world {
-	background-color: rgba(255, 140, 0, .8);
 	background-color: rgba(255, 140, 0, .06);
 }
 .upvote-container.tapped.us {
-	background-color: rgba(52, 152, 219, .8);
 	background-color: rgba(52, 152, 219, .06);
 }
 .upvote-container.tapped.sports {
-	background-color: rgba(231, 76, 60, .8);
 	background-color: rgba(231, 76, 60, .06);
 }
 .upvote-container.tapped.business {
-	background-color: rgba(0, 128, 0, .75);
 	background-color: rgba(0, 128, 0, .08);
 }
 .upvote-container.tapped.technology {
-	background-color: rgba(0, 154, 136, .8);
 	background-color: rgba(0, 154, 136, .06);
 }
 .upvote-container.tapped.entertainment {
-	background-color: rgba(164, 121, 228, .8);
 	background-color: rgba(164, 121, 228, .09);
 }
 	
@@ -195,7 +185,7 @@ div, span {
 	text-align: center;
 	top: 1.2em;
 	color: #8f8f8f;
-	opacity:.8;
+	opacity: .8;
 	font-size: 2em;
 	width: 100%;
 	-webkit-transform: translate3d(0,0,0);
