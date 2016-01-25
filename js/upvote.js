@@ -44,7 +44,7 @@ var Upvote = (function (window, document) {
         	setTimeout(function() {
         		$('body').fadeIn(0);
         		$('body').addClass('animated bounceInUp');
-        	}, 1000);
+        	}, 700);
         
         },
         
@@ -52,7 +52,7 @@ var Upvote = (function (window, document) {
         	
         	setTimeout(function() {
         		$('.rendering-container').addClass('display-none');
-        	}, 2000);
+        	}, 3000);
         	
         },
         
