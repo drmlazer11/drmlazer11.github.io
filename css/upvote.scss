@@ -56,7 +56,7 @@ div, span {
 	margin-left: .65em;
 	margin-left: 2%;
 	border-radius: 4px;
-	-webkit-transition: background-color .01s;
+	-webkit-transition: opacity .05s;
 	z-index: 1000;
 }
 
@@ -144,7 +144,7 @@ div, span {
 	margin: 0 auto;
 	border-radius:6px;
 	position: relative;
-	-webkit-transition: -webkit-transform .6s, background-color .25s;
+	-webkit-transition: -webkit-transform .6s, background-color .1s;
 	background-color: #f0f0f0;
 	/*margin-top: 10em;*/
 }
