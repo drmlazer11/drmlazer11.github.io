@@ -15,7 +15,7 @@ categories: ":sunrise:"
 
 <p>Thank You for my good health, which enables me to experience all the Earth has to offer.</p>
 
-<p>Thank You for the courage to stand up amid personal challenge and to be the support for others' adversity - no matter the weight.</p>
+<p>Thank You for the courage to stand up amid personal challenge and be the support for others' adversity - no matter the weight.</p>
 
 <p>I pray 2016 is a good year.</p>
 
