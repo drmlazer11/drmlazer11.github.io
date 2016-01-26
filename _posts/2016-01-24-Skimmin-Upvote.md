@@ -9,4 +9,4 @@ categories: ":point_up_2_tone2:"
 
 <p><a href="http://davemuench.com/upvote">Here</a> is the upvoting animation I built. The colors represent the six categories of news we had; which were: U.S. - blue | World - orange | Sports - red | Technology - turquoise | Business - green | Entertainment - purple.</p>
 
-<p>At the bottom are a couple screenshots of what a story thread looked like in our app.
+<p>At the bottom are a couple screenshots of what a story thread looked like in our app.</p>
