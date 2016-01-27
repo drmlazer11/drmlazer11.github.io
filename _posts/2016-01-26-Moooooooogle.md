@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Moogle"
+title:  "Moooooooogle"
 date:   2016-01-26 10:00:27 -0500
-categories: ":Moooooooogle:"
+categories: ":cow:"
 ---
 
 <p>If by some miracle Microsoft and Google designers teamed up to build a mobile app, <a href="http://davemuench.com/moogle">this</a> would be their loading animation.</p>
