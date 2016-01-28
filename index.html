@@ -6,10 +6,11 @@ layout: default
 
 <div class="body">
 	
-	<h2 id="mission" class="archive-year">Mission...</h2>
-	<p>My mission is to help others recognize, develop and use their God-given abilities to grow in goodness, love and compassion.</p>
-	
-	<div class="archive"> 
+	<div class="archive">
+		
+		<h2 id="mission" class="archive-year">Mission...</h2>
+		<p>My mission is to help others recognize, develop and use their God-given abilities to grow in goodness, love and compassion.</p>
+		
     		{% for post in site.posts %}
     			{% assign currentdate = post.date | date: "%Y" %}
     			{% if currentdate != date %}
