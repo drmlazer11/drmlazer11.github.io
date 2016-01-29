@@ -6,11 +6,9 @@ permalink: /about/
 
 <div class="body">
 	<div class="archive">			
-      		<!-- <h2 class="archive-year emoji" style="margin-bottom:1.25rem;">Mission...</h2>
-      		<p style="margin-bottom:3rem;color:#333;">My mission is to help others recognize, develop and use their God-given abilities to grow in goodness, love and compassion.</p> -->
       		
-      		<p style="color: #333; font-style: italic;">My mission is to help others recognize, develop and use their God-given abilities to grow in goodness, love and compassion.</p>
-		<p style="color: #999; margin-bottom: 3em; font-style: italic;">Through utmost faith...</p>
+      		<p style="color: #333; font-style: italic; margin-bottom: .5rem;">My mission is to help others recognize, develop and use their God-given abilities to grow in goodness, love and compassion.</p>
+		<p style="color: #888; margin-bottom: 3em; font-style: italic;">Through utmost faith...</p>
       			
       		<h2 class="archive-year emoji" style="margin-bottom:1.25rem;">Fan of...</h2>
     			
