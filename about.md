@@ -7,8 +7,8 @@ permalink: /about/
 <div class="body">
 	<div class="archive">			
       		
-      		<p style="color: #333; font-style: italic; margin-bottom: .5rem;">My mission is to help others recognize, develop and use their God-given abilities to grow in goodness, love and compassion.</p>
-		<p style="color: #888; margin-bottom: 3em; font-style: italic;">Through utmost faith...</p>
+      		<p class="mission">My mission is to help others recognize, develop and use their God-given abilities to grow in goodness, love and compassion.</p>
+		<p class="mission-secondary">Through utmost faith...</p>
       			
       		<h2 class="archive-year emoji" style="margin-bottom:1.25rem;">Fan of...</h2>
     			
