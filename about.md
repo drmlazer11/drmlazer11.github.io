@@ -4,8 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<div class="body">
-	<div class="archive">			
+<div class="archive">			
       		
       		<p class="mission">My mission is to help others recognize, develop and use their God-given abilities to grow in goodness, love and compassion.</p>
 		<p class="mission-secondary">Through utmost faith...</p>
