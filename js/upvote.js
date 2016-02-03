@@ -53,16 +53,17 @@ var Upvote = (function (window, document) {
                       
             	// bool_kill_next_loop = false;
         	
+        		$('#loading-circle').addClass('animated pulse');
+        	
         		pulsing_circle_interval = setInterval(function() {
         		
-        			$('#L').css('opacity', '.8');
+        			/*$('#L').css('opacity', '.8');
         			$('#L').css('-webkit-transition', '-webkit-transform .5s');
         			$('#L').css('-webkit-transform', 'scale (.9)');
         		
         			setTimeout(function() {
         				$('#L').css('opacity', '1');
         				$('#L').css('-webkit-transform', 'scale(1)');
-        				// $('#O').css('opacity', '.8');
         			}, 500);
         		
         			setTimeout(function() {
@@ -92,10 +93,10 @@ var Upvote = (function (window, document) {
         		
         			setTimeout(function() {
         				$('#G').css('opacity', '1');
-        			}, 700);
+        			}, 700);*/
         		
         			// $('#loading-circle').css('background-color', arr_colors[int_loading_count]);
-        			int_loading_count += 1;
+        			/*int_loading_count += 1;
         			if (int_loading_count == 4) {
         				clearInterval(pulsing_circle_interval);
         				setTimeout(function() {
@@ -106,11 +107,8 @@ var Upvote = (function (window, document) {
         					$('#content').fadeIn(300);
         					$('#content').addClass('animated slideInUp');
         				}, 750);
-        				/*setTimeout(function() {
-        					$('#loading-circle').fadeOut(650);
-        					$('#content').fadeIn(650);
-        				}, 1200);*/
-        			}
+        			}*/
+        			
         		}, 1000);
         
         	},	
