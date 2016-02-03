@@ -5,46 +5,41 @@ permalink: /upvote/
 ---
 
 <body class="display-none">
-	
-<div class="upvote-outer-container">
-	<div class="upvote-container">
-		<div class="upvote-icon"></div>
-		<div class="upvote-text">30</div>
+<div id="loading-circle" style="position: absolute; top: 47%; transform: translateY(-47%); width:100%; text-align: center; font-family: Sans-Serif; font-weight:bold; font-size: 2em;">
+		<span id="1" style="color: rgba(52, 152, 219, .7)">L</span><span id="2" style="color: rgba(255, 140, 0, .7)">o</span><span id="3" style="color: rgba(231, 76, 60, .7)">a</span><span id="4" style="color: rgba(0, 128, 0, .6)">d</span><span id="5" style="color: rgba(0, 154, 136, .6)">i</span><span id="6" style="color: rgba(164, 121, 228, .7)">n</span><span id="7" style="color: #FCD116">g</span>
 	</div>
-</div>
-    	
-    	
-    	
-<div class="container top">
-    	<div id="us-container" class="category-container us left selected"><div id="us-text" class="category-text us"><i id="us-icon" class="fa fa-home us"></i></div></div><div id="world-container" class="category-container world"><div id="world-text" class="category-text world"><i id="world-icon" class="fa fa-globe world"></i></div></div>
-    </div>
-    
-    <div class="container">
-    	<div id="sports-container" class="category-container sports left"><div id="sports-text" class="category-text sports"><i id="sports-icon" class="fa fa-trophy sports"></i></div></div><div id="technology-container" class="category-container technology"><div id="technology-text" class="category-text technology"><i id="technology-icon" class="fa fa-laptop technology"></i></div></div>
-    </div>
-    
-    <div class="container">
-    	<div id="business-container" class="category-container business left"><div id="business-text" class="category-text business"><i id="business-icon" class="fa fa-money business"></i></div></div><div id="entertainment-container" class="category-container entertainment"><div id="entertainment-text" class="category-text entertainment"><i id="entertainment-icon" class="fa fa-hashtag entertainment"></i></div></div>
-    </div>
-    
-    
-    
-<div class="photo-container">
-    	
-    <div class="photo-bucket">
-		<img class="left" src="http://davemuench.com/css/screenshot-upvote.png"><img class="top" src="http://davemuench.com/css/upvote-contribute.png">
-    </div>
-    	
-</div>
 
-<div class="rendering-container">
-	<div id="render-us-icon" class="render-icon"></div>
-	<div id="render-world-icon" class="render-icon"></div>
-	<div id="render-sports-icon" class="render-icon"></div>
-	<div id="render-business-icon" class="render-icon"></div>
-	<div id="render-technology-icon" class="render-icon"></div>
-	<div id="render-entertainment-icon" class="render-icon"></div>
-</div>
+	<div id="content" style="position: absolute;" class="display-none">
+	
+		<div class="upvote-outer-container">
+			<div class="upvote-container">
+				<div class="upvote-icon"></div>
+				<div class="upvote-text">30</div>
+			</div>
+		</div>	
+    
+    	<div class="container top">
+    		<div id="category-container" class="category-container world"><div id="category-text" class="category-text us">world</div></div><!-- <div id="world-container" class="category-container world"><div id="world-text" class="category-text world"><i class="fa fa-globe world"></i></div></div> -->
+    	</div>
+    
+    	<div class="photo-container">
+        
+    		<div class="photo-bucket">
+        		<img class="left" src="http://davemuench.com/css/screenshot-upvote.png"><img class="top" src="http://davemuench.com/css/upvote-contribute.png">
+    		</div>
+        
+		</div>
+    
+    	<div class="rendering-container">
+			<div id="render-us-icon" class="render-icon"></div>
+			<div id="render-world-icon" class="render-icon"></div>
+			<div id="render-sports-icon" class="render-icon"></div>
+			<div id="render-business-icon" class="render-icon"></div>
+			<div id="render-technology-icon" class="render-icon"></div>
+			<div id="render-entertainment-icon" class="render-icon"></div>
+		</div>
+	
+	</div>
     	
 <script src="http://davemuench.com/js/jquery-2.0.0.min.js"></script>
 <script src="http://davemuench.com/js/fastclick.js"></script>
