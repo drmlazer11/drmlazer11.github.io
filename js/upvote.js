@@ -121,8 +121,10 @@ var Upvote = (function (window, document) {
         	fn_reveal_content: function() {
         		
         		setTimeout(function() {
-        			$('body').fadeIn(0);
-        			$('body').addClass('animated bounceInUp');
+        			$// ('body').fadeIn(0);
+        			$('#loading-circle').addClass('animated zoomOut');
+        			$('#content').addClass('animated slideInUp');
+        			// $('body').addClass('animated bounceInUp');
         		}, 300);
         
         	},
