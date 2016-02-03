@@ -4,7 +4,7 @@ title: Upvote
 permalink: /upvote/
 ---
 
-<body class="display-none">
+<div class="body display-none">
 <div id="loading-circle" style="position: absolute; top: 47%; transform: translateY(-47%); width:100%; text-align: center; font-family: Sans-Serif; font-weight:bold; font-size: 2em;">
 		
 		<span id="1" style="color: rgba(52, 152, 219, 1)">L</span>
@@ -47,7 +47,7 @@ permalink: /upvote/
 		<div id="render-entertainment-icon" class="render-icon"></div>
 	</div>
 	
-<!-- </div> -->
+</div>
     	
 <script src="http://davemuench.com/js/jquery-2.0.0.min.js"></script>
 <script src="http://davemuench.com/js/fastclick.js"></script>
