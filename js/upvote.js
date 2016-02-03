@@ -44,11 +44,10 @@ var Upvote = (function (window, document) {
         	// primarily used to hide slow rendering
         	fn_loading: function() {
             	
-            	alert('ok');
             	that = this;
             
         	$('#loading-circle').fadeIn(0);
-            
+            	alert('ok');
         	setTimeout(function() {
        			$('body').fadeIn(0);
             	}, 300);
