@@ -8,7 +8,7 @@ permalink: /upvote/
 	
 	<div id="loading-circle">
 		
-		<span id="1">L</span><span id="2">o</span><span id="3">a</span><span id="4">d</span><span id="5">i</span><span id="6">n</span><span id="7">g</span>
+		<span id="L">L</span><span id="O">o</span><span id="A">a</span><span id="D">d</span><span id="I">i</span><span id="N">n</span><span id="G">g</span>
 	</div>
 
 	<div id="content" class="display-none" style="position: absolute;">
