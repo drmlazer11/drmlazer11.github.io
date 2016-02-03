@@ -102,12 +102,12 @@ var Upvote = (function (window, document) {
         			if (int_loading_count == 4) {
         				clearInterval(pulsing_circle_interval);
         				setTimeout(function() {
-        					// $('#loading-circle').addClass('animated slideOutUp');
-        					// $('#loading-circle').fadeOut(300);
+        					$('#loading-circle').addClass('animated slideOutUp');
+        					$('#loading-circle').fadeOut(300);
         				}, 500);
         				setTimeout(function() {
-        					// $('#content').fadeIn(300);
-        					// $('#content').addClass('animated slideInUp');
+        					$('#content').fadeIn(300);
+        					$('#content').addClass('animated slideInUp');
         				}, 750);
         				setTimeout(function() {
         					$('#loading-circle').fadeOut(650);
@@ -120,12 +120,10 @@ var Upvote = (function (window, document) {
         
         	fn_reveal_content: function() {
         		
-        		setTimeout(function() {
-        			$// ('body').fadeIn(0);
+        		/*setTimeout(function() {
         			$('#loading-circle').addClass('animated zoomOut');
         			$('#content').addClass('animated slideInUp');
-        			// $('body').addClass('animated bounceInUp');
-        		}, 300);
+        		}, 300);*/
         
         	},
         
