@@ -38,6 +38,111 @@ var Upvote = (function (window, document) {
 		// ------------------------------------------------------
 		// Skimmin Core Functions
 		// ------------------------------------------------------
+        setTimeout(function() {
+        	$('body').fadeIn(0);
+        }, 300);
+        
+        },
+        
+        // primarily used to hide slow rendering
+        fn_loading: function() {
+            
+            that = this;
+            
+            $('#loading-circle').fadeIn(0);
+            // $('#loading-circle').addClass('animated bounceIn');
+            
+            int_loading_count = 0;
+            arr_colors = Array('rgba(52, 152, 219, 1)', 'rgba(255, 140, 0, 1)', 'rgba(231, 76, 60, 1)', 'rgba(0, 128, 0, .9)', 'rgba(0, 154, 136, .9)', 'rgba(164, 121, 228, 1)');
+                      
+            // bool_kill_next_loop = false;
+        	
+        	pulsing_circle_interval = setInterval(function() {
+        		
+        		
+        		$('#1').css('opacity', '.8');
+        		
+        		setTimeout(function() {
+        			$('#1').css('opacity', '1');
+        			$('#2').css('opacity', '.8');
+        		}, 100);
+        		
+        		setTimeout(function() {
+        			$('#2').css('opacity', '1');
+        			$('#3').css('opacity', '.8');
+        		}, 200);
+        		
+        		setTimeout(function() {
+        			$('#3').css('opacity', '1');
+        			$('#4').css('opacity', '.8');
+        		}, 300);
+        		
+        		setTimeout(function() {
+        			$('#4').css('opacity', '1');
+        			$('#5').css('opacity', '.8');
+        		}, 400);
+        		
+        		setTimeout(function() {
+        			$('#5').css('opacity', '1');
+        			$('#6').css('opacity', '.8');
+        		}, 500);
+        		
+        		setTimeout(function() {
+        			$('#6').css('opacity', '1');
+        			$('#7').css('opacity', '.75');
+        		}, 600);
+        		
+        		setTimeout(function() {
+        			$('#7').css('opacity', '1');
+        		}, 700);
+        		
+        		// $('#loading-circle').css('background-color', arr_colors[int_loading_count]);
+        		int_loading_count += 1;
+        		if (int_loading_count == 4) {
+        			clearInterval(pulsing_circle_interval);
+        			setTimeout(function() {
+        				// $('#loading-circle').addClass('animated slideOutUp');
+        				// $('#loading-circle').fadeOut(300);
+        			}, 500);
+        			setTimeout(function() {
+        				// $('#content').fadeIn(300);
+        				// $('#content').addClass('animated slideInUp');
+        			}, 750);
+        			setTimeout(function() {
+        				$('#loading-circle').fadeOut(650);
+        				$('#content').fadeIn(650);
+        			}, 1200);
+        		}
+        	}, 1000);
+        	
+        	/*setTimeout(function() {
+            	pulsing_circle_interval = setInterval(function() {
+                	$('#loading_circle').css('background', arr_colors[int_loading_count]);
+            		if (int_loading_count != 5) {
+            			int_loading_count += 1;
+            		}
+            		else {
+                		int_loading_count = 0;
+                	}
+                	if (bool_kill_next_loop == true) {
+                		clearInterval(pulsing_circle_interval);
+                		$('#loading_circle').addClass('animated bounceOut');
+                		setTimeout(function() {
+                    		$('#loading_container').fadeOut(610);
+                    	}, 450);
+                    	setTimeout(function() {
+                    		$('#loading_circle').css('background', 'rgba(164, 121, 228, .7)');
+                    		$('#loading_circle').removeClass('animated bounceOut');
+                    	}, 1100);
+                	}
+                	if (that.int_loading_state != 1) {
+                    	bool_kill_next_loop = true;
+                    	that.fn_display_content();
+                	}
+            	}, 1000);
+            }, 500);*/
+        
+        },	
         
         fn_reveal_content: function() {
         	
