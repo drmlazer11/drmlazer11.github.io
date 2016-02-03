@@ -53,9 +53,11 @@ var Upvote = (function (window, document) {
                       
             	// bool_kill_next_loop = false;
         	
-        		$('#loading-circle').addClass('animated pulse');
+        		// $('#loading-circle').addClass('animated pulse');
         	
         		pulsing_circle_interval = setInterval(function() {
+        		
+        			$('#loading-circle').css('opacity', '.7');
         		
         			/*$('#L').css('opacity', '.8');
         			$('#L').css('-webkit-transition', '-webkit-transform .5s');
@@ -108,6 +110,10 @@ var Upvote = (function (window, document) {
         					$('#content').addClass('animated slideInUp');
         				}, 750);
         			}*/
+        			
+        			setTimeout(function() {
+        				$('#loading-circle').css('opacity', '1');
+        			}, 500);
         			
         		}, 1000);
         
