@@ -109,10 +109,10 @@ var Upvote = (function (window, document) {
         					$('#content').fadeIn(300);
         					$('#content').addClass('animated slideInUp');
         				}, 750);
-        				setTimeout(function() {
+        				/*setTimeout(function() {
         					$('#loading-circle').fadeOut(650);
         					$('#content').fadeIn(650);
-        				}, 1200);
+        				}, 1200);*/
         			}
         		}, 1000);
         
