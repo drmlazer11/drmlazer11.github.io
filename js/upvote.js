@@ -60,8 +60,8 @@ var Upvote = (function (window, document) {
         			// $('#loading-circle').css('opacity', '.7');
         		
         			$('#L').css('opacity', '.8');
-        			$('#L').css('-webkit-transition', '-webkit-transform .5s');
-        			$('#L').css('-webkit-transform', 'scale (.9)');
+        			$('#L').css('-webkit-transition', '.5s');
+        			$('#L').css('-webkit-transform', 'scale(.5)');
         		
         			setTimeout(function() {
         				$('#L').css('opacity', '1');
