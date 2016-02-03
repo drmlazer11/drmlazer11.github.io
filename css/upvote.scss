@@ -379,6 +379,7 @@ img.top {
 	font-family: Sans-Serif; 
 	font-weight: bold; 
 	font-size: 2em;
+	-webkit-transform: translate3d(0,0,0);
 }
 
 #L {
@@ -430,8 +431,8 @@ img.top {
   }
 
   50% {
-    -webkit-transform: scale(1.4);
-    transform: scale(1.4);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
   }
 
   100% {
@@ -448,8 +449,8 @@ img.top {
   }
 
   50% {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
     transform: scale(1.2);
   }
 
@@ -463,7 +464,7 @@ img.top {
 .pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 1s;
   -webkit-animation-iteration-count: infinite;
 }
 
