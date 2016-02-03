@@ -29,6 +29,7 @@ var Upvote = (function (window, document) {
 		}, false);
 		
 	this.fn_hide_rendering_icons();
+	this.fn_loading();
        	this.fn_reveal_content();
        	
     };
