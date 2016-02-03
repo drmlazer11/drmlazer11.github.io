@@ -56,11 +56,14 @@ var Upvote = (function (window, document) {
         		pulsing_circle_interval = setInterval(function() {
         		
         			$('#L').css('opacity', '.8');
+        			$('#L').css('-webkit-transition', '-webkit-transform .5s');
+        			$('#L').css('-webkit-transform', 'scale (.9)');
         		
         			setTimeout(function() {
         				$('#L').css('opacity', '1');
-        				$('#O').css('opacity', '.8');
-        			}, 100);
+        				$('#L').css('-webkit-transform', 'scale(1)');
+        				// $('#O').css('opacity', '.8');
+        			}, 500);
         		
         			setTimeout(function() {
         				$('#O').css('opacity', '1');
