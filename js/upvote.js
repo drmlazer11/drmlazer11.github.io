@@ -47,7 +47,7 @@ var Upvote = (function (window, document) {
             	that = this;
             
         	$('#loading-circle').fadeIn(0);
-            	alert('ok');
+            	
         	setTimeout(function() {
        			$('body').fadeIn(0);
             	}, 300);
@@ -119,8 +119,6 @@ var Upvote = (function (window, document) {
         	},	
         
         	fn_reveal_content: function() {
-        		
-        		alert('ok1');
         		
         		setTimeout(function() {
         			$('body').fadeIn(0);
