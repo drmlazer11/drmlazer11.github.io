@@ -370,6 +370,39 @@ img.top {
 	}
 }
 
+#loading-circle {
+	position: absolute; 
+	top: 47%; 
+	transform: translateY(-47%); 
+	width: 100%;
+	text-align: center; 
+	font-family: Sans-Serif; 
+	font-weight: bold; 
+	font-size: 2em;
+}
+
+#1 {
+	color: rgba(52, 152, 219, .7);
+}
+#2 {
+	color: rgba(255, 140, 0, .7);
+}
+#3 {
+	color: rgba(231, 76, 60, .7);
+}
+#4 {
+	color: rgba(0, 128, 0, .6);
+}
+#5 {
+	color: rgba(0, 154, 136, .6)
+}
+#6 {
+	color: rgba(164, 121, 228, .7);
+}
+#7 {
+	color: #FCD116;
+}
+
 /*******************************************************************/
 /************************* Miscellaneous ***************************/
 /*******************************************************************/
