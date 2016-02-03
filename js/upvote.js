@@ -47,36 +47,36 @@ var Upvote = (function (window, document) {
             	that = this;
             
             	$('#L').fadeIn(0);
-            	$('#L').addClass('animated zoomIn');
+            	$('#L').addClass('animated bounceIn');
             	
             	setTimeout(function() {
             		$('#O').fadeIn(0);
-            		$('#O').addClass('animated zoomIn');	
+            		$('#O').addClass('animated bounceIn');	
             	}, 100);
             	
             	setTimeout(function() {
             		$('#A').fadeIn(0);
-            		$('#A').addClass('animated zoomIn');	
+            		$('#A').addClass('animated bounceIn');	
             	}, 200);
             	
             	setTimeout(function() {
             		$('#D').fadeIn(0);
-            		$('#D').addClass('animated zoomIn');	
+            		$('#D').addClass('animated bounceIn');	
             	}, 300);
             	
             	setTimeout(function() {
             		$('#I').fadeIn(0);
-            		$('#I').addClass('animated zoomIn');	
+            		$('#I').addClass('animated bounceIn');	
             	}, 400);
             	
             	setTimeout(function() {
             		$('#N').fadeIn(0);
-            		$('#N').addClass('animated zoomIn');	
+            		$('#N').addClass('animated bounceIn');	
             	}, 500);
             	
             	setTimeout(function() {
             		$('#G').fadeIn(0);
-            		$('#G').addClass('animated zoomIn');	
+            		$('#G').addClass('animated bounceIn');	
             	}, 600);
             
             	int_loading_count = 0;
