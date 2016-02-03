@@ -6,7 +6,7 @@ permalink: /upvote/
 
 <div class="body">
 	
-	<div id="loading-circle">
+	<div id="loading-container">
 		
 		<span style="position: absolute; left:0;" class="display-none" id="L">L</span><span style="position: absolute; left: 1rem;" class="display-none" id="O">o</span><span style="position: absolute; left:2rem;" class="display-none" id="A">a</span><span style="position: absolute; left: 3rem;" class="display-none" id="D">d</span><span style="position: absolute;" class="display-none" id="I">i</span><span style="position: absolute;" class="display-none" id="N">n</span><span style="position: absolute;" class="display-none" id="G">g</span>
 	</div>
