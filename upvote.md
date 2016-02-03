@@ -5,15 +5,16 @@ permalink: /upvote/
 ---
 
 <div class="body">
-<div id="loading-circle" style="position: absolute; top: 47%; transform: translateY(-47%); width:100%; text-align: center; font-family: Sans-Serif; font-weight:bold; font-size: 2em;">
+	
+	<div id="loading-circle">
 		
-		<span id="1" style="color: rgba(52, 152, 219, 1)">L</span>
-		<span id="2" style="color: rgba(255, 140, 0, 1)">o</span>
-		<span id="3" style="color: rgba(231, 76, 60, 1)">a</span>
-		<span id="4" style="color: rgba(0, 128, 0, .9)">d</span>
-		<span id="5" style="color: rgba(0, 154, 136, .9)">i</span>
-		<span id="6" style="color: rgba(164, 121, 228, .9)">n</span>
-		<span id="7" style="color: #FCD116">g</span>
+		<span id="1">L</span>
+		<span id="2">o</span>
+		<span id="3">a</span>
+		<span id="4">d</span>
+		<span id="5">i</span>
+		<span id="6">n</span>
+		<span id="7">g</span>
 	</div>
 
 	<div id="content" style="position: absolute;">
