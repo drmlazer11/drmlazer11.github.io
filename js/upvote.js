@@ -95,7 +95,7 @@ var Upvote = (function (window, document) {
         		
         			setTimeout(function() {
         				$('#G').css('opacity', '1');
-        			}, 700);*/
+        			}, 700);
         		
         			// $('#loading-circle').css('background-color', arr_colors[int_loading_count]);
         			int_loading_count += 1;
