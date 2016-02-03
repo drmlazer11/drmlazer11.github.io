@@ -130,27 +130,57 @@ var Upvote = (function (window, document) {
         	},
         
         	fn_change_category: function(e) {
-        		
-        		hyphen_index = e.target.id.indexOf("-");
-        		element_id = e.target.id.substr(0, hyphen_index);
         	
-        		if (element_id == this.current_category) {
-        			return;
+        		if (this.current_category == 'world') {
+        			$('#category-container').removeClass('world')
+        			$('#category-container').addClass('us');
+        			$('#category-text').html('us');
+        			this.current_category = 'us';
         		}
         	
-        		$('#' + element_id + '-container').addClass('selected');
-        		$('#' + this.current_category + '-container').removeClass('selected');
+        		else if (this.current_category == 'us') {
+        			$('#category-container').removeClass('us')
+        			$('#category-container').addClass('sports');
+        			$('#category-text').html('sports');
+        			this.current_category = 'sports';
+        		}
+        	
+        		else if (this.current_category == 'sports') {
+        			$('#category-container').removeClass('sports')
+        			$('#category-container').addClass('business');
+        			$('#category-text').html('business');
+        			this.current_category = 'business';
+        		}
+        	
+        		else if (this.current_category == 'business') {
+        			$('#category-container').removeClass('business')
+        			$('#category-container').addClass('technology');
+        			$('#category-text').html('technology');
+        			this.current_category = 'technology';
+        		}
+        	
+        		else if (this.current_category == 'technology') {
+        			$('#category-container').removeClass('technology')
+        			$('#category-container').addClass('entertainment');
+        			$('#category-text').html('entertainment');
+        			this.current_category = 'entertainment';
+        		}	
+        	
+        		else {
+        			$('#category-container').removeClass('entertainment')
+        			$('#category-container').addClass('world');
+        			$('#category-text').html('world');
+        			this.current_category = 'world';
+        		}
         	
         		if ($('.upvote-container').hasClass('upvoted') == true) {
-        			$('.upvote-container').removeClass(this.current_category);
-        			$('.upvote-text').removeClass(this.current_category);
-        			$('.upvote-icon').removeClass(this.current_category);
-        			$('.upvote-container').addClass(element_id);
-        			$('.upvote-text').addClass(element_id);
-        			$('.upvote-icon').addClass(element_id);	
+        			$('.upvote-container').removeClass('us world sports business technology entertainment');
+        			$('.upvote-text').removeClass('us world sports business technology entertainment');
+        			$('.upvote-icon').removeClass('us world sports business technology entertainment');
+        			$('.upvote-container').addClass(this.current_category);
+        			$('.upvote-text').addClass(this.current_category);
+        			$('.upvote-icon').addClass(this.current_category);	
         		}
-        	
-        		this.current_category = element_id;
         
         	},
         
