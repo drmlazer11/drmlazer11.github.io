@@ -46,7 +46,38 @@ var Upvote = (function (window, document) {
             	
             	that = this;
             
-            	// $('#loading-circle').addClass('animated bounceIn');
+            	$('#L').fadeIn(0);
+            	$('#L').addClass('animated bounceIn');
+            	
+            	setTimeout(function() {
+            		$('#O').fadeIn(0);
+            		$('#O').addClass('animated bounceIn');	
+            	}, 100);
+            	
+            	setTimeout(function() {
+            		$('#A').fadeIn(0);
+            		$('#A').addClass('animated bounceIn');	
+            	}, 200);
+            	
+            	setTimeout(function() {
+            		$('#D').fadeIn(0);
+            		$('#D').addClass('animated bounceIn');	
+            	}, 300);
+            	
+            	setTimeout(function() {
+            		$('#I').fadeIn(0);
+            		$('#I').addClass('animated bounceIn');	
+            	}, 400);
+            	
+            	setTimeout(function() {
+            		$('#N').fadeIn(0);
+            		$('#N').addClass('animated bounceIn');	
+            	}, 500);
+            	
+            	setTimeout(function() {
+            		$('#G').fadeIn(0);
+            		$('#G').addClass('animated bounceIn');	
+            	}, 600);
             
             	int_loading_count = 0;
             	arr_colors = Array('rgba(52, 152, 219, 1)', 'rgba(255, 140, 0, 1)', 'rgba(231, 76, 60, 1)', 'rgba(0, 128, 0, .9)', 'rgba(0, 154, 136, .9)', 'rgba(164, 121, 228, 1)');
