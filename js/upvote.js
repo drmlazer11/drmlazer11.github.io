@@ -39,9 +39,6 @@ var Upvote = (function (window, document) {
 		// ------------------------------------------------------
 		// Skimmin Core Functions
 		// ------------------------------------------------------
-        	setTimeout(function() {
-        		$('body').fadeIn(0);
-        	}, 300);
        
         
         // primarily used to hide slow rendering
@@ -50,6 +47,11 @@ var Upvote = (function (window, document) {
             that = this;
             
             $('#loading-circle').fadeIn(0);
+            
+            setTimeout(function() {
+       		$('body').fadeIn(0);
+            }, 300);
+            
             // $('#loading-circle').addClass('animated bounceIn');
             
             int_loading_count = 0;
