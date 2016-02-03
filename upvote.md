@@ -4,7 +4,7 @@ title: Upvote
 permalink: /upvote/
 ---
 
-<div class="body display-none">
+<div class="body">
 <div id="loading-circle" style="position: absolute; top: 47%; transform: translateY(-47%); width:100%; text-align: center; font-family: Sans-Serif; font-weight:bold; font-size: 2em;">
 		
 		<span id="1" style="color: rgba(52, 152, 219, 1)">L</span>
