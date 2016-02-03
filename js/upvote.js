@@ -38,11 +38,10 @@ var Upvote = (function (window, document) {
 		// ------------------------------------------------------
 		// Skimmin Core Functions
 		// ------------------------------------------------------
-        setTimeout(function() {
-        	$('body').fadeIn(0);
-        }, 300);
-        
-        },
+        	setTimeout(function() {
+        		$('body').fadeIn(0);
+        	}, 300);
+       
         
         // primarily used to hide slow rendering
         fn_loading: function() {
