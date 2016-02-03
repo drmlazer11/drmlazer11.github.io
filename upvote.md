@@ -16,7 +16,7 @@ permalink: /upvote/
 		<span id="7" style="color: #FCD116">g</span>
 	</div>
 
-	<div id="content" style="position: absolute;" class="display-none">
+	<div id="content" style="position: absolute;">
 	
 		<div class="upvote-outer-container">
 			<div class="upvote-container">
