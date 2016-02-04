@@ -98,14 +98,14 @@ var Upvote = (function (window, document) {
         	
         	pulsing_circle_interval = setInterval(function() {
         			
-        			if (int_loading_count == 0 || int_loading_count == 2 || int_loading_count == 4) {
-        				$('#L').css('opacity', '.5');
-        				$('#O').css('opacity', '.5');
-        				$('#A').css('opacity', '.5');
-        				$('#D').css('opacity', '.5');
-        				$('#I').css('opacity', '.5');
-        				$('#N').css('opacity', '.5');
-        				$('#G').css('opacity', '.5');
+        			if (int_loading_count == 0 || int_loading_count == 2 || int_loading_count == 4 || int_loading_count == 6 || int_loading_count == 8) {
+        				$('#L').css('opacity', '.25');
+        				$('#O').css('opacity', '.25');
+        				$('#A').css('opacity', '.25');
+        				$('#D').css('opacity', '.25');
+        				$('#I').css('opacity', '.25');
+        				$('#N').css('opacity', '.25');
+        				$('#G').css('opacity', '.25');
         			}
         			else {
         				$('#L').css('opacity', '1');
@@ -120,7 +120,7 @@ var Upvote = (function (window, document) {
         		
         			// $('#loading-circle').css('background-color', arr_colors[int_loading_count]);
         			int_loading_count += 1;
-        			if (int_loading_count == 4) {
+        			if (int_loading_count == 8) {
         				clearInterval(pulsing_circle_interval);
         				setTimeout(function() {
         					$('#loading-container').addClass('animated slideOutUp');
@@ -136,7 +136,7 @@ var Upvote = (function (window, document) {
         				$('#loading-circle').css('opacity', '1');
         			}, 500);*/
         			
-        		}, 1000);
+        		}, 500);
         
         	},	
         
