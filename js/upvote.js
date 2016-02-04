@@ -47,36 +47,36 @@ var Upvote = (function (window, document) {
             	that = this;
             
             	$('#L').fadeIn(0);
-            	$('#L').addClass('animated bounceIn');
+            	$('#L').addClass('animated zoomIn');
             	
             	setTimeout(function() {
             		$('#O').fadeIn(0);
-            		$('#O').addClass('animated bounceIn');	
+            		$('#O').addClass('animated zoomIn');	
             	}, 100);
             	
             	setTimeout(function() {
             		$('#A').fadeIn(0);
-            		$('#A').addClass('animated bounceIn');	
+            		$('#A').addClass('animated zoomIn');	
             	}, 200);
             	
             	setTimeout(function() {
             		$('#D').fadeIn(0);
-            		$('#D').addClass('animated bounceIn');	
+            		$('#D').addClass('animated zoomIn');	
             	}, 300);
             	
             	setTimeout(function() {
             		$('#I').fadeIn(0);
-            		$('#I').addClass('animated bounceIn');	
+            		$('#I').addClass('animated zoomIn');	
             	}, 400);
             	
             	setTimeout(function() {
             		$('#N').fadeIn(0);
-            		$('#N').addClass('animated bounceIn');	
+            		$('#N').addClass('animated zoomIn');	
             	}, 500);
             	
             	setTimeout(function() {
             		$('#G').fadeIn(0);
-            		$('#G').addClass('animated bounceIn');	
+            		$('#G').addClass('animated zoomIn');	
             	}, 600);
             
             	int_loading_count = 0;
@@ -86,11 +86,11 @@ var Upvote = (function (window, document) {
         	
         		// $('#loading-circle').addClass('animated pulse');
         	
-        		pulsing_circle_interval = setInterval(function() {
+        	pulsing_circle_interval = setInterval(function() {
         		
         			// $('#loading-circle').css('opacity', '.7');
         		
-        			/*$('#L').css('opacity', '.8');
+        			$('#L').css('opacity', '.8');
         			$('#L').css('-webkit-transition', '.5s');
         			$('#L').css('-webkit-transform', 'scale(.5)');
         		
@@ -126,10 +126,10 @@ var Upvote = (function (window, document) {
         		
         			setTimeout(function() {
         				$('#G').css('opacity', '1');
-        			}, 700);*/
+        			}, 700);
         		
         			// $('#loading-circle').css('background-color', arr_colors[int_loading_count]);
-        			/*int_loading_count += 1;
+        			int_loading_count += 1;
         			if (int_loading_count == 4) {
         				clearInterval(pulsing_circle_interval);
         				setTimeout(function() {
@@ -140,7 +140,7 @@ var Upvote = (function (window, document) {
         					$('#content').fadeIn(300);
         					$('#content').addClass('animated slideInUp');
         				}, 750);
-        			}*/
+        			}
         			
         			/*setTimeout(function() {
         				$('#loading-circle').css('opacity', '1');
