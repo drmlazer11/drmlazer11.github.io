@@ -381,6 +381,7 @@ img.top {
   	height: 2rem;
   	width: 8.9rem;
   	-webkit-transform:translate3d(0,0,0);
+  	-webkit-transition: bottom .3s ease-in-out, translateY .3s ease-in-out, opacity 1s ease-in-out;
 }
 
 #L {
