@@ -80,6 +80,7 @@ var Upvote = (function (window, document) {
             	}, 450);
             	
             	$('#loading-container').addClass('animated pulse');
+            	
             	/*setTimeout(function() {
             		$('#loading-container').addClass('animated pulse');
             	}, 1500);*/
