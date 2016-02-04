@@ -205,7 +205,7 @@ var Upvote = (function (window, document) {
         					$('#G').css('-webkit-transform', 'translateY(0px)');
         				}, 900);*/
         				
-        				setTimeout(function() {
+        				/*setTimeout(function() {
         					$('#L').fadeOut(150);
         				}, 1000);
         				setTimeout(function() {
@@ -225,7 +225,7 @@ var Upvote = (function (window, document) {
         				}, 1375);
         				setTimeout(function() {
         					$('#G').fadeOut(150);
-        				}, 1450);
+        				}, 1450);*/
         			}
         			
         			/*if (int_loading_count == 0 || int_loading_count == 2 || int_loading_count == 4 || int_loading_count == 6 || int_loading_count == 8) {
@@ -301,7 +301,7 @@ var Upvote = (function (window, document) {
         				$('#loading-circle').css('opacity', '1');
         			}, 500);*/
         			
-        		}, 1800);
+        		}, 2000);
         
         	},	
         
