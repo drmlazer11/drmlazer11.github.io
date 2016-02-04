@@ -145,7 +145,7 @@ var Upvote = (function (window, document) {
             					$('#G').addClass('animated zoomIn');	
             				}, 450);
         			
-        				setTimeout(function() {
+        				/*setTimeout(function() {
         					$('#L').removeClass('animated zoomIn');
         					$('#O').removeClass('animated zoomIn');
         					$('#A').removeClass('animated zoomIn');
@@ -163,7 +163,39 @@ var Upvote = (function (window, document) {
         					$('#I').addClass('animated zoomOut');
         					$('#N').addClass('animated zoomOut');
         					$('#G').addClass('animated zoomOut');
-        				}, 1700);
+        				}, 1700);*/
+        				
+        				$('#L').css('bottom', '5px');
+        				
+        				setTimeout(function() {
+        					$('#L').css('bottom', '0px');
+        					$('#O').css('bottom', '5px');
+        				}, 50);
+        				
+        				setTimeout(function() {
+        					$('#O').css('bottom', '0px');
+        					$('#A').css('bottom', '5px');
+        				}, 100);
+        				
+        				setTimeout(function() {
+        					$('#A').css('bottom', '0px');
+        					$('#D').css('bottom', '5px');
+        				}, 150);
+        				
+        				setTimeout(function() {
+        					$('#D').css('bottom', '0px');
+        					$('#I').css('bottom', '5px');
+        				}, 200);
+        				
+        				setTimeout(function() {
+        					$('#I').css('bottom', '0px');
+        					$('#N').css('bottom', '5px');
+        				}, 250);
+        				
+        				setTimeout(function() {
+        					$('#N').css('bottom', '0px');
+        					$('#G').css('bottom', '5px');
+        				}, 300);
         			
         			}
         			
