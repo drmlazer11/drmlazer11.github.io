@@ -128,7 +128,7 @@ var Upvote = (function (window, document) {
         				$('#I').addClass('animated zoomIn');
         				$('#N').addClass('animated zoomIn');
         				$('#G').addClass('animated zoomIn');
-        			}, 305);
+        			}, 350);
         			
         			/*if (int_loading_count == 0 || int_loading_count == 2 || int_loading_count == 4 || int_loading_count == 6 || int_loading_count == 8) {
         				$('#L').css('opacity', '0');
