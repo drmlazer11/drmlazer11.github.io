@@ -98,31 +98,31 @@ var Upvote = (function (window, document) {
         	
         	pulsing_circle_interval = setInterval(function() {
         			
-        			$('#L').fadeOut(0);
-        			$('#L').addClass('slideOutLeft');
+        			// $('#L').fadeOut(0);
+        			$('#L').addClass('zoomOut');
         		
         			setTimeout(function() {
-        				$('#O').addClass('slideOutLeft');
+        				$('#O').addClass('zoomOut');
         			}, 100);
         			
         			setTimeout(function() {
-        				$('#A').addClass('slideOutLeft');
+        				$('#A').addClass('zoomOut');
         			}, 200);
         			
         			setTimeout(function() {
-        				$('#D').addClass('slideOutLeft');
+        				$('#D').addClass('zoomOut');
         			}, 300);
         			
         			setTimeout(function() {
-        				$('#I').addClass('slideOutLeft');
+        				$('#I').addClass('zoomOut');
         			}, 400);
         			
         			setTimeout(function() {
-        				$('#N').addClass('slideOutLeft');
+        				$('#N').addClass('zoomOut');
         			}, 500);
         			
         			setTimeout(function() {
-        				$('#G').addClass('slideOutLeft');
+        				$('#G').addClass('zoomOut');
         			}, 600);
         		
         			/*setTimeout(function() {
