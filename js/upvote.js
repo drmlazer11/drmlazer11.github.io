@@ -118,32 +118,32 @@ var Upvote = (function (window, document) {
             				setTimeout(function() {
             					$('#O').fadeIn(150);
             					// $('#O').addClass('animated zoomIn');	
-            				}, 100);
+            				}, 50);
             	
             				setTimeout(function() {
             					$('#A').fadeIn(150);
             					// $('#A').addClass('animated zoomIn');	
-            				}, 200);
+            				}, 100);
             	
             				setTimeout(function() {
             					$('#D').fadeIn(150);
             					// $('#D').addClass('animated zoomIn');	
-            				}, 300);
+            				}, 150);
             	
             				setTimeout(function() {
             					$('#I').fadeIn(150);
             					// $('#I').addClass('animated zoomIn');	
-            				}, 400);
+            				}, 200);
             	
             				setTimeout(function() {
             					$('#N').fadeIn(150);
             					// $('#N').addClass('animated zoomIn');	
-            				}, 500);
+            				}, 250);
             	
             				setTimeout(function() {
             					$('#G').fadeIn(150);
             					// $('#G').addClass('animated zoomIn');	
-            				}, 600);
+            				}, 300);
         			
         				/*setTimeout(function() {
         					$('#L').removeClass('animated zoomIn');
@@ -215,25 +215,25 @@ var Upvote = (function (window, document) {
         				
         				setTimeout(function() {
         					$('#G').fadeOut(150);
-        				}, 1200);
+        				}, 1000);
         				setTimeout(function() {
         					$('#N').fadeOut(150);
-        				}, 1300);
+        				}, 1050);
         				setTimeout(function() {
         					$('#I').fadeOut(150);
-        				}, 1400);
+        				}, 1100);
         				setTimeout(function() {
         					$('#D').fadeOut(150);
-        				}, 1500);
+        				}, 1150);
         				setTimeout(function() {
         					$('#A').fadeOut(150);
-        				}, 1600);
+        				}, 1200);
         				setTimeout(function() {
         					$('#O').fadeOut(150);
-        				}, 1700);
+        				}, 1250);
         				setTimeout(function() {
         					$('#L').fadeOut(150);
-        				}, 1800);
+        				}, 1300);
         			}
         			
         			/*if (int_loading_count == 0 || int_loading_count == 2 || int_loading_count == 4 || int_loading_count == 6 || int_loading_count == 8) {
