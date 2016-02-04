@@ -158,7 +158,7 @@ var Upvote = (function (window, document) {
         					$('#G').css('opacity', '1');	
         				}, 1000);*/
         				
-        				$('#loading-container').css('opacity', '.3');
+        				$('#loading-container').css('opacity', '.2');
         				
         				setTimeout(function(){
         					$('#loading-container').css('opacity', '1');	
