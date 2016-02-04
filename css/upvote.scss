@@ -369,7 +369,7 @@ img.top {
   	height: 2rem;
   	width: 8rem;
   	-webkit-transform:translate3d(0,0,0);
-  	-webkit-transition: opacity 1.2s;
+  	-webkit-transition: opacity 1.2s, -webkit-transform 1.2s, transform 1.2s;
 }
 
 #L {
