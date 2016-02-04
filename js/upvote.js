@@ -165,7 +165,7 @@ var Upvote = (function (window, document) {
         					$('#G').addClass('animated zoomOut');
         				}, 1700);*/
         				
-        				$('#L').css('-webkit-transform', 'translateY(-5px)');
+        				/*$('#L').css('-webkit-transform', 'translateY(-5px)');
         				setTimeout(function() {
         					$('#L').css('-webkit-transform', 'translateY(0px)');
         				}, 300);
@@ -211,7 +211,9 @@ var Upvote = (function (window, document) {
         				}, 600);
         				setTimeout(function() {
         					$('#G').css('-webkit-transform', 'translateY(0px)');
-        				}, 900);
+        				}, 900);*/
+        				
+        				$('#loading-container').addClass('animated bounce');
         			
         			}
         			
