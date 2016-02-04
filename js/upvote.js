@@ -81,7 +81,7 @@ var Upvote = (function (window, document) {
             	
             	
             	
-            	setTimeout(function(){
+            	/*setTimeout(function(){
             		$('#L').css('opacity', '.5');	
             	}, 1200);
             	
@@ -117,25 +117,25 @@ var Upvote = (function (window, document) {
             	
             	setTimeout(function() {
             		$('#G').css('opacity', '1');	
-            	}, 2600);
+            	}, 2600);*/
             	
             	
-            	/*setTimeout(function(){
-            		$('#loading-container').css('opacity', '.2');
+            	setTimeout(function(){
+            		$('#loading-container').css('opacity', '.3');
             	}, 1300);
         	setTimeout(function(){
         		$('#loading-container').css('opacity', '1');	
        		}, 2500);
        		
        		setTimeout(function(){
-            		$('#loading-container').css('opacity', '.2');
+            		$('#loading-container').css('opacity', '.3');
             	}, 3700);
         	setTimeout(function(){
         		$('#loading-container').css('opacity', '1');	
        		}, 4900);
        		
        		setTimeout(function(){
-            		$('#loading-container').css('opacity', '.2');
+            		$('#loading-container').css('opacity', '.3');
             	}, 6100);
         	setTimeout(function(){
         		$('#loading-container').css('opacity', '1');	
@@ -148,7 +148,7 @@ var Upvote = (function (window, document) {
         	setTimeout(function() {
         		$('#content').fadeIn(0);
         		$('#content').addClass('animated bounceInUp');
-        	}, 8750);*/
+        	}, 8750);
         	
         
         	},	
