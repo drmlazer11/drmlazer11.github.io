@@ -122,23 +122,29 @@ var Upvote = (function (window, document) {
             	
             	setTimeout(function(){
             		$('#loading-container').css('opacity', '.3');
+            		$('#loading-container').css('-webkit-transform', 'scale(.96)');
             	}, 1300);
         	setTimeout(function(){
-        		$('#loading-container').css('opacity', '1');	
+        		$('#loading-container').css('opacity', '1');
+        		$('#loading-container').css('-webkit-transform', 'scale(1)');
        		}, 2500);
        		
        		setTimeout(function(){
             		$('#loading-container').css('opacity', '.3');
+            		$('#loading-container').css('-webkit-transform', 'scale(.96)');
             	}, 3700);
         	setTimeout(function(){
-        		$('#loading-container').css('opacity', '1');	
+        		$('#loading-container').css('opacity', '1');
+        		$('#loading-container').css('-webkit-transform', 'scale(1)');
        		}, 4900);
        		
        		setTimeout(function(){
             		$('#loading-container').css('opacity', '.3');
+            		$('#loading-container').css('-webkit-transform', 'scale(.96)');
             	}, 6100);
         	setTimeout(function(){
-        		$('#loading-container').css('opacity', '1');	
+        		$('#loading-container').css('opacity', '1');
+        		$('#loading-container').css('-webkit-transform', 'scale(1)');
        		}, 7300);
             	
             	
