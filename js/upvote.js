@@ -383,9 +383,9 @@ var Upvote = (function (window, document) {
         			$('.upvote-icon').addClass(this.current_category);	
         		}
         		else {
-        			$('.upvote-container').css('border', '1px solid #d0d0d0');
+        			$('.upvote-container').css('-webkit-transform', 'scale(.94)');
         			setTimeout(function() {
-        				$('.upvote-container').css('border', 'none');
+        				$('.upvote-container').css('-webkit-transform', 'scale(1)');
         			}, 500);
         		}
         
