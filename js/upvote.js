@@ -78,6 +78,16 @@ var Upvote = (function (window, document) {
             		$('#G').fadeIn(0);
             		$('#G').addClass('animated zoomIn');	
             	}, 600);
+            	
+            	setTimeout(function() {
+            		$('#L').removeClass('zoomIn');
+            		$('#O').removeClass('zoomIn');
+            		$('#A').removeClass('zoomIn');
+            		$('#D').removeClass('zoomIn');
+            		$('#I').removeClass('zoomIn');
+            		$('#N').removeClass('zoomIn');
+            		$('#G').removeClass('zoomIn');
+            	}, 1000);
             
             	int_loading_count = 0;
             	arr_colors = Array('rgba(52, 152, 219, 1)', 'rgba(255, 140, 0, 1)', 'rgba(231, 76, 60, 1)', 'rgba(0, 128, 0, .9)', 'rgba(0, 154, 136, .9)', 'rgba(164, 121, 228, 1)');
