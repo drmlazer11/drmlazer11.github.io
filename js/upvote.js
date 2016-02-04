@@ -79,237 +79,37 @@ var Upvote = (function (window, document) {
             		$('#G').addClass('animated zoomIn');	
             	}, 390);
             	
+            	setTimeout(function(){
+            		$('#loading-container').css('opacity', '.2');
+            	}, 900);
+        	setTimeout(function(){
+        		$('#loading-container').css('opacity', '1');	
+       		}, 2100);
+       		
+       		setTimeout(function(){
+            		$('#loading-container').css('opacity', '.2');
+            	}, 3300);
+        	setTimeout(function(){
+        		$('#loading-container').css('opacity', '1');	
+       		}, 4500);
+       		
+       		setTimeout(function(){
+            		$('#loading-container').css('opacity', '.2');
+            	}, 6700);
+        	setTimeout(function(){
+        		$('#loading-container').css('opacity', '1');	
+       		}, 7900);
             	
             	
-            	/*setTimeout(function() {
-            		$('#loading-container').addClass('animated pulse');
-            	}, 1500);*/
-            	
-            	/*setTimeout(function() {
-            		$('#L').removeClass('animated zoomIn');
-            		$('#O').removeClass('animated zoomIn');	
-            		$('#A').removeClass('animated zoomIn');	
-            		$('#D').removeClass('animated zoomIn');	
-            		$('#I').removeClass('animated zoomIn');	
-            		$('#N').removeClass('animated zoomIn');	
-            		$('#G').removeClass('animated zoomIn');	
-            	}, 1500);*/
-            
-            	int_loading_count = 0;
-            	arr_colors = Array('rgba(52, 152, 219, 1)', 'rgba(255, 140, 0, 1)', 'rgba(231, 76, 60, 1)', 'rgba(0, 128, 0, .9)', 'rgba(0, 154, 136, .9)', 'rgba(164, 121, 228, 1)');
-                      
-            	// bool_kill_next_loop = false;
+            	setTimeout(function() {
+        		// $('#loading-container').addClass('animated slideOutUp');
+        		$('#loading-container').fadeOut(300);
+        	}, 8000);
+        	setTimeout(function() {
+        		$('#content').fadeIn(0);
+        		$('#content').addClass('animated bounceInUp');
+        	}, 8250);
         	
-        		// $('#loading-circle').addClass('animated pulse');
-        	
-        	pulsing_circle_interval = setInterval(function() {
-        			
-        			/*$('#L').fadeOut(300);
-        			$('#O').fadeOut(300);
-        			$('#A').fadeOut(300);
-        			$('#D').fadeOut(300);
-        			$('#I').fadeOut(300);
-        			$('#N').fadeOut(300);
-        			$('#G').fadeOut(300);*/
-        			
-        			if (int_loading_count == 0 || int_loading_count == 1 || int_loading_count == 2 || int_loading_count == 3) {
-        			
-        				/*$('#L').fadeIn(150);
-            	
-            				setTimeout(function() {
-            					$('#O').fadeIn(150);
-            				}, 75);
-            	
-            				setTimeout(function() {
-            					$('#A').fadeIn(150);
-            				}, 150);
-            	
-            				setTimeout(function() {
-            					$('#D').fadeIn(150);
-            				}, 225);
-            	
-            				setTimeout(function() {
-            					$('#I').fadeIn(150);
-            				}, 300);
-            	
-            				setTimeout(function() {
-            					$('#N').fadeIn(150);
-            				}, 375);
-            	
-            				setTimeout(function() {
-            					$('#G').fadeIn(150);
-            				}, 450); */
-        				
-        				/*$('#L').css('opacity', '.5');
-        				$('#O').css('opacity', '.5');
-        				$('#A').css('opacity', '.5');
-        				$('#D').css('opacity', '.5');
-        				$('#I').css('opacity', '.5');
-        				$('#N').css('opacity', '.5');
-        				$('#G').css('opacity', '.5');
-        				
-        				setTimeout(function() {
-        					$('#L').css('opacity', '1');
-        					$('#O').css('opacity', '1');	
-        					$('#A').css('opacity', '1');	
-        					$('#D').css('opacity', '1');	
-        					$('#I').css('opacity', '1');	
-        					$('#N').css('opacity', '1');
-        					$('#G').css('opacity', '1');	
-        				}, 1000);*/
-        				
-        				$('#loading-container').css('opacity', '.2');
-        				
-        				setTimeout(function(){
-        					$('#loading-container').css('opacity', '1');	
-        				}, 1200);
-        				
-        				
-        				/*$('#L').css('-webkit-transform', 'translateY(-5px)');
-        				setTimeout(function() {
-        					$('#L').css('-webkit-transform', 'translateY(0px)');
-        				}, 300);
-        				
-        				
-        				setTimeout(function() {
-        					$('#O').css('-webkit-transform', 'translateY(-5px)');
-        				}, 100);
-        				setTimeout(function() {
-        					$('#O').css('-webkit-transform', 'translateY(0px)');
-        				}, 400);
-        				
-        				setTimeout(function() {
-        					$('#A').css('-webkit-transform', 'translateY(-5px)');
-        				}, 200);
-        				setTimeout(function() {
-        					$('#A').css('-webkit-transform', 'translateY(0px)');
-        				}, 500);
-        				
-        				setTimeout(function() {
-        					$('#D').css('-webkit-transform', 'translateY(-5px)');
-        				}, 300);
-        				setTimeout(function() {
-        					$('#D').css('-webkit-transform', 'translateY(0px)');
-        				}, 600);
-        				
-        				setTimeout(function() {
-        					$('#I').css('-webkit-transform', 'translateY(-5px)');
-        				}, 400);
-        				setTimeout(function() {
-        					$('#I').css('-webkit-transform', 'translateY(0px)');
-        				}, 700);
-        				
-        				setTimeout(function() {
-        					$('#N').css('-webkit-transform', 'translateY(-5px)');
-        				}, 500);
-        				setTimeout(function() {
-        					$('#N').css('-webkit-transform', 'translateY(0px)');
-        				}, 800);
-        				
-        				setTimeout(function() {
-        					$('#G').css('-webkit-transform', 'translateY(-5px)');
-        				}, 600);
-        				setTimeout(function() {
-        					$('#G').css('-webkit-transform', 'translateY(0px)');
-        				}, 900);*/
-        				
-        				/*setTimeout(function() {
-        					$('#L').fadeOut(150);
-        				}, 1000);
-        				setTimeout(function() {
-        					$('#O').fadeOut(150);
-        				}, 1075);
-        				setTimeout(function() {
-        					$('#A').fadeOut(150);
-        				}, 1150);
-        				setTimeout(function() {
-        					$('#D').fadeOut(150);
-        				}, 1225);
-        				setTimeout(function() {
-        					$('#I').fadeOut(150);
-        				}, 1300);
-        				setTimeout(function() {
-        					$('#N').fadeOut(150);
-        				}, 1375);
-        				setTimeout(function() {
-        					$('#G').fadeOut(150);
-        				}, 1450);*/
-        			}
-        			
-        			/*if (int_loading_count == 0 || int_loading_count == 2 || int_loading_count == 4 || int_loading_count == 6 || int_loading_count == 8) {
-        				$('#L').css('opacity', '0');
-        				$('#O').css('opacity', '0');
-        				$('#A').css('opacity', '0');
-        				$('#D').css('opacity', '0');
-        				$('#I').css('opacity', '0');
-        				$('#N').css('opacity', '0');
-        				$('#G').css('opacity', '0');
-        			}
-        			else {
-        				$('#L').css('opacity', '1');
-        				$('#O').css('opacity', '1');
-        				$('#A').css('opacity', '1');
-        				$('#D').css('opacity', '1');
-        				$('#I').css('opacity', '1');
-        				$('#N').css('opacity', '1');
-        				$('#G').css('opacity', '1');	
-        			}*/
-        			
-        			// $('#L').addClass('zoomOut');
-        			/*$('#L').css('opacity', '.7');
-        			
-        			
-        			setTimeout(function() {
-        				// $('#O').addClass('zoomOut');
-        				$('#L').css('opacity', '1');
-        				$('#O').css('opacity', '.7');
-        			}, 75);
-        			
-        			setTimeout(function() {
-        				$('#O').css('opacity', '1');
-        				$('#A').css('opacity', '.7');
-        			}, 150);
-        			
-        			setTimeout(function() {
-        				$('#A').css('opacity', '1');
-        				$('#D').css('opacity', '.7');
-        			}, 225);
-        			
-        			setTimeout(function() {
-        				$('#D').css('opacity', '1');
-        				$('#I').css('opacity', '.7');
-        			}, 300);
-        			
-        			setTimeout(function() {
-        				$('#I').css('opacity', '1');
-        				$('#N').css('opacity', '.7');
-        			}, 375);
-        			
-        			setTimeout(function() {
-        				$('#N').css('opacity', '1');
-        				$('#G').css('opacity', '.7');
-        			}, 450);*/
-        		
-        			// $('#loading-circle').css('background-color', arr_colors[int_loading_count]);
-        			int_loading_count += 1;
-        			if (int_loading_count == 4) {
-        				clearInterval(pulsing_circle_interval);
-        				setTimeout(function() {
-        					// $('#loading-container').addClass('animated slideOutUp');
-        					$('#loading-container').fadeOut(300);
-        				}, 500);
-        				setTimeout(function() {
-        					$('#content').fadeIn(0);
-        					$('#content').addClass('animated bounceInUp');
-        					// $('#content').addClass('animated slideInUp');
-        				}, 750);
-        			}
-        			
-        			/*setTimeout(function() {
-        				$('#loading-circle').css('opacity', '1');
-        			}, 500);*/
-        			
-        		}, 2500);
         
         	},	
         
