@@ -279,7 +279,7 @@ var Upvote = (function (window, document) {
         				}, 500);
         				setTimeout(function() {
         					$('#content').fadeIn(0);
-        					$('#content').addClass('animated slideInUp');
+        					$('#content').addClass('animated bounceInUp');
         					// $('#content').addClass('animated slideInUp');
         				}, 750);
         			}
