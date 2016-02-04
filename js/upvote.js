@@ -79,7 +79,7 @@ var Upvote = (function (window, document) {
             		$('#G').addClass('animated zoomIn');	
             	}, 600);
             	
-            	setTimeout(function() {
+            	/*setTimeout(function() {
             		$('#L').removeClass('animated zoomIn');
             		$('#O').removeClass('animated zoomIn');	
             		$('#A').removeClass('animated zoomIn');	
@@ -87,7 +87,7 @@ var Upvote = (function (window, document) {
             		$('#I').removeClass('animated zoomIn');	
             		$('#N').removeClass('animated zoomIn');	
             		$('#G').removeClass('animated zoomIn');	
-            	}, 1500);
+            	}, 1500);*/
             
             	int_loading_count = 0;
             	arr_colors = Array('rgba(52, 152, 219, 1)', 'rgba(255, 140, 0, 1)', 'rgba(231, 76, 60, 1)', 'rgba(0, 128, 0, .9)', 'rgba(0, 154, 136, .9)', 'rgba(164, 121, 228, 1)');
@@ -101,41 +101,13 @@ var Upvote = (function (window, document) {
         			// $('#L').fadeOut(0);
         			// $('#L').addClass('zoomOut');
         			// $('#L').css('opacity', '.5');
-        			$('#L').addClass('animated zoomOut');
-        		
-        			setTimeout(function() {
-        				// $('#L').css('opacity', '1');
-        				$('#O').addClass('animated zoomOut');
-        			}, 0);
-        			
-        			setTimeout(function() {
-        				// $('#O').css('opacity', '1');
-        				$('#A').addClass('animated zoomOut');
-        			}, 0);
-        			
-        			setTimeout(function() {
-        				// $('#A').css('opacity', '1');
-        				$('#D').addClass('animated zoomOut');
-        			}, 0);
-        			
-        			setTimeout(function() {
-        				// $('#D').css('opacity', '1');
-        				$('#I').addClass('animated zoomOut');
-        			}, 0);
-        			
-        			setTimeout(function() {
-        				// $('#I').css('opacity', '1');
-        				$('#N').addClass('animated zoomOut');
-        			}, 0);
-        			
-        			setTimeout(function() {
-        				// $('#N').css('opacity', '1');
-        				$('#G').css('opacity', 'animated zoomOut');
-        			}, 0);
-        			
-        			/*setTimeout(function() {
-        				$('#G').css('opacity', '1');
-        			}, 700);*/
+        			$('#L').css('opacity', '.5');
+        			$('#O').css('opacity', '.5');
+        			$('#A').css('opacity', '.5');
+        			$('#D').css('opacity', '.5');
+        			$('#I').css('opacity', '.5');
+        			$('#N').css('opacity', '.5');
+        			$('#G').css('opacity', '.5');
         			
         		
         			// $('#loading-circle').css('background-color', arr_colors[int_loading_count]);
