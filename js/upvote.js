@@ -98,16 +98,24 @@ var Upvote = (function (window, document) {
         	
         	pulsing_circle_interval = setInterval(function() {
         			
-        			// $('#L').fadeOut(0);
-        			// $('#L').addClass('zoomOut');
-        			// $('#L').css('opacity', '.5');
-        			$('#L').css('opacity', '.5');
-        			$('#O').css('opacity', '.5');
-        			$('#A').css('opacity', '.5');
-        			$('#D').css('opacity', '.5');
-        			$('#I').css('opacity', '.5');
-        			$('#N').css('opacity', '.5');
-        			$('#G').css('opacity', '.5');
+        			if (int_loading_count == 0 || int_loading_count == 2 || int_loading_count == 4) {
+        				$('#L').css('opacity', '.5');
+        				$('#O').css('opacity', '.5');
+        				$('#A').css('opacity', '.5');
+        				$('#D').css('opacity', '.5');
+        				$('#I').css('opacity', '.5');
+        				$('#N').css('opacity', '.5');
+        				$('#G').css('opacity', '.5');
+        			}
+        			else {
+        				$('#L').css('opacity', '1');
+        				$('#O').css('opacity', '1');
+        				$('#A').css('opacity', '1');
+        				$('#D').css('opacity', '1');
+        				$('#I').css('opacity', '1');
+        				$('#N').css('opacity', '1');
+        				$('#G').css('opacity', '1');	
+        			}
         			
         		
         			// $('#loading-circle').css('background-color', arr_colors[int_loading_count]);
