@@ -91,8 +91,6 @@ var Upvote = (function (window, document) {
         			$('#L').addClass('slideOutLeft');
         		
         			setTimeout(function() {
-        				/*$('#O').css('opacity', '1');
-        				$('#A').css('opacity', '.8');*/
         				$('#O').addClass('slideOutLeft');
         			}, 100);
         			
@@ -105,15 +103,15 @@ var Upvote = (function (window, document) {
         			}, 300);
         			
         			setTimeout(function() {
-        				$('#I').addClass('zoomOut');
+        				$('#I').addClass('slideOutLeft');
         			}, 400);
         			
         			setTimeout(function() {
-        				$('#N').addClass('zoomOut');
+        				$('#N').addClass('slideOutLeft');
         			}, 500);
         			
         			setTimeout(function() {
-        				$('#G').addClass('zoomOut');
+        				$('#G').addClass('slideOutLeft');
         			}, 600);
         		
         			/*setTimeout(function() {
