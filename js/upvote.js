@@ -166,36 +166,52 @@ var Upvote = (function (window, document) {
         				}, 1700);*/
         				
         				$('#L').css('bottom', '5px');
-        				
         				setTimeout(function() {
         					$('#L').css('bottom', '0px');
-        					$('#O').css('bottom', '5px');
-        				}, 50);
+        				}, 300);
         				
+        				
+        				setTimeout(function() {
+        					$('#O').css('bottom', '5px');
+        				}, 100);
         				setTimeout(function() {
         					$('#O').css('bottom', '0px');
-        					$('#A').css('bottom', '5px');
-        				}, 100);
+        				}, 400);
         				
+        				setTimeout(function() {
+        					$('#A').css('bottom', '5px');
+        				}, 200);
         				setTimeout(function() {
         					$('#A').css('bottom', '0px');
-        					$('#D').css('bottom', '5px');
-        				}, 150);
+        				}, 500);
         				
+        				setTimeout(function() {
+        					$('#D').css('bottom', '5px');
+        				}, 300);
         				setTimeout(function() {
         					$('#D').css('bottom', '0px');
-        					$('#I').css('bottom', '5px');
-        				}, 200);
+        				}, 600);
         				
+        				setTimeout(function() {
+        					$('#I').css('bottom', '5px');
+        				}, 400);
         				setTimeout(function() {
         					$('#I').css('bottom', '0px');
-        					$('#N').css('bottom', '5px');
-        				}, 250);
+        				}, 700);
         				
         				setTimeout(function() {
+        					$('#N').css('bottom', '5px');
+        				}, 500);
+        				setTimeout(function() {
         					$('#N').css('bottom', '0px');
+        				}, 800);
+        				
+        				setTimeout(function() {
         					$('#G').css('bottom', '5px');
-        				}, 300);
+        				}, 600);
+        				setTimeout(function() {
+        					$('#G').css('bottom', '0px');
+        				}, 900);
         			
         			}
         			
