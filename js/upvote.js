@@ -91,36 +91,36 @@ var Upvote = (function (window, document) {
         			
         			// $('#L').fadeOut(0);
         			// $('#L').addClass('zoomOut');
-        			$('#L').css('opacity', '.7');
+        			$('#L').css('opacity', '.5');
         		
         			setTimeout(function() {
         				$('#L').css('opacity', '1');
-        				$('#O').css('opacity', '.7');
+        				$('#O').css('opacity', '.5');
         			}, 100);
         			
         			setTimeout(function() {
         				$('#O').css('opacity', '1');
-        				$('#A').css('opacity', '.7');
+        				$('#A').css('opacity', '.5');
         			}, 200);
         			
         			setTimeout(function() {
         				$('#A').css('opacity', '1');
-        				$('#D').css('opacity', '.7');
+        				$('#D').css('opacity', '.5');
         			}, 300);
         			
         			setTimeout(function() {
         				$('#D').css('opacity', '1');
-        				$('#I').css('opacity', '.7');
+        				$('#I').css('opacity', '.5');
         			}, 400);
         			
         			setTimeout(function() {
         				$('#I').css('opacity', '1');
-        				$('#N').css('opacity', '.7');
+        				$('#N').css('opacity', '.5');
         			}, 500);
         			
         			setTimeout(function() {
         				$('#N').css('opacity', '1');
-        				$('#G').css('opacity', '.7');
+        				$('#G').css('opacity', '.5');
         			}, 600);
         			
         			setTimeout(function() {
