@@ -110,7 +110,7 @@ var Upvote = (function (window, document) {
         			$('#N').fadeOut(300);
         			$('#G').fadeOut(300);*/
         			
-        			if (int_loading_count == 0 || int_loading_count == 2 || int_loading_count == 4 || int_loading_count == 6) {
+        			if (int_loading_count == 0 || int_loading_count == 1 || int_loading_count == 2 || int_loading_count == 3) {
         			
         				$('#L').fadeIn(0);
             				$('#L').addClass('animated zoomIn');
