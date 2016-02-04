@@ -383,7 +383,7 @@ var Upvote = (function (window, document) {
         			$('.upvote-icon').addClass(this.current_category);	
         		}
         		else {
-        			$('.upvote-container').css('background-color', '#fdfdfd');
+        			$('.upvote-container').css('background-color', '#f8f8f8');
         			setTimeout(function() {
         				$('.upvote-container').css('background-color', '#f2f2f2');
         			}, 150);
