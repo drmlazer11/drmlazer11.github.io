@@ -162,7 +162,7 @@ var Upvote = (function (window, document) {
         				
         				setTimeout(function(){
         					$('#loading-container').css('opacity', '1');	
-        				}, 1000);
+        				}, 1250);
         				
         				
         				/*$('#L').css('-webkit-transform', 'translateY(-5px)');
@@ -309,7 +309,7 @@ var Upvote = (function (window, document) {
         				$('#loading-circle').css('opacity', '1');
         			}, 500);*/
         			
-        		}, 2000);
+        		}, 2500);
         
         	},	
         
