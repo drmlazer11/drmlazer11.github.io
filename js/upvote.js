@@ -162,7 +162,7 @@ var Upvote = (function (window, document) {
         				
         				setTimeout(function(){
         					$('#loading-container').css('opacity', '1');	
-        				}, 1000);
+        				}, 900);
         				
         				
         				/*$('#L').css('-webkit-transform', 'translateY(-5px)');
