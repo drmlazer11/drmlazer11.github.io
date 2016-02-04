@@ -92,7 +92,7 @@ var Upvote = (function (window, document) {
         		
         			$('#L').css('opacity', '.8');
         			$('#L').css('-webkit-transition', '.5s');
-        			$('#L').css('-webkit-transform', 'scale(.5)');
+        			$('#L').css('-webkit-transform', 'scale(.9)');
         		
         			setTimeout(function() {
         				$('#L').css('opacity', '1');
