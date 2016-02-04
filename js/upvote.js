@@ -125,32 +125,32 @@ var Upvote = (function (window, document) {
         				// $('#O').addClass('zoomOut');
         				$('#L').css('opacity', '1');
         				$('#O').css('opacity', '.7');
-        			}, 50);
+        			}, 75);
         			
         			setTimeout(function() {
         				$('#O').css('opacity', '1');
         				$('#A').css('opacity', '.7');
-        			}, 100);
+        			}, 150);
         			
         			setTimeout(function() {
         				$('#A').css('opacity', '1');
         				$('#D').css('opacity', '.7');
-        			}, 150);
+        			}, 225);
         			
         			setTimeout(function() {
         				$('#D').css('opacity', '1');
         				$('#I').css('opacity', '.7');
-        			}, 200);
+        			}, 300);
         			
         			setTimeout(function() {
         				$('#I').css('opacity', '1');
         				$('#N').css('opacity', '.7');
-        			}, 250);
+        			}, 375);
         			
         			setTimeout(function() {
         				$('#N').css('opacity', '1');
         				$('#G').css('opacity', '.7');
-        			}, 300);
+        			}, 450);
         		
         			// $('#loading-circle').css('background-color', arr_colors[int_loading_count]);
         			int_loading_count += 1;
