@@ -98,7 +98,7 @@ var Upvote = (function (window, document) {
         	
         	pulsing_circle_interval = setInterval(function() {
         			
-        			if (int_loading_count == 0 || int_loading_count == 2 || int_loading_count == 4 || int_loading_count == 6 || int_loading_count == 8) {
+        			/*if (int_loading_count == 0 || int_loading_count == 2 || int_loading_count == 4 || int_loading_count == 6 || int_loading_count == 8) {
         				$('#L').css('opacity', '0');
         				$('#O').css('opacity', '0');
         				$('#A').css('opacity', '0');
@@ -115,8 +115,33 @@ var Upvote = (function (window, document) {
         				$('#I').css('opacity', '1');
         				$('#N').css('opacity', '1');
         				$('#G').css('opacity', '1');	
-        			}
+        			}*/
         			
+        			$('#L').addClass('zoomOut');
+        			
+        			setTimeout(function() {
+        				$('#O').addClass('zoomOut');
+        			}, 100);
+        			
+        			setTimeout(function() {
+        				$('#A').addClass('zoomOut');
+        			}, 200);
+        			
+        			setTimeout(function() {
+        				$('#D').addClass('zoomOut');
+        			}, 300);
+        			
+        			setTimeout(function() {
+        				$('#I').addClass('zoomOut');
+        			}, 400);
+        			
+        			setTimeout(function() {
+        				$('#N').addClass('zoomOut');
+        			}, 500);
+        			
+        			setTimeout(function() {
+        				$('#G').addClass('zoomOut');
+        			}, 600);
         		
         			// $('#loading-circle').css('background-color', arr_colors[int_loading_count]);
         			int_loading_count += 1;
