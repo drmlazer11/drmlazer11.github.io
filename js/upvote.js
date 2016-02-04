@@ -52,32 +52,32 @@ var Upvote = (function (window, document) {
             	setTimeout(function() {
             		$('#O').fadeIn(0);
             		$('#O').addClass('animated zoomIn');	
-            	}, 50);
+            	}, 60);
             	
             	setTimeout(function() {
             		$('#A').fadeIn(0);
             		$('#A').addClass('animated zoomIn');	
-            	}, 100);
+            	}, 120);
             	
             	setTimeout(function() {
             		$('#D').fadeIn(0);
             		$('#D').addClass('animated zoomIn');	
-            	}, 150);
+            	}, 180);
             	
             	setTimeout(function() {
             		$('#I').fadeIn(0);
             		$('#I').addClass('animated zoomIn');	
-            	}, 200);
+            	}, 240);
             	
             	setTimeout(function() {
             		$('#N').fadeIn(0);
             		$('#N').addClass('animated zoomIn');	
-            	}, 250);
+            	}, 300);
             	
             	setTimeout(function() {
             		$('#G').fadeIn(0);
             		$('#G').addClass('animated zoomIn');	
-            	}, 300);
+            	}, 360);
             	
             	
             	
