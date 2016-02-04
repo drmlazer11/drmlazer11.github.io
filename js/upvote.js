@@ -79,7 +79,48 @@ var Upvote = (function (window, document) {
             		$('#G').addClass('animated zoomIn');	
             	}, 390);
             	
+            	
+            	
             	setTimeout(function(){
+            		$('#L').css('opacity', '.2');	
+            	}, 1200);
+            	
+            	setTimeout(function() {
+            		$('#L').css('opacity', '1');	
+            		$('#O').css('opacity', '.2');	
+            	}, 1300);
+            	
+            	setTimeout(function() {
+            		$('#O').css('opacity', '1');	
+            		$('#A').css('opacity', '.2');	
+            	}, 1400);
+            	
+            	setTimeout(function() {
+            		$('#A').css('opacity', '1');	
+            		$('#D').css('opacity', '.2');	
+            	}, 1500);
+            	
+            	setTimeout(function() {
+            		$('#D').css('opacity', '1');	
+            		$('#I').css('opacity', '.2');	
+            	}, 1600);
+            	
+            	setTimeout(function() {
+            		$('#I').css('opacity', '1');	
+            		$('#N').css('opacity', '.2');	
+            	}, 1700);
+            	
+            	setTimeout(function() {
+            		$('#N').css('opacity', '1');	
+            		$('#G').css('opacity', '.2');	
+            	}, 1800);
+            	
+            	setTimeout(function() {
+            		$('#G').css('opacity', '1');	
+            	}, 1900);
+            	
+            	
+            	/*setTimeout(function(){
             		$('#loading-container').css('opacity', '.2');
             	}, 1300);
         	setTimeout(function(){
@@ -102,13 +143,12 @@ var Upvote = (function (window, document) {
             	
             	
             	setTimeout(function() {
-        		// $('#loading-container').addClass('animated slideOutUp');
         		$('#loading-container').fadeOut(300);
         	}, 8500);
         	setTimeout(function() {
         		$('#content').fadeIn(0);
         		$('#content').addClass('animated bounceInUp');
-        	}, 8750);
+        	}, 8750);*/
         	
         
         	},	
