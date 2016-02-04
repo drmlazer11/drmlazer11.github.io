@@ -91,36 +91,37 @@ var Upvote = (function (window, document) {
         			
         			// $('#L').fadeOut(0);
         			// $('#L').addClass('zoomOut');
-        			$('#L').css('opacity', '.5');
+        			// $('#L').css('opacity', '.5');
+        			$('#L').addClass('zoomOut');
         		
         			setTimeout(function() {
         				// $('#L').css('opacity', '1');
-        				$('#O').css('opacity', '.5');
+        				$('#O').addClass('zoomOut');
         			}, 0);
         			
         			setTimeout(function() {
         				// $('#O').css('opacity', '1');
-        				$('#A').css('opacity', '.5');
+        				$('#A').addClass('zoomOut');
         			}, 0);
         			
         			setTimeout(function() {
         				// $('#A').css('opacity', '1');
-        				$('#D').css('opacity', '.5');
+        				$('#D').addClass('zoomOut');
         			}, 0);
         			
         			setTimeout(function() {
         				// $('#D').css('opacity', '1');
-        				$('#I').css('opacity', '.5');
+        				$('#I').addClass('zoomOut');
         			}, 0);
         			
         			setTimeout(function() {
         				// $('#I').css('opacity', '1');
-        				$('#N').css('opacity', '.5');
+        				$('#N').addClass('zoomOut');
         			}, 0);
         			
         			setTimeout(function() {
         				// $('#N').css('opacity', '1');
-        				$('#G').css('opacity', '.5');
+        				$('#G').css('opacity', 'zoomOut');
         			}, 0);
         			
         			/*setTimeout(function() {
