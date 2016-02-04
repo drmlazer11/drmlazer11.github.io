@@ -79,9 +79,9 @@ var Upvote = (function (window, document) {
             		$('#G').addClass('animated zoomIn');	
             	}, 450);
             	
-            	setTimeout(function() {
+            	/*setTimeout(function() {
             		$('#loading-container').addClass('animated pulse');
-            	}, 1500);
+            	}, 1500);*/
             	
             	/*setTimeout(function() {
             		$('#L').removeClass('animated zoomIn');
