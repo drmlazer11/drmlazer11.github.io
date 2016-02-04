@@ -383,10 +383,10 @@ var Upvote = (function (window, document) {
         			$('.upvote-icon').addClass(this.current_category);	
         		}
         		else {
-        			$('.upvote-container').css('-webkit-transform', 'scale(.94)');
+        			$('.upvote-container').css('background-color', '#fcfcfc');
         			setTimeout(function() {
-        				$('.upvote-container').css('-webkit-transform', 'scale(1)');
-        			}, 500);
+        				$('.upvote-container').css('background-color', '#f2f2f2');
+        			}, 300);
         		}
         
         	},
