@@ -165,49 +165,49 @@ var Upvote = (function (window, document) {
         					$('#G').addClass('animated zoomOut');
         				}, 1700);*/
         				
-        				$('#L').css('-webkit-transform', 'translateY(5px)');
+        				$('#L').css('-webkit-transform', 'translateY(-5px)');
         				setTimeout(function() {
         					$('#L').css('-webkit-transform', 'translateY(0px)');
         				}, 300);
         				
         				
         				setTimeout(function() {
-        					$('#O').css('-webkit-transform', 'translateY(5px)');
+        					$('#O').css('-webkit-transform', 'translateY(-5px)');
         				}, 100);
         				setTimeout(function() {
         					$('#O').css('-webkit-transform', 'translateY(0px)');
         				}, 400);
         				
         				setTimeout(function() {
-        					$('#A').css('-webkit-transform', 'translateY(5px)');
+        					$('#A').css('-webkit-transform', 'translateY(-5px)');
         				}, 200);
         				setTimeout(function() {
         					$('#A').css('-webkit-transform', 'translateY(0px)');
         				}, 500);
         				
         				setTimeout(function() {
-        					$('#D').css('-webkit-transform', 'translateY(5px)');
+        					$('#D').css('-webkit-transform', 'translateY(-5px)');
         				}, 300);
         				setTimeout(function() {
         					$('#D').css('-webkit-transform', 'translateY(0px)');
         				}, 600);
         				
         				setTimeout(function() {
-        					$('#I').css('-webkit-transform', 'translateY(5px)');
+        					$('#I').css('-webkit-transform', 'translateY(-5px)');
         				}, 400);
         				setTimeout(function() {
         					$('#I').css('-webkit-transform', 'translateY(0px)');
         				}, 700);
         				
         				setTimeout(function() {
-        					$('#N').css('-webkit-transform', 'translateY(5px)');
+        					$('#N').css('-webkit-transform', 'translateY(-5px)');
         				}, 500);
         				setTimeout(function() {
         					$('#N').css('-webkit-transform', 'translateY(0px)');
         				}, 800);
         				
         				setTimeout(function() {
-        					$('#G').css('-webkit-transform', 'translateY(5px)');
+        					$('#G').css('-webkit-transform', 'translateY(-5px)');
         				}, 600);
         				setTimeout(function() {
         					$('#G').css('-webkit-transform', 'translateY(0px)');
