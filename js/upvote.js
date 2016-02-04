@@ -102,33 +102,68 @@ var Upvote = (function (window, document) {
         	
         	pulsing_circle_interval = setInterval(function() {
         			
-        			$('#L').fadeOut(300);
+        			/*$('#L').fadeOut(300);
         			$('#O').fadeOut(300);
         			$('#A').fadeOut(300);
         			$('#D').fadeOut(300);
         			$('#I').fadeOut(300);
         			$('#N').fadeOut(300);
-        			$('#G').fadeOut(300);
+        			$('#G').fadeOut(300);*/
         			
-        			setTimeout(function() {
-        				$('#L').removeClass('animated zoomIn');
-        				$('#O').removeClass('animated zoomIn');
-        				$('#A').removeClass('animated zoomIn');
-        				$('#D').removeClass('animated zoomIn');
-        				$('#I').removeClass('animated zoomIn');
-        				$('#N').removeClass('animated zoomIn');
-        				$('#G').removeClass('animated zoomIn');
-        			}, 300);
+        			if (int_loading_count == 0 || int_loading_count == 2 || int_loading_count == 4 || int_loading_count == 6) {
         			
-        			setTimeout(function(){
-        				$('#L').addClass('animated zoomIn');
-        				$('#O').addClass('animated zoomIn');
-        				$('#A').addClass('animated zoomIn');
-        				$('#D').addClass('animated zoomIn');
-        				$('#I').addClass('animated zoomIn');
-        				$('#N').addClass('animated zoomIn');
-        				$('#G').addClass('animated zoomIn');
-        			}, 350);
+        				$('#L').fadeIn(0);
+            				$('#L').addClass('animated zoomIn');
+            	
+            				setTimeout(function() {
+            					$('#O').fadeIn(0);
+            					$('#O').addClass('animated zoomIn');	
+            				}, 75);
+            	
+            				setTimeout(function() {
+            					$('#A').fadeIn(0);
+            					$('#A').addClass('animated zoomIn');	
+            				}, 150);
+            	
+            				setTimeout(function() {
+            					$('#D').fadeIn(0);
+            					$('#D').addClass('animated zoomIn');	
+            				}, 225);
+            	
+            				setTimeout(function() {
+            					$('#I').fadeIn(0);
+            					$('#I').addClass('animated zoomIn');	
+            				}, 300);
+            	
+            				setTimeout(function() {
+            					$('#N').fadeIn(0);
+            					$('#N').addClass('animated zoomIn');	
+            				}, 375);
+            	
+            				setTimeout(function() {
+            					$('#G').fadeIn(0);
+            					$('#G').addClass('animated zoomIn');	
+            				}, 450);
+        			
+        				setTimeout(function() {
+        					$('#L').removeClass('animated zoomIn');
+        					$('#O').removeClass('animated zoomIn');
+        					$('#A').removeClass('animated zoomIn');
+        					$('#D').removeClass('animated zoomIn');
+        					$('#I').removeClass('animated zoomIn');
+        					$('#N').removeClass('animated zoomIn');
+        					$('#G').removeClass('animated zoomIn');
+        				}, 1000);
+        			
+        				setTimeout(function(){
+        					$('#L').addClass('animated zoomOut');
+        					$('#O').addClass('animated zoomOut');
+        					$('#A').addClass('animated zoomOut');
+        					$('#D').addClass('animated zoomOut');
+        					$('#I').addClass('animated zoomOut');
+        					$('#N').addClass('animated zoomOut');
+        					$('#G').addClass('animated zoomOut');
+        				}, 1700);
         			
         			/*if (int_loading_count == 0 || int_loading_count == 2 || int_loading_count == 4 || int_loading_count == 6 || int_loading_count == 8) {
         				$('#L').css('opacity', '0');
@@ -202,7 +237,7 @@ var Upvote = (function (window, document) {
         				$('#loading-circle').css('opacity', '1');
         			}, 500);*/
         			
-        		}, 1500);
+        		}, 1800);
         
         	},	
         
