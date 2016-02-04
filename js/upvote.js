@@ -99,13 +99,13 @@ var Upvote = (function (window, document) {
         	pulsing_circle_interval = setInterval(function() {
         			
         			if (int_loading_count == 0 || int_loading_count == 2 || int_loading_count == 4 || int_loading_count == 6 || int_loading_count == 8) {
-        				$('#L').css('opacity', '.25');
-        				$('#O').css('opacity', '.25');
-        				$('#A').css('opacity', '.25');
-        				$('#D').css('opacity', '.25');
-        				$('#I').css('opacity', '.25');
-        				$('#N').css('opacity', '.25');
-        				$('#G').css('opacity', '.25');
+        				$('#L').css('opacity', '0');
+        				$('#O').css('opacity', '0');
+        				$('#A').css('opacity', '0');
+        				$('#D').css('opacity', '0');
+        				$('#I').css('opacity', '0');
+        				$('#N').css('opacity', '0');
+        				$('#G').css('opacity', '0');
         			}
         			else {
         				$('#L').css('opacity', '1');
