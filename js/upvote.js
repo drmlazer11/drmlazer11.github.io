@@ -382,6 +382,12 @@ var Upvote = (function (window, document) {
         			$('.upvote-text').addClass(this.current_category);
         			$('.upvote-icon').addClass(this.current_category);	
         		}
+        		else {
+        			$('.upvote-container').css('border', '1px solid #d0d0d0');
+        			setTimeout(function() {
+        				$('.upvote-container').css('border', 'none');
+        			}, 500);
+        		}
         
         	},
         
