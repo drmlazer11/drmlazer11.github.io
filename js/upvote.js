@@ -274,12 +274,13 @@ var Upvote = (function (window, document) {
         			if (int_loading_count == 8) {
         				clearInterval(pulsing_circle_interval);
         				setTimeout(function() {
-        					$('#loading-container').addClass('animated slideOutUp');
+        					// $('#loading-container').addClass('animated slideOutUp');
         					$('#loading-container').fadeOut(300);
         				}, 500);
         				setTimeout(function() {
-        					$('#content').fadeIn(300);
-        					$('#content').addClass('animated slideInUp');
+        					$('#content').fadeIn(0);
+        					$('#content').addClass('animated zoomIn');
+        					// $('#content').addClass('animated slideInUp');
         				}, 750);
         			}
         			
