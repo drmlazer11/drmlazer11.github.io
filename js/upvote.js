@@ -386,7 +386,7 @@ var Upvote = (function (window, document) {
         			$('.upvote-container').css('background-color', '#f8f8f8');
         			setTimeout(function() {
         				$('.upvote-container').css('background-color', '#f2f2f2');
-        			}, 150);
+        			}, 10);
         		}
         
         	},
