@@ -128,20 +128,13 @@ var Upvote = (function (window, document) {
         			}, 700);
         			
         		
-        			/*setTimeout(function() {
-        				$('#A').css('opacity', '1');
-        				$('#D').css('opacity', '.8');
-        			}, 300);*/
-        		
-        			
-        		
         			// $('#loading-circle').css('background-color', arr_colors[int_loading_count]);
         			int_loading_count += 1;
         			if (int_loading_count == 4) {
         				clearInterval(pulsing_circle_interval);
         				setTimeout(function() {
-        					$('#loading-circle').addClass('animated slideOutUp');
-        					$('#loading-circle').fadeOut(300);
+        					$('#loading-container').addClass('animated slideOutUp');
+        					$('#loading-container').fadeOut(300);
         				}, 500);
         				setTimeout(function() {
         					$('#content').fadeIn(300);
