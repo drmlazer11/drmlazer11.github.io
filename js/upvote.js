@@ -144,7 +144,7 @@ var Upvote = (function (window, document) {
             	
             	setTimeout(function() {
         		// $('#loading-container').fadeOut(300);
-        		$('#loading-container').addClass('animated zoomOut');
+        		$('#loading-container').addClass('animated bounceOut');
         	}, 8500);
         	setTimeout(function() {
         		$('#content').fadeIn(0);
