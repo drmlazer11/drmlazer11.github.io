@@ -12,9 +12,9 @@ permalink: /upvote/
 		<span style="position: absolute; left: .7em;" class="display-none" id="O">o</span>
 		<span style="position: absolute; left: 1.4em;" class="display-none" id="A">a</span>
 		<span style="position: absolute; left: 2.05em;" class="display-none" id="D">d</span>
-		<span style="position: absolute; left: 2.8em;" class="display-none" id="I">i</span>
-		<span style="position: absolute; left: 3.2em;" class="display-none" id="N">n</span>
-		<span style="position: absolute; left: 3.9em;" class="display-none" id="G">g</span>
+		<span style="position: absolute; left: 2.75em;" class="display-none" id="I">i</span>
+		<span style="position: absolute; left: 3.15em;" class="display-none" id="N">n</span>
+		<span style="position: absolute; left: 3.85em;" class="display-none" id="G">g</span>
 		
 	</div>
 
