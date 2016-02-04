@@ -9,12 +9,12 @@ permalink: /upvote/
 	<div id="loading-container">
 		
 		<span style="position: absolute; left: 0;" class="display-none" id="L">L</span>
-		<span style="position: absolute; left: .64em;" class="display-none" id="O">o</span>
-		<span style="position: absolute; left: 1.25em;" class="display-none" id="A">a</span>
-		<span style="position: absolute; left: 1.83em;" class="display-none" id="D">d</span>
-		<span style="position: absolute; left: 2.45em;" class="display-none" id="I">i</span>
-		<span style="position: absolute; left: 2.75em;" class="display-none" id="N">n</span>
-		<span style="position: absolute; left: 3.36em;" class="display-none" id="G">g</span>
+		<span style="position: absolute; left: .63em;" class="display-none" id="O">o</span>
+		<span style="position: absolute; left: 1.24em;" class="display-none" id="A">a</span>
+		<span style="position: absolute; left: 1.82em;" class="display-none" id="D">d</span>
+		<span style="position: absolute; left: 2.44em;" class="display-none" id="I">i</span>
+		<span style="position: absolute; left: 2.74em;" class="display-none" id="N">n</span>
+		<span style="position: absolute; left: 3.35em;" class="display-none" id="G">g</span>
 		
 	</div>
 
