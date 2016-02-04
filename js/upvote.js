@@ -81,34 +81,34 @@ var Upvote = (function (window, document) {
             	
             	setTimeout(function(){
             		$('#loading-container').css('opacity', '.2');
-            	}, 1100);
+            	}, 1300);
         	setTimeout(function(){
         		$('#loading-container').css('opacity', '1');	
-       		}, 2300);
+       		}, 2500);
        		
        		setTimeout(function(){
             		$('#loading-container').css('opacity', '.2');
-            	}, 3500);
+            	}, 3700);
         	setTimeout(function(){
         		$('#loading-container').css('opacity', '1');	
-       		}, 4700);
+       		}, 4900);
        		
        		setTimeout(function(){
             		$('#loading-container').css('opacity', '.2');
-            	}, 6900);
+            	}, 6100);
         	setTimeout(function(){
         		$('#loading-container').css('opacity', '1');	
-       		}, 8100);
+       		}, 7300);
             	
             	
             	setTimeout(function() {
         		// $('#loading-container').addClass('animated slideOutUp');
         		$('#loading-container').fadeOut(300);
-        	}, 8200);
+        	}, 8500);
         	setTimeout(function() {
         		$('#content').fadeIn(0);
         		$('#content').addClass('animated bounceInUp');
-        	}, 8450);
+        	}, 8750);
         	
         
         	},	
