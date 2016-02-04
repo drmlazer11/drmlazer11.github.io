@@ -112,36 +112,36 @@ var Upvote = (function (window, document) {
         			
         			if (int_loading_count == 0 || int_loading_count == 1 || int_loading_count == 2 || int_loading_count == 3) {
         			
-        				$('#L').fadeIn(0);
+        				$('#L').fadeIn(150);
             				// $('#L').addClass('animated zoomIn');
             	
             				setTimeout(function() {
-            					$('#O').fadeIn(0);
+            					$('#O').fadeIn(150);
             					// $('#O').addClass('animated zoomIn');	
             				}, 75);
             	
             				setTimeout(function() {
-            					$('#A').fadeIn(0);
+            					$('#A').fadeIn(150);
             					// $('#A').addClass('animated zoomIn');	
             				}, 150);
             	
             				setTimeout(function() {
-            					$('#D').fadeIn(0);
+            					$('#D').fadeIn(150);
             					// $('#D').addClass('animated zoomIn');	
             				}, 225);
             	
             				setTimeout(function() {
-            					$('#I').fadeIn(0);
+            					$('#I').fadeIn(150);
             					// $('#I').addClass('animated zoomIn');	
             				}, 300);
             	
             				setTimeout(function() {
-            					$('#N').fadeIn(0);
+            					$('#N').fadeIn(150);
             					// $('#N').addClass('animated zoomIn');	
             				}, 375);
             	
             				setTimeout(function() {
-            					$('#G').fadeIn(0);
+            					$('#G').fadeIn(150);
             					// $('#G').addClass('animated zoomIn');	
             				}, 450);
         			
@@ -214,25 +214,25 @@ var Upvote = (function (window, document) {
         				}, 900);*/
         				
         				setTimeout(function() {
-        					$('#G').fadeOut(0);
+        					$('#G').fadeOut(150);
         				}, 1000);
         				setTimeout(function() {
-        					$('#N').fadeOut(0);
+        					$('#N').fadeOut(150);
         				}, 1075);
         				setTimeout(function() {
-        					$('#I').fadeOut(0);
+        					$('#I').fadeOut(150);
         				}, 1150);
         				setTimeout(function() {
-        					$('#D').fadeOut(0);
+        					$('#D').fadeOut(150);
         				}, 1225);
         				setTimeout(function() {
-        					$('#A').fadeOut(0);
+        					$('#A').fadeOut(150);
         				}, 1300);
         				setTimeout(function() {
-        					$('#O').fadeOut(0);
+        					$('#O').fadeOut(150);
         				}, 1375);
         				setTimeout(function() {
-        					$('#L').fadeOut(0);
+        					$('#L').fadeOut(150);
         				}, 1450);
         			}
         			
