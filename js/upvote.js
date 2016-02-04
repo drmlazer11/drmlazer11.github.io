@@ -88,6 +88,7 @@ var Upvote = (function (window, document) {
         	
         	pulsing_circle_interval = setInterval(function() {
         			
+        			$('#L').fadeOut(0);
         			$('#L').addClass('slideOutLeft');
         		
         			setTimeout(function() {
