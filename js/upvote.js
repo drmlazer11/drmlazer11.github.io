@@ -165,6 +165,8 @@ var Upvote = (function (window, document) {
         					$('#G').addClass('animated zoomOut');
         				}, 1700);
         			
+        			}
+        			
         			/*if (int_loading_count == 0 || int_loading_count == 2 || int_loading_count == 4 || int_loading_count == 6 || int_loading_count == 8) {
         				$('#L').css('opacity', '0');
         				$('#O').css('opacity', '0');
