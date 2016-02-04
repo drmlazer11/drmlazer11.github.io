@@ -214,25 +214,25 @@ var Upvote = (function (window, document) {
         				}, 900);*/
         				
         				setTimeout(function() {
-        					$('#L').fadeOut(0);
+        					$('#G').fadeOut(0);
         				}, 1000);
         				setTimeout(function() {
-        					$('#O').fadeOut(0);
+        					$('#N').fadeOut(0);
         				}, 1075);
         				setTimeout(function() {
-        					$('#A').fadeOut(0);
+        					$('#I').fadeOut(0);
         				}, 1150);
         				setTimeout(function() {
         					$('#D').fadeOut(0);
         				}, 1225);
         				setTimeout(function() {
-        					$('#I').fadeOut(0);
+        					$('#A').fadeOut(0);
         				}, 1300);
         				setTimeout(function() {
-        					$('#N').fadeOut(0);
+        					$('#O').fadeOut(0);
         				}, 1375);
         				setTimeout(function() {
-        					$('#G').fadeOut(0);
+        					$('#L').fadeOut(0);
         				}, 1450);
         			}
         			
