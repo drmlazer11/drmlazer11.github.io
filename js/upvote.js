@@ -292,7 +292,7 @@ var Upvote = (function (window, document) {
         		
         			// $('#loading-circle').css('background-color', arr_colors[int_loading_count]);
         			int_loading_count += 1;
-        			if (int_loading_count == 8) {
+        			if (int_loading_count == 4) {
         				clearInterval(pulsing_circle_interval);
         				setTimeout(function() {
         					// $('#loading-container').addClass('animated slideOutUp');
