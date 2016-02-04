@@ -118,32 +118,32 @@ var Upvote = (function (window, document) {
             				setTimeout(function() {
             					$('#O').fadeIn(150);
             					// $('#O').addClass('animated zoomIn');	
-            				}, 150);
+            				}, 100);
             	
             				setTimeout(function() {
             					$('#A').fadeIn(150);
             					// $('#A').addClass('animated zoomIn');	
-            				}, 300);
+            				}, 200);
             	
             				setTimeout(function() {
             					$('#D').fadeIn(150);
             					// $('#D').addClass('animated zoomIn');	
-            				}, 450);
+            				}, 300);
             	
             				setTimeout(function() {
             					$('#I').fadeIn(150);
             					// $('#I').addClass('animated zoomIn');	
-            				}, 600);
+            				}, 400);
             	
             				setTimeout(function() {
             					$('#N').fadeIn(150);
             					// $('#N').addClass('animated zoomIn');	
-            				}, 750);
+            				}, 500);
             	
             				setTimeout(function() {
             					$('#G').fadeIn(150);
             					// $('#G').addClass('animated zoomIn');	
-            				}, 900);
+            				}, 600);
         			
         				/*setTimeout(function() {
         					$('#L').removeClass('animated zoomIn');
@@ -218,22 +218,22 @@ var Upvote = (function (window, document) {
         				}, 1200);
         				setTimeout(function() {
         					$('#N').fadeOut(150);
-        				}, 1350);
+        				}, 1300);
         				setTimeout(function() {
         					$('#I').fadeOut(150);
-        				}, 1500);
+        				}, 1400);
         				setTimeout(function() {
         					$('#D').fadeOut(150);
-        				}, 1650);
+        				}, 1500);
         				setTimeout(function() {
         					$('#A').fadeOut(150);
-        				}, 1800);
+        				}, 1600);
         				setTimeout(function() {
         					$('#O').fadeOut(150);
-        				}, 1950);
+        				}, 1700);
         				setTimeout(function() {
         					$('#L').fadeOut(150);
-        				}, 2100);
+        				}, 1800);
         			}
         			
         			/*if (int_loading_count == 0 || int_loading_count == 2 || int_loading_count == 4 || int_loading_count == 6 || int_loading_count == 8) {
@@ -309,7 +309,7 @@ var Upvote = (function (window, document) {
         				$('#loading-circle').css('opacity', '1');
         			}, 500);*/
         			
-        		}, 2100);
+        		}, 1800);
         
         	},	
         
