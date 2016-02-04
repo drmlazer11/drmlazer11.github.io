@@ -87,32 +87,21 @@ var Upvote = (function (window, document) {
         		// $('#loading-circle').addClass('animated pulse');
         	
         	pulsing_circle_interval = setInterval(function() {
-        		
-        			// $('#loading-circle').css('opacity', '.7');
-        		
-        			/*$('#L').css('opacity', '.8');
-        			$('#L').css('-webkit-transition', '.5s');
-        			$('#L').css('-webkit-transform', 'scale(.9)');*/
         			
-        			$('#L').addClass('zoomOut');
-        		
-        			/*setTimeout(function() {
-        				$('#L').css('opacity', '1');
-        				$('#L').css('-webkit-transform', 'scale(1)');
-        			}, 500);*/
+        			$('#L').addClass('slideOutLeft');
         		
         			setTimeout(function() {
         				/*$('#O').css('opacity', '1');
         				$('#A').css('opacity', '.8');*/
-        				$('#O').addClass('zoomOut');
+        				$('#O').addClass('slideOutLeft');
         			}, 100);
         			
         			setTimeout(function() {
-        				$('#A').addClass('zoomOut');
+        				$('#A').addClass('slideOutLeft');
         			}, 200);
         			
         			setTimeout(function() {
-        				$('#D').addClass('zoomOut');
+        				$('#D').addClass('slideOutLeft');
         			}, 300);
         			
         			setTimeout(function() {
