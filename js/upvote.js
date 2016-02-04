@@ -136,7 +136,7 @@ var Upvote = (function (window, document) {
         				$('#loading-circle').css('opacity', '1');
         			}, 500);*/
         			
-        		}, 1000);
+        		}, 2000);
         
         	},	
         
