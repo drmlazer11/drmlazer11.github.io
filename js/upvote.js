@@ -150,7 +150,7 @@ var Upvote = (function (window, document) {
         	setTimeout(function() {
         		$('#content').fadeIn(0);
         		$('#content').addClass('animated bounceInUp');
-        	}, 7050);
+        	}, 7250);
         	
         
         	},	
