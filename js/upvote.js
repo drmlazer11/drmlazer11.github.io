@@ -121,7 +121,7 @@ var Upvote = (function (window, document) {
             	
             	
             	setTimeout(function(){
-            		$('#loading-container').css('opacity', '.3');
+            		$('#loading-container').css('opacity', '.5');
             		$('#loading-container').css('-webkit-transform', 'scale(.96)');
             	}, 1300);
         	setTimeout(function(){
@@ -130,7 +130,7 @@ var Upvote = (function (window, document) {
        		}, 2500);
        		
        		setTimeout(function(){
-            		$('#loading-container').css('opacity', '.3');
+            		$('#loading-container').css('opacity', '.5');
             		$('#loading-container').css('-webkit-transform', 'scale(.96)');
             	}, 3700);
         	setTimeout(function(){
@@ -139,7 +139,7 @@ var Upvote = (function (window, document) {
        		}, 4900);
        		
        		setTimeout(function(){
-            		$('#loading-container').css('opacity', '.3');
+            		$('#loading-container').css('opacity', '.5');
             		$('#loading-container').css('-webkit-transform', 'scale(.96)');
             	}, 6100);
         	setTimeout(function(){
