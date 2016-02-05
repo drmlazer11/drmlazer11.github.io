@@ -30,7 +30,6 @@ var Upvote = (function (window, document) {
 		
 		this.fn_hide_rendering_icons();
 		this.fn_loading();
-       		this.fn_reveal_content();
        	
     	};
     
@@ -80,46 +79,6 @@ var Upvote = (function (window, document) {
             	}, 390);
             	
             	
-            	
-            	/*setTimeout(function(){
-            		$('#L').css('opacity', '.5');	
-            	}, 1200);
-            	
-            	setTimeout(function() {
-            		$('#L').css('opacity', '1');	
-            		$('#O').css('opacity', '.5');	
-            	}, 1400);
-            	
-            	setTimeout(function() {
-            		$('#O').css('opacity', '1');	
-            		$('#A').css('opacity', '.5');	
-            	}, 1600);
-            	
-            	setTimeout(function() {
-            		$('#A').css('opacity', '1');	
-            		$('#D').css('opacity', '.5');	
-            	}, 1800);
-            	
-            	setTimeout(function() {
-            		$('#D').css('opacity', '1');	
-            		$('#I').css('opacity', '.5');	
-            	}, 2000);
-            	
-            	setTimeout(function() {
-            		$('#I').css('opacity', '1');	
-            		$('#N').css('opacity', '.5');	
-            	}, 2200);
-            	
-            	setTimeout(function() {
-            		$('#N').css('opacity', '1');	
-            		$('#G').css('opacity', '.5');	
-            	}, 2400);
-            	
-            	setTimeout(function() {
-            		$('#G').css('opacity', '1');	
-            	}, 2600);*/
-            	
-            	
             	setTimeout(function(){
             		$('#loading-container').css('opacity', '.37');
             		$('#loading-container').css('-webkit-transform', 'scale(.98)');
@@ -154,15 +113,6 @@ var Upvote = (function (window, document) {
         	
         
         	},	
-        
-        	fn_reveal_content: function() {
-        		
-        		/*setTimeout(function() {
-        			$('#loading-circle').addClass('animated zoomOut');
-        			$('#content').addClass('animated slideInUp');
-        		}, 300);*/
-        
-        	},
         
         	fn_hide_rendering_icons: function() {
         		
