@@ -146,11 +146,11 @@ var Upvote = (function (window, document) {
             	setTimeout(function() {
         		// $('#loading-container').fadeOut(500);
         		$('#loading-container').addClass('animated zoomOut');
-        	}, 6900);
+        	}, 6700);
         	setTimeout(function() {
         		$('#content').fadeIn(0);
         		$('#content').addClass('animated bounceInUp');
-        	}, 7150);
+        	}, 6950);
         	
         
         	},	
