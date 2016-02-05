@@ -142,19 +142,14 @@ var Upvote = (function (window, document) {
             		$('#loading-container').css('opacity', '.37');
             		$('#loading-container').css('-webkit-transform', 'scale(.98)');
             	}, 6100);
-        	setTimeout(function(){
-        		$('#loading-container').css('opacity', '1');
-        		$('#loading-container').css('-webkit-transform', 'scale(1)');
-       		}, 7300);
-            	
             	
             	setTimeout(function() {
         		$('#loading-container').fadeOut(300);
-        	}, 8500);
+        	}, 6900);
         	setTimeout(function() {
         		$('#content').fadeIn(0);
         		$('#content').addClass('animated bounceInUp');
-        	}, 8750);
+        	}, 7150);
         	
         
         	},	
