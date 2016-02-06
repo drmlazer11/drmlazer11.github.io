@@ -28,7 +28,7 @@ permalink: /upvote/
 		</div>	
     
     	<div class="container top">
-    		<div id="category-container" class="category-container world"><div id="category-text" class="category-text us">world</div>
+    		<div id="category-container" class="category-container world"><div id="category-text" class="category-text world">world</div>
     		</div>
     	</div>
     
