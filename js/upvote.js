@@ -8,7 +8,7 @@ var Upvote = (function (window, document) {
 	
 		that = this;
 		
-		this.current_category = 'us';
+		this.current_category = 'world';
 		
 		// ---------------------------------------------------------
 		// Muench launch
@@ -38,7 +38,6 @@ var Upvote = (function (window, document) {
 		// ------------------------------------------------------
 		// Skimmin Core Functions
 		// ------------------------------------------------------
-       
         
         	// primarily used to hide slow rendering
         	fn_loading: function() {
