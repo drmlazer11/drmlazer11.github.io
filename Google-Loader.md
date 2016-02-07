@@ -4,7 +4,6 @@ title: Google Loader
 permalink: /google-loader/
 ---
 
-<body>
 <div id="loading-container">
 			<div id="loading-circles-container">
 				<div id="loading-circle-1">
