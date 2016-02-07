@@ -53,7 +53,7 @@ permalink: /Google-Loader/
     	
 <script src="http://davemuench.com/js/jquery-2.0.0.min.js"></script>
 <script src="http://davemuench.com/js/fastclick.js"></script>
-<script src="http://davemuench.com/js/upvote.js"></script>
+<script src="http://davemuench.com/js/google-loader.js"></script>
 
 <script>
 	new Google_Loader();
