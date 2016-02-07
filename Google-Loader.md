@@ -56,7 +56,7 @@ permalink: /Google-Loader/
 <script src="http://davemuench.com/js/upvote.js"></script>
 
 <script>
-	new Upvote();
+	new Google_Loader();
 </script>
 
 </body>
