@@ -4,6 +4,7 @@ title: Google Loader
 permalink: /google-loader/
 ---
 
+<div class="body">
 <div id="loading-container">
 			<div id="loading-circles-container">
 				<div id="loading-circle-1">
@@ -35,6 +36,7 @@ permalink: /google-loader/
 				<i class="fa fa-refresh"></i>
 			</div>
 		
+		</div>
 		</div>
     	
 <script src="http://davemuench.com/js/jquery-2.0.0.min.js"></script>
