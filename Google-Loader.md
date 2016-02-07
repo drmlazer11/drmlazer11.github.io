@@ -1,7 +1,7 @@
 ---
 layout: google-loader
 title: Google Loader
-permalink: /Google-Loader/
+permalink: /google-loader/
 ---
 
 <div class="body">
