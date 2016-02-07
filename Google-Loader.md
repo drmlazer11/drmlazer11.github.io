@@ -4,52 +4,39 @@ title: Google Loader
 permalink: /google-loader/
 ---
 
-<div class="body">
-	
-	<div id="loading-container">
-		
-		<span style="position: absolute; left: 0;" class="display-none" id="L">L</span>
-		<span style="position: absolute; left: .63em;" class="display-none" id="O">o</span>
-		<span style="position: absolute; left: 1.25em;" class="display-none" id="A">a</span>
-		<span style="position: absolute; left: 1.83em;" class="display-none" id="D">d</span>
-		<span style="position: absolute; left: 2.45em;" class="display-none" id="I">i</span>
-		<span style="position: absolute; left: 2.74em;" class="display-none" id="N">n</span>
-		<span style="position: absolute; left: 3.35em;" class="display-none" id="G">g</span>
-		
-	</div>
-
-	<div id="content" class="display-none" style="position: absolute;">
-	
-		<div class="upvote-outer-container">
-			<div class="upvote-container">
-				<div class="upvote-icon"></div>
-				<div class="upvote-text">30</div>
+<body>
+<div id="loading-container">
+			<div id="loading-circles-container">
+				<div id="loading-circle-1">
+					<div id="loading-inner-circle-1" class="loading-inner-circle display-none"></div>
+					<div id="loading-inner-circle-11" class="loading-inner-circle display-none"></div>
+				</div>
+				<div id="loading-circle-2">
+					<div id="loading-inner-circle-2" class="loading-inner-circle display-none"></div>
+					<div id="loading-inner-circle-22" class="loading-inner-circle display-none"></div>
+				</div>
+				<div id="loading-circle-3">
+					<div id="loading-inner-circle-3" class="loading-inner-circle display-none"></div>
+					<div id="loading-inner-circle-33" class="loading-inner-circle display-none"></div>
+				</div>
+				<div id="loading-circle-4">
+					<div id="loading-inner-circle-4" class="loading-inner-circle display-none"></div>
+					<div id="loading-inner-circle-44" class="loading-inner-circle display-none"></div>
+				</div>
 			</div>
-		</div>	
-    
-    	<div class="container top">
-    		<div id="category-container" class="category-container world"><div id="category-text" class="category-text world">world</div>
-    		</div>
-    	</div>
-    
-    	<div class="photo-container">
-       		
-       		<div class="photo-bucket">
-        		<img class="left" src="http://davemuench.com/css/screenshot-upvote.png"><img class="top" src="http://davemuench.com/css/upvote-contribute.png">
-    		</div>
-        
-	</div>
-    
-    	<div class="rendering-container">
-		<div id="render-us-icon" class="render-icon"></div>
-		<div id="render-world-icon" class="render-icon"></div>
-		<div id="render-sports-icon" class="render-icon"></div>
-		<div id="render-business-icon" class="render-icon"></div>
-		<div id="render-technology-icon" class="render-icon"></div>
-		<div id="render-entertainment-icon" class="render-icon"></div>
-	</div>
+		</div>
+			
+		<div class="replay-message-button display-none">
 	
-</div>
+			<div class="replay-message">
+				<i class="fa fa-refresh"></i>
+			</div>
+			
+			<div class="replay-message close display-none">
+				<i class="fa fa-refresh"></i>
+			</div>
+		
+		</div>
     	
 <script src="http://davemuench.com/js/jquery-2.0.0.min.js"></script>
 <script src="http://davemuench.com/js/fastclick.js"></script>
