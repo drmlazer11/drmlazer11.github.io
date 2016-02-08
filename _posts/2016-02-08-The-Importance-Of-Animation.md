@@ -2,7 +2,7 @@
 layout: post
 title:  "The Importance Of Animation"
 date:   2016-02-08 10:00:27 -0500
-categories: ":cow:"
+categories: ":runner:"
 ---
 
 <p>About a week ago I visited the Harvard Innovation Lab for the first time. I met a Harvard graduate student during the AFC championship game who studied neuroscience at Northeastern as an undergraduate, and she told me to stop by and check things out when I got a chance.</p>
@@ -19,6 +19,6 @@ categories: ":cow:"
 
 <p>The reason it's so rare to find great animation in software is because it's inherently difficult and time-consuming work. To make something feel more worldly, you need to observe the world. And guess what? That takes time!</p>
 
-<p>Now if you're designing software interfaces, of course it makes sense to spend the majority of your time observing other software interfaces. But don't discount the importance of going to art galleries, public zoos and coffee shops. Personally, I find I have some of my best ideas while on walks, so I make time each day to walk around. Whether to local businesses or just enjoying a visit to a nearby garden, <span style="color: #333; font-weight: bold;">it's imperative to get out and away from the screen!</span></p>
+<p>Now if you're designing software interfaces, of course it makes sense to spend the majority of your time observing other software interfaces. But don't discount the importance of going to art galleries, public zoos and coffee shops. Personally, I find I have some of my best ideas while on walks, so I make time each day to walk around. Whether to local businesses or just enjoying a visit to a nearby garden, it's imperative to get out and away from the screen!</p>
 
 <p><a href="https://www.youtube.com/watch?v=TMe0WnkF1Lc">Here is the the best design I've ever received.</a> Pasquale D'Silva fundamentally changed my perception of interfaces in February of 2014.</p>
