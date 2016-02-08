@@ -11,7 +11,7 @@ categories: ":runner:"
 
 <p>After a few minutes of walking around, Alana and I sat down with her co-founder to discuss their business. ALEX, which stands for Anyone's Learning EXperience, is trying to become the Expedia of college classrooms. For instance, if a JavaScript course is being taught at Northeastern, and its capacity is 25 students but only 20 signed up, third parties can purchase those classroom seats for a discounted price. Right now, ALEX is in an iLab competition to raise baseline funding from the university. If they win the grant and continue pursuing their venture, I told Alana I'd be more than happy to advise her on design issues, as I'm a huge fan of EdTech.</p>
 
-<p>But discussing ALEX isn't the purpose of this post. I'm actually writing because of a question that came up during our conversation. Sergio, one of Alana's co-founders, asked me what my favorite aspect of interfaces was. I needed to think for a few seconds and then asked him to give me more time in thinking, as it's quite deep.</p>
+<p>But discussing ALEX isn't the purpose of this post. I'm actually writing because of a question that came up during our conversation. Sergio, one of Alana's co-founders, asked me what my favorite aspect of interfaces was. I thought about it for a few seconds and then asked him to give me more time in thinking, as it's quite deep.</p>
 
 <p>"Animation! Animation is my favorite aspect of interfaces," I emailed Sergio the next day.</p>
 
