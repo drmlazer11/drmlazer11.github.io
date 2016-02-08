@@ -15,7 +15,7 @@ categories: ":runner:"
 
 <p>"Animation! Animation is my favorite aspect of interfaces," I emailed Sergio the next day.</p>
 
-<p>You see: Animation gives an interface character. It evokes emotions in users that would have been dormant otherwise. It's a remarkable asset in its ability to help computers look and feel less like 1's and 0's and more like the physical world around us. In short, animation opens up an entirely new dimension for designers: time.</p>
+<p>You see: Animation gives an interface character. It evokes emotions in users that would have been dormant otherwise. It's a remarkable asset in its ability to help computers look and feel less like 1's and 0's and more like the physical world around us. In short, animation opens up an entirely new dimension of space for designers: time.</p>
 
 <p>The reason it's so rare to find great animation in software is because it's inherently difficult and time-consuming work. To make something feel more worldly, you need to observe the world. And guess what? That takes time!</p>
 
