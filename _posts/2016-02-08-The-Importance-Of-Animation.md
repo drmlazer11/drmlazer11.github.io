@@ -5,7 +5,7 @@ date:   2016-02-08 10:00:27 -0500
 categories: ":runner:"
 ---
 
-<p>About a week ago I visited the Harvard Innovation Lab for the first time. I met a graduate student during the AFC championship game who studied neuroscience at Northeastern as an undergraduate, and who is now taking classes at Harvard in its school of education. We connected after the game and she told me to stop by the iLab - as they call it - when I got the chance.</p>
+<p>About a week ago I visited the Harvard Innovation Lab for the first time. I met a graduate student during the AFC championship game who studied neuroscience at Northeastern as an undergraduate, and who is now taking classes at Harvard in its school of education. We connected after the game and she told me to stop by the iLab, as they call it, when I got the chance.</p>
 
 <p>I'll be honest. I wasn't impressed by the structure and layout of the lab. Given its association with HBS, I figured I'd be walking into an exotic new world; a place where I immediately felt my environment shift gears and become full of differentness. Instead it felt like I was walking into the first floor of a college library that had been remodeled to focus on entrepreneurship. It was status quo in my opinion.</p>
 
