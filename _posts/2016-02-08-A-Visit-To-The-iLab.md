@@ -2,7 +2,7 @@
 layout: post
 title:  "A Visit To The iLab"
 date:   2016-02-08 10:00:27 -0500
-categories: ":joystick:"
+categories: ":surfer:"
 ---
 
 <p>About a week ago I visited the Harvard Innovation Lab for the first time. I met a Harvard graduate student during the AFC championship game who studied neuroscience at Northeastern as an undergraduate, and she told me to stop by and check things out when I got a chance.</p>
