@@ -173,35 +173,35 @@ var Google_Loader = (function (window, document) {
             setTimeout(function() {
        		$('#loading-inner-circle-1').fadeIn(0);
        		$('#loading-inner-circle-1').addClass('animated bounceIn');
-            }, 6100);
+            }, 6400);
             
             setTimeout(function() {
        		$('#loading-inner-circle-2').fadeIn(0);
        		$('#loading-inner-circle-2').addClass('animated bounceIn');
-            }, 6600);	
+            }, 6900);	
             	
             setTimeout(function() {
        		$('#loading-inner-circle-3').fadeIn(0);
        		$('#loading-inner-circle-3').addClass('animated bounceIn');
-            }, 7100);
+            }, 7400);
             	
             setTimeout(function() {
        		$('#loading-inner-circle-4').fadeIn(0);
        		$('#loading-inner-circle-4').addClass('animated bounceIn');
-            }, 7600);
+            }, 7900);
             
             setTimeout(function() {
            	$('#loading-circle-1').addClass('animated bounceOut');
             	$('#loading-circle-2').addClass('animated bounceOut');
             	$('#loading-circle-3').addClass('animated bounceOut');
             	$('#loading-circle-4').addClass('animated bounceOut');
-            }, 7900);
+            }, 8400);
             
             setTimeout(function() {
         	$('.replay-message-button').fadeIn(0);
         	$('.replay-message-button').addClass('animated bounceIn');
        		$('#loading-container').fadeOut(500);
-            }, 8525);
+            }, 8925);
        
             /*setTimeout(function() {
         		$('#loading-inner-circle-1').fadeOut(0);
