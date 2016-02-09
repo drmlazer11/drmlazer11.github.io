@@ -15,5 +15,3 @@ categories: ":point_up_2_tone2:"
 <p style="color: rgba(0, 128, 0, .9);margin-bottom:0; font-weight: bold;">Business</p>
 <p style="color: rgba(0, 154, 136, .9);margin-bottom:0; font-weight: bold;">Technology</p>
 <p style="color: rgba(164, 121, 228, 1); font-weight: bold;">Entertainment</p>
-
-<p>At the bottom are a couple screenshots of what a story thread looked like in our app.</p>
