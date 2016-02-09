@@ -21,4 +21,4 @@ categories: ":runner:"
 
 <p>If you're designing software interfaces, well of course it makes sense to spend the majority of your time observing other software interfaces. But I'll also say this: Don't discount the importance of visiting art galleries, public zoos and coffee shops. Personally, I find I have some of my best ideas while on walks. So I make it a point to stroll around for at least an hour each day. Whether that be to local businesses or nearby gardens, it's imperative to get out and away from the screen!</p>
 
-<p><a href="https://www.youtube.com/watch?v=TMe0WnkF1Lc">Here is the the best design I've ever received.</a> Pasquale D'Silva revolutionized my perception of interfaces in February of 2014.</p>
+<p><a href="https://www.youtube.com/watch?v=TMe0WnkF1Lc">Here's the the best design I've ever received.</a> Pasquale D'Silva revolutionized my perception of interfaces in February of 2014.</p>
