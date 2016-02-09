@@ -195,13 +195,13 @@ var Google_Loader = (function (window, document) {
             	$('#loading-circle-2').addClass('animated bounceOut');
             	$('#loading-circle-3').addClass('animated bounceOut');
             	$('#loading-circle-4').addClass('animated bounceOut');
-            }, 7700);
+            }, 7900);
             			
         	setTimeout(function() {
         		$('.replay-message-button').fadeIn(0);
         		$('.replay-message-button').addClass('animated bounceIn');
         		$('#loading-container').fadeOut(500);
-        	}, 8325);
+        	}, 8525);
        
             /*setTimeout(function() {
         		$('#loading-inner-circle-1').fadeOut(0);
