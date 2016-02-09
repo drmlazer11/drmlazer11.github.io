@@ -115,93 +115,93 @@ var Google_Loader = (function (window, document) {
             	}, 1000);
             	
             	setTimeout(function() {
-        			$('#loading-inner-circle-1').fadeIn(0);
-        			$('#loading-inner-circle-1').addClass('animated bounceIn');
-        		}, 1225);
-            	
-           		setTimeout(function() {
-        			$('#loading-inner-circle-2').fadeIn(0);
-        			$('#loading-inner-circle-2').addClass('animated bounceIn');
-        		}, 1725);	
-            	
-            	setTimeout(function() {
-        			$('#loading-inner-circle-3').fadeIn(0);
-        			$('#loading-inner-circle-3').addClass('animated bounceIn');
-        		}, 2225);
-            	
-            	setTimeout(function() {
-        			$('#loading-inner-circle-4').fadeIn(0);
-        			$('#loading-inner-circle-4').addClass('animated bounceIn');
-        		}, 2725);
-            
-            }
-        
-        	// spin the colored circles, while removing the small white ones
-        	setTimeout(function() {
-            		$('#loading-inner-circle-1').removeClass('animated bounceIn');
-                	$('#loading-circle-1').css('-webkit-transform', 'rotateY(-' + '180' + 'deg)');
-                	setTimeout(function() {
-                		$('#loading-inner-circle-1').fadeOut(30);
-                		$('#loading-inner-circle-1').removeClass('animated bounceIn')
-            		}, 260);
-            	}, 3900);
-            
-        	setTimeout(function() {
-            		$('#loading-inner-circle-2').removeClass('animated bounceIn');
-               		$('#loading-circle-2').css('-webkit-transform', 'rotateY(-' + '180' + 'deg)');
-                	setTimeout(function() {
-                		$('#loading-inner-circle-2').fadeOut(30);
-            		}, 260);
-        	}, 4400);
-            
-            	setTimeout(function() {
-            		$('#loading-inner-circle-3').removeClass('animated bounceIn');
-                	$('#loading-circle-3').css('-webkit-transform', 'rotateY(-' + '180' + 'deg)');
-                	setTimeout(function() {
-                		$('#loading-inner-circle-3').fadeOut(30);
-            		}, 260);
-        	}, 4900);
-            
-            	setTimeout(function() {
-            		$('#loading-inner-circle-4').removeClass('animated bounceIn');
-                	$('#loading-circle-4').css('-webkit-transform', 'rotateY(-' + '180' + 'deg)');
-                	setTimeout(function() {
-                		$('#loading-inner-circle-4').fadeOut(30);
-            		}, 260);
-            	}, 5400);
-            	
-            	setTimeout(function() {
         		$('#loading-inner-circle-1').fadeIn(0);
         		$('#loading-inner-circle-1').addClass('animated bounceIn');
-        	}, 5900);
+        	}, 1225);
             	
            	setTimeout(function() {
         		$('#loading-inner-circle-2').fadeIn(0);
        			$('#loading-inner-circle-2').addClass('animated bounceIn');
-        	}, 6400);	
+        	}, 1725);	
             	
             	setTimeout(function() {
         		$('#loading-inner-circle-3').fadeIn(0);
         		$('#loading-inner-circle-3').addClass('animated bounceIn');
-        	}, 6900);
+        	}, 2225);
             	
             	setTimeout(function() {
         		$('#loading-inner-circle-4').fadeIn(0);
         		$('#loading-inner-circle-4').addClass('animated bounceIn');
-        	}, 7400);
-        	
-        	setTimeout(function() {
-            	$('#loading-circle-1').addClass('animated bounceOut');
+        	}, 2725);
+            
+            }
+            
+            // spin the colored circles, while removing the small white ones
+            setTimeout(function() {
+            	$('#loading-inner-circle-1').removeClass('animated bounceIn');
+                $('#loading-circle-1').css('-webkit-transform', 'rotateY(-' + '180' + 'deg)');
+               	setTimeout(function() {
+                	$('#loading-inner-circle-1').fadeOut(30);
+                	$('#loading-inner-circle-1').removeClass('animated bounceIn')
+            	}, 260);	
+            }, 3900);
+            
+            setTimeout(function() {
+            	$('#loading-inner-circle-2').removeClass('animated bounceIn');
+               	$('#loading-circle-2').css('-webkit-transform', 'rotateY(-' + '180' + 'deg)');
+               	setTimeout(function() {
+               		$('#loading-inner-circle-2').fadeOut(30);
+            	}, 260);
+            }, 4400);
+            
+            setTimeout(function() {
+            	$('#loading-inner-circle-3').removeClass('animated bounceIn');
+                $('#loading-circle-3').css('-webkit-transform', 'rotateY(-' + '180' + 'deg)');
+               	setTimeout(function() {
+               		$('#loading-inner-circle-3').fadeOut(30);
+            	}, 260);
+            }, 4900);
+            
+            setTimeout(function() {
+            	$('#loading-inner-circle-4').removeClass('animated bounceIn');
+               	$('#loading-circle-4').css('-webkit-transform', 'rotateY(-' + '180' + 'deg)');
+               	setTimeout(function() {
+                	$('#loading-inner-circle-4').fadeOut(30);
+            	}, 260);
+            }, 5400);
+            	
+            setTimeout(function() {
+       		$('#loading-inner-circle-1').fadeIn(0);
+       		$('#loading-inner-circle-1').addClass('animated bounceIn');
+            }, 6100);
+            
+            setTimeout(function() {
+       		$('#loading-inner-circle-2').fadeIn(0);
+       		$('#loading-inner-circle-2').addClass('animated bounceIn');
+            }, 6600);	
+            	
+            setTimeout(function() {
+       		$('#loading-inner-circle-3').fadeIn(0);
+       		$('#loading-inner-circle-3').addClass('animated bounceIn');
+            }, 7100);
+            	
+            setTimeout(function() {
+       		$('#loading-inner-circle-4').fadeIn(0);
+       		$('#loading-inner-circle-4').addClass('animated bounceIn');
+            }, 7600);
+            
+            setTimeout(function() {
+           	$('#loading-circle-1').addClass('animated bounceOut');
             	$('#loading-circle-2').addClass('animated bounceOut');
             	$('#loading-circle-3').addClass('animated bounceOut');
             	$('#loading-circle-4').addClass('animated bounceOut');
             }, 7900);
-            			
-        	setTimeout(function() {
-        		$('.replay-message-button').fadeIn(0);
-        		$('.replay-message-button').addClass('animated bounceIn');
-        		$('#loading-container').fadeOut(500);
-        	}, 8525);
+            
+            setTimeout(function() {
+        	$('.replay-message-button').fadeIn(0);
+        	$('.replay-message-button').addClass('animated bounceIn');
+       		$('#loading-container').fadeOut(500);
+            }, 8525);
        
             /*setTimeout(function() {
         		$('#loading-inner-circle-1').fadeOut(0);
