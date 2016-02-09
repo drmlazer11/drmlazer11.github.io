@@ -148,18 +148,47 @@ var Google_Loader = (function (window, document) {
         		$('.replay-message-button').addClass('animated bounceIn');
         		$('#loading-container').fadeOut(500);
         	}, 3800);
-        	
-        	/*setTimeout(function(){
-        		$('.replay-message-button').fadeOut(0);
-        		$('.replay-message-button').removeClass('animated bounceIn');
-        	}, 4600);*/
         
+        	// spin the colored circles, while removing the small white ones
+        	setTimeout(function() {
+            		$('#loading-inner-circle-1').removeClass('animated bounceIn');
+                	$('#loading-circle-1').css('-webkit-transform', 'rotateY(-' + '180' + 'deg)');
+                	setTimeout(function() {
+                		$('#loading-inner-circle-1').fadeOut(30);
+                		$('#loading-inner-circle-1').removeClass('animated bounceIn')
+            		}, 260);
+            	}, 3700);
+            
+        	setTimeout(function() {
+            		$('#loading-inner-circle-2').removeClass('animated bounceIn');
+               		$('#loading-circle-2').css('-webkit-transform', 'rotateY(-' + '180' + 'deg)');
+                	setTimeout(function() {
+                		$('#loading-inner-circle-2').fadeOut(30);
+            		}, 260);
+        	}, 4200);
+            
+            	setTimeout(function() {
+            		$('#loading-inner-circle-3').removeClass('animated bounceIn');
+                	$('#loading-circle-3').css('-webkit-transform', 'rotateY(-' + '180' + 'deg)');
+                	setTimeout(function() {
+                		$('#loading-inner-circle-3').fadeOut(30);
+            		}, 260);
+        	}, 4700);
+            
+            	setTimeout(function() {
+            		$('#loading-inner-circle-4').removeClass('animated bounceIn');
+                	$('#loading-circle-4').css('-webkit-transform', 'rotateY(-' + '180' + 'deg)');
+                	setTimeout(function() {
+                		$('#loading-inner-circle-4').fadeOut(30);
+            		}, 260);
+            	}, 5200);
+       
             setTimeout(function() {
         		$('#loading-inner-circle-1').fadeOut(0);
     			$('#loading-inner-circle-2').fadeOut(0);
     			$('#loading-inner-circle-3').fadeOut(0);
         		$('#loading-inner-circle-4').fadeOut(0);
-            	$('#loading-circles-container').fadeOut(0);
+            		$('#loading-circles-container').fadeOut(0);
             			
         		$('#loading-inner-circle-1').fadeOut(0);
         		$('#loading-inner-circle-1').removeClass('animated bounceIn');
