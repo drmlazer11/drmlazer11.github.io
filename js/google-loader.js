@@ -73,17 +73,17 @@ var Google_Loader = (function (window, document) {
             	setTimeout(function() {
             		$('#loading-inner-circle-2').fadeIn(0);
             		$('#loading-inner-circle-2').addClass('animated bounceIn');
-            	}, 2000);
+            	}, 1600);
             	
             	setTimeout(function() {
             		$('#loading-inner-circle-3').fadeIn(0);
             		$('#loading-inner-circle-3').addClass('animated bounceIn');
-            	}, 3000);
+            	}, 2200);
                 
                 setTimeout(function() {
                 	$('#loading-inner-circle-4').fadeIn(0);
             		$('#loading-inner-circle-4').addClass('animated bounceIn');
-            	}, 4000);
+            	}, 2800);
             
             }
             
