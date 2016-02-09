@@ -135,19 +135,6 @@ var Google_Loader = (function (window, document) {
         		}, 2725);
             
             }
-            	
-            setTimeout(function() {
-        		$('#loading-circle-1').addClass('animated bounceOut');
-        		$('#loading-circle-2').addClass('animated bounceOut');
-    			$('#loading-circle-3').addClass('animated bounceOut');
-        		$('#loading-circle-4').addClass('animated bounceOut');
-        	}, 3175);
-            			
-        	setTimeout(function() {
-        		$('.replay-message-button').fadeIn(0);
-        		$('.replay-message-button').addClass('animated bounceIn');
-        		$('#loading-container').fadeOut(500);
-        	}, 3800);
         
         	// spin the colored circles, while removing the small white ones
         	setTimeout(function() {
@@ -202,6 +189,19 @@ var Google_Loader = (function (window, document) {
         		$('#loading-inner-circle-4').fadeIn(0);
         		$('#loading-inner-circle-4').addClass('animated bounceIn');
         	}, 7200);
+        	
+        	setTimeout(function() {
+            	$('#loading-circle-1').addClass('animated bounceOut');
+            	$('#loading-circle-2').addClass('animated bounceOut');
+            	$('#loading-circle-3').addClass('animated bounceOut');
+            	$('#loading-circle-4').addClass('animated bounceOut');
+            }, 7700);
+            			
+        	setTimeout(function() {
+        		$('.replay-message-button').fadeIn(0);
+        		$('.replay-message-button').addClass('animated bounceIn');
+        		$('#loading-container').fadeOut(500);
+        	}, 8325);
        
             /*setTimeout(function() {
         		$('#loading-inner-circle-1').fadeOut(0);
