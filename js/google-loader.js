@@ -186,22 +186,22 @@ var Google_Loader = (function (window, document) {
             	setTimeout(function() {
         		$('#loading-inner-circle-1').fadeIn(0);
         		$('#loading-inner-circle-1').addClass('animated bounceIn');
-        	}, 1225);
+        	}, 5700);
             	
            	setTimeout(function() {
         		$('#loading-inner-circle-2').fadeIn(0);
        			$('#loading-inner-circle-2').addClass('animated bounceIn');
-        	}, 1725);	
+        	}, 6200);	
             	
             	setTimeout(function() {
         		$('#loading-inner-circle-3').fadeIn(0);
         		$('#loading-inner-circle-3').addClass('animated bounceIn');
-        	}, 2225);
+        	}, 6700);
             	
             	setTimeout(function() {
         		$('#loading-inner-circle-4').fadeIn(0);
         		$('#loading-inner-circle-4').addClass('animated bounceIn');
-        	}, 2725);
+        	}, 7200);
        
             /*setTimeout(function() {
         		$('#loading-inner-circle-1').fadeOut(0);
