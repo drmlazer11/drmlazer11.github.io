@@ -9,11 +9,11 @@ categories: ":point_up_2_tone2:"
 
 <p><a href="http://davemuench.com/upvote">Here</a> is the upvoting animation I built. The colors represent the six categories of news we had; which were:</p>
 
-<p style="color: #999;margin-bottom:0;">U.S. | blue</p>
-<p style="color: #999;margin-bottom:0;">World | orange</p>
-<p style="color: #999;margin-bottom:0;">Sports | red</p>
-<p style="color: #999;margin-bottom:0;">Technology | turquoise</p>
-<p style="color: #999;margin-bottom:0;">Business | green</p>
-<p style="color: #999;">Entertainment | purple.</p>
+<p style="color: rgba(52, 152, 219, .9);margin-bottom:0;">U.S.</p>
+<p style="color: rgba(255, 140, 0, .9);margin-bottom:0;">World</p>
+<p style="color: rgba(231, 76, 60, .9);margin-bottom:0;">Sports</p>
+<p style="color: rgba(0, 128, 0, .8);margin-bottom:0;">Business</p>
+<p style="color: rgba(0, 154, 136, .8);margin-bottom:0;">Technology</p>
+<p style="color: rgba(164, 121, 228, .9);">Entertainment</p>
 
 <p>At the bottom are a couple screenshots of what a story thread looked like in our app.</p>
