@@ -17,7 +17,7 @@ categories: ":runner:"
 
 <p>You see: Animation gives an interface character. It evokes emotions in users that would've been dormant otherwise. It's a remarkable asset in its ability to help computers look and feel less like 1's and 0's and more like the physical world around us. In short, animation opens up an entirely new dimension of space for designers: time.</p>
 
-<p>And yet, animation is often overlooked. The reason being: it's inherently expensive. To make something feel more worldly, you need to observe the world. And guess what? That takes <em>time</em>.</p>
+<p>And yet, animation is often overlooked. The reason being: it's inherently expensive. To make something feel more worldly, you need to observe the world. And guess what? <em>That takes time</em>.</p>
 
 <p>If you're designing software interfaces, well of course it makes sense to spend the majority of your time observing other software interfaces. But I'll also say this: Don't discount the importance of visiting art galleries, public zoos and coffee shops. Personally, I find I have some of my best ideas while on walks. So I make it a point to stroll around for at least an hour each day. Whether that be to local businesses or a nearby garden, it's imperative to get out and away from the screen!</p>
 
