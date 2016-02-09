@@ -3,8 +3,6 @@ var Google_Loader = (function (window, document) {
     that = this;
 	
 	Google_Loader = function (opts) {
-	
-	    that = this;
         
         this.int_loading_state = 0;
         
@@ -149,7 +147,12 @@ var Google_Loader = (function (window, document) {
         		$('.replay-message-button').addClass('animated bounceIn');
         		$('#loading-container').fadeOut(500);
         	}, 3800);
-            	
+        	
+        	setTimeout(function(){
+        		$('.replay-message-button').fadeOut(0);
+        		$('.replay-message-button').removeClass('animated bounceIn');
+        	}, 4600);
+        
             setTimeout(function() {
         		$('#loading-inner-circle-1').fadeOut(0);
     			$('#loading-inner-circle-2').fadeOut(0);
