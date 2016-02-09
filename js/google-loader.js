@@ -144,7 +144,7 @@ var Google_Loader = (function (window, document) {
                 		$('#loading-inner-circle-1').fadeOut(30);
                 		$('#loading-inner-circle-1').removeClass('animated bounceIn')
             		}, 260);
-            	}, 3700);
+            	}, 3900);
             
         	setTimeout(function() {
             		$('#loading-inner-circle-2').removeClass('animated bounceIn');
@@ -152,7 +152,7 @@ var Google_Loader = (function (window, document) {
                 	setTimeout(function() {
                 		$('#loading-inner-circle-2').fadeOut(30);
             		}, 260);
-        	}, 4200);
+        	}, 4400);
             
             	setTimeout(function() {
             		$('#loading-inner-circle-3').removeClass('animated bounceIn');
@@ -160,7 +160,7 @@ var Google_Loader = (function (window, document) {
                 	setTimeout(function() {
                 		$('#loading-inner-circle-3').fadeOut(30);
             		}, 260);
-        	}, 4700);
+        	}, 4900);
             
             	setTimeout(function() {
             		$('#loading-inner-circle-4').removeClass('animated bounceIn');
@@ -168,27 +168,27 @@ var Google_Loader = (function (window, document) {
                 	setTimeout(function() {
                 		$('#loading-inner-circle-4').fadeOut(30);
             		}, 260);
-            	}, 5200);
+            	}, 5400);
             	
             	setTimeout(function() {
         		$('#loading-inner-circle-1').fadeIn(0);
         		$('#loading-inner-circle-1').addClass('animated bounceIn');
-        	}, 5700);
+        	}, 5900);
             	
            	setTimeout(function() {
         		$('#loading-inner-circle-2').fadeIn(0);
        			$('#loading-inner-circle-2').addClass('animated bounceIn');
-        	}, 6200);	
+        	}, 6400);	
             	
             	setTimeout(function() {
         		$('#loading-inner-circle-3').fadeIn(0);
         		$('#loading-inner-circle-3').addClass('animated bounceIn');
-        	}, 6700);
+        	}, 6900);
             	
             	setTimeout(function() {
         		$('#loading-inner-circle-4').fadeIn(0);
         		$('#loading-inner-circle-4').addClass('animated bounceIn');
-        	}, 7200);
+        	}, 7400);
         	
         	setTimeout(function() {
             	$('#loading-circle-1').addClass('animated bounceOut');
