@@ -11,37 +11,14 @@
 	bottom: 0;
 	right: 0;
 	background-color: rgba(92, 172, 238, 1);
+	background-color: #fff;
 	cursor: pointer;
 	border-radius: 50%;
 	width:5em;
 	height:5em;
-	-webkit-transition: background-color .15s;
-}
-
-.replay-message-button.close {
-	background-color: pink;
-	background: #fff;
-	background-color: #f2f2f2;
-	border-color: #f2f2f2;
-	background-color: rgba(92, 172, 238, .3);
-	border-color: #ee9e5c;
-	background-color: rgba(238, 158, 92, 1);
-	position:absolute;
-	left: 7em;
-	top: 0;
-	background-color: #5cee9e;
-	border-color: #5cee9e;
-	background-color: rgba(255, 140, 0, 1);
-	border-color: rgba(255, 140, 0, 1);
-	border-color: rgba(164, 121, 228, 1);
-	background-color: rgba(164, 121, 228, 1);
-	opacity: .7;
-	
-	
 }
 
 .replay-container {
-
 	position: absolute;
 	top: 0; left: 0; right: 0; bottom: 0;
 	margin: auto;
@@ -50,7 +27,6 @@
 	border-radius: 50%;
 	background-color: #f2f2f2;
 }
-
 
 .replay-message {
 	font-size: 2em;
@@ -62,31 +38,6 @@
 	position: absolute;
 	top: .2em;
 	font-size: 3em;
-	color: rgba(92, 172, 238, 1);
-	color: #fff;
-	-webkit-transition: color .15s;
-}
-
-.replay-message.close {
-	font-size: 2em;
-	width: 100%;
-	text-align: center;
-	color: #fff;
-	font-family: 'Source Sans Pro Black';
-	font-weight: bold;
-	position: absolute;
-	top: .7em;
-	font-size: 3em;
-	color: rgba(92, 172, 238, 1);
-	color:rgba(238, 158, 92, 1);
-	color: rgba(92, 172, 238, 1);
-}
-
-.replay-message-button:hover {
-	background-color: #fff;
-}
-
-.replay-message-button:hover .replay-message {
 	color: #5CACEE;
 }
 
