@@ -9,7 +9,7 @@ categories: ":point_up_2_tone2:"
 
 <p><a href="http://davemuench.com/upvote">Here</a> is the upvoting animation I built. The colors represent the six categories of news we had; which were:</p>
 
-<p style="color: rgba(52, 152, 219, .9);margin-bottom:0;">U.S.</p>
+<p style="color: rgba(52, 152, 219, .9);margin-bottom:0;"><i class="fa fa-user"></i> U.S.</p>
 <p style="color: rgba(255, 140, 0, .9);margin-bottom:0;">World</p>
 <p style="color: rgba(231, 76, 60, .9);margin-bottom:0;">Sports</p>
 <p style="color: rgba(0, 128, 0, .8);margin-bottom:0;">Business</p>
