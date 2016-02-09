@@ -26,6 +26,7 @@ var Google_Loader = (function (window, document) {
         
         fn_replay: function() {
         	
+        	$('.replay-message-button').removeClass('animated bounceIn');
         	$('.replay-message-button').addClass('animated rotateOut');
         	
         	setTimeout(function() {
@@ -148,10 +149,10 @@ var Google_Loader = (function (window, document) {
         		$('#loading-container').fadeOut(500);
         	}, 3800);
         	
-        	setTimeout(function(){
+        	/*setTimeout(function(){
         		$('.replay-message-button').fadeOut(0);
         		$('.replay-message-button').removeClass('animated bounceIn');
-        	}, 4600);
+        	}, 4600);*/
         
             setTimeout(function() {
         		$('#loading-inner-circle-1').fadeOut(0);
