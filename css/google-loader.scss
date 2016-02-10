@@ -5,7 +5,6 @@
 .replay-message-button {
 	position: absolute;
 	border: 10px solid #5CACEE;
-	border: none;
 	margin: auto;
 	top: 0;
 	left: 0;
@@ -31,7 +30,7 @@
 	font-size: 3em;
 	color: #5CACEE;
 	-webkit-transform: translate3d(0,0,0);
-	font-size: 5em;
+	font-size: 2em;
 }
 
 #loading-container {
