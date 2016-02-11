@@ -25,14 +25,11 @@ permalink: /google-loader/
 			</div>
 		</div>
 	</div>
-			
-	<!-- <div class="replay-message-button display-none"> -->
 	
 	<div class="replay-message">
 		<i class="fa fa-refresh"></i>
 	</div>
-		
-	<!-- </div> -->
+	
 </div>
     	
 <script src="http://davemuench.com/js/jquery-2.0.0.min.js"></script>
