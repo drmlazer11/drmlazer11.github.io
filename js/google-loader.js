@@ -30,7 +30,7 @@ var Google_Loader = (function (window, document) {
         		setTimeout(function() {
         			$('.replay-message-button').fadeOut(0);
         			$('.replay-message-button').removeClass('animated rotateOut');
-        		}, 0);
+        		}, 200);
         	
         		loading_circles = '<div id="loading-circle-1" class="display-none">' +
 					'<div id="loading-inner-circle-1" class="loading-inner-circle display-none"></div>' +
