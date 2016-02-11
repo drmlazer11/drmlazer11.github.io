@@ -19,18 +19,29 @@
 .replay-message {
 	width: 100%;
 	text-align: center;
+	font-family: 'Source Sans Pro Black';
+	font-weight: bold;
 	position: absolute;
 	color: #5CACEE;
 	-webkit-transform: translate3d(0,0,0);
+	font-size: 3em;
 	font-size: 5em;
+	bottom: .4em;
 	bottom: .1em;
+	/*width: 5em;
+	height: 5em;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	font-size: 5em;
+	color: #5CACEE;*/
 }
 
-.render-font-awesome {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	color: #fff;
+.replay-message-button:hover {
+	opacity: .8;
+	-webkit-transition: opacity .15s;
 }
 
 #loading-container {
@@ -52,7 +63,7 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	-webkit-transform: translate3d(0,0,0);
+	-webkit-transform:translate3d(0,0,0);
 }
 	
 #loading-circle-1 {
@@ -159,8 +170,8 @@ div, span {
     transform-origin: center center;
     /*-webkit-transform: rotate(200deg);
     transform: rotate(200deg);*/
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
     opacity:0;
   }
 }
@@ -190,7 +201,7 @@ div, span {
 .rotateOut {
   -webkit-animation-name: rotateOut;
   animation-name: rotateOut;
-  -webkit-animation-duration: .35s;
+  -webkit-animation-duration: .25s;
 }
 
 @-webkit-keyframes bounceIn {
