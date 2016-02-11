@@ -32,6 +32,8 @@ permalink: /google-loader/
 		</div>
 	</div>
 	
+	<div class="render-font-awesome"><i class="fa fa-refresh"></i></div>
+	
 </div>
     	
 <script src="http://davemuench.com/js/jquery-2.0.0.min.js"></script>
