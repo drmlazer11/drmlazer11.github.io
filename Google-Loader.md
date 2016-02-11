@@ -26,8 +26,10 @@ permalink: /google-loader/
 		</div>
 	</div>
 	
-	<div class="replay-message">
-		<i class="fa fa-refresh"></i>
+	<div class="replay-message-button display-none">
+		<div class="replay-message">
+			<i class="fa fa-refresh"></i>
+		</div>
 	</div>
 	
 </div>
