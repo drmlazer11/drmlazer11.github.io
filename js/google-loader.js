@@ -8,7 +8,7 @@ var Google_Loader = (function (window, document) {
         
         	window.addEventListener('load', function() {
 			FastClick.attach(document.body);
-			this.fn_loading_screen_animation();
+			that.fn_loading_screen_animation();
 		}, false);
 		
 		$('.replay-message-button').on('click', this.fn_replay.bind(this));
