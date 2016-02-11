@@ -14,8 +14,9 @@
 	background-color: #fff;
 	cursor: pointer;
 	border-radius: 50%;
-	width:5em;
-	height:5em;
+	width: 7em;
+	height: 7em;
+	border-color: #fff;
 }
 
 .replay-message {
@@ -28,6 +29,8 @@
 	color: #5CACEE;
 	-webkit-transform: translate3d(0,0,0);
 	font-size: 3em;
+	font-size: 5em;
+	bottom: .4em;
 	/*width: 5em;
 	height: 5em;
 	margin: auto;
