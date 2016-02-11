@@ -4,15 +4,12 @@ var Google_Loader = (function (window, document) {
 	
 	Google_Loader = function (opts) {
         
-        	this.int_loading_state = 0;
-        
         	this.current_loop = 0;
         
         	window.addEventListener('load', function() {
 			FastClick.attach(document.body);
+			this.fn_loading_screen_animation();
 		}, false);
-        
-    		this.fn_loading_screen_animation();
 		
 		$('.replay-message-button').on('click', this.fn_replay.bind(this));
 
@@ -60,7 +57,6 @@ var Google_Loader = (function (window, document) {
         
         	},
         
-        	// one full "loop"  -- this function is called in another, high level loading function  
         	fn_loading_screen_animation: function(int_degrees) {
             
         		if (this.current_loop == 0) {
