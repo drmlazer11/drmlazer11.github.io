@@ -19,24 +19,18 @@
 .replay-message {
 	width: 100%;
 	text-align: center;
-	font-family: 'Source Sans Pro Black';
-	font-weight: bold;
 	position: absolute;
 	color: #5CACEE;
 	-webkit-transform: translate3d(0,0,0);
-	font-size: 3em;
 	font-size: 5em;
-	bottom: .4em;
 	bottom: .1em;
-	/*width: 5em;
-	height: 5em;
-	margin: auto;
-	top: 0;
-	left: 0;
-	bottom: 0;
+}
+
+.render-font-awesome {
+	position: absolute;
 	right: 0;
-	font-size: 5em;
-	color: #5CACEE;*/
+	bottom: 0;
+	color: #fff;
 }
 
 #loading-container {
@@ -58,7 +52,7 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	-webkit-transform:translate3d(0,0,0);
+	-webkit-transform: translate3d(0,0,0);
 }
 	
 #loading-circle-1 {
