@@ -19,7 +19,7 @@
 }
 
 .replay-message {
-	width: 100%;
+	/*width: 100%;
 	text-align: center;
 	color: #fff;
 	font-family: 'Source Sans Pro Black';
@@ -28,7 +28,14 @@
 	top: .2em;
 	color: #5CACEE;
 	-webkit-transform: translate3d(0,0,0);
-	font-size: 3em;
+	font-size: 3em;*/
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	font-size: 5em;
 }
 
 #loading-container {
