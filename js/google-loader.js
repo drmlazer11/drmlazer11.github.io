@@ -30,7 +30,7 @@ var Google_Loader = (function (window, document) {
         		setTimeout(function() {
         			$('.replay-message-button').fadeOut(0);
         			$('.replay-message-button').removeClass('animated rotateOut');
-        		}, 500);
+        		}, 400);
         	
         		loading_circles = '<div id="loading-circle-1" class="display-none">' +
 					'<div id="loading-inner-circle-1" class="loading-inner-circle display-none"></div>' +
@@ -49,12 +49,12 @@ var Google_Loader = (function (window, document) {
 					'<div id="loading-inner-circle-44" class="loading-inner-circle display-none"></div>' +
 				'</div>';
         	
-        		setTimeout(function() {
-        			$('#loading-container').fadeIn(0);
-        			$('#loading-circles-container').fadeIn(0);
-        			$('#loading-circles-container').html('');
-        			$('#loading-circles-container').html(loading_circles);
-        		}, 100);
+        		// setTimeout(function() {
+        		$('#loading-container').fadeIn(0);
+        		$('#loading-circles-container').fadeIn(0);
+       			$('#loading-circles-container').html('');
+        		$('#loading-circles-container').html(loading_circles);
+        		// }, 100);
         	
         		this.fn_loading_screen_animation();
         
