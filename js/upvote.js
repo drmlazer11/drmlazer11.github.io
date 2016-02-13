@@ -97,8 +97,10 @@ var Upvote = (function (window, document) {
             	
             	fn_loading_finish: function() {
         		
-        		$('#loading-container').fadeOut(1500);
-        		$('#content').fadeIn(1500);
+        		$('#loading-container').fadeOut(500);
+        		// $('#content').fadeIn(1500);
+        		$('#content').fadeIn(0);
+        		$('#content').addClass('animated zoomIn');
         		clearInterval(loading_pulse);
             	
             	},
