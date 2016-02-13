@@ -37,9 +37,8 @@ var Upvote = (function (window, document) {
         	$('.upvote-container').on('click', this.fn_tap_upvote.bind(this));
         	$('.category-container').on('click', this.fn_change_category.bind(this));
 		
-		window.addEventListener('load', function() {
-		    FastClick.attach(document.body);
-		    if (that.loading_interval_count == 0) {
+		$(document).ready(function() {
+			if (that.loading_interval_count == 0) {
 		    	setTimeout(function() {
 		    		that.fn_loading_finish();
 		    	}, 7200);
@@ -57,6 +56,10 @@ var Upvote = (function (window, document) {
 		    else {
 		    	that.fn_loading_finish();	
 		    }
+		});
+		
+		window.addEventListener('load', function() {
+		    FastClick.attach(document.body);
 		}, false);
 		
 		this.fn_hide_rendering_icons();
