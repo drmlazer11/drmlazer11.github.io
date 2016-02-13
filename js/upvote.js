@@ -32,7 +32,7 @@ var Upvote = (function (window, document) {
 		
 		window.addEventListener('load', function() {
 		    FastClick.attach(document.body);
-		    this.fn_loading_entry();
+		    this.fn_loading_finish();
 		}, false);
 		
 		this.fn_hide_rendering_icons();
