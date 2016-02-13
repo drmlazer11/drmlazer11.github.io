@@ -22,7 +22,7 @@ var Upvote = (function (window, document) {
 		// ---------------------------------------------------------
           
           	this.fn_loading_entry();
-          	loading_pulse = setInterval() {
+          	loading_pulse = setInterval(function() {
           		that.fn_loading();
           	}, 2400);
           	this.fn_loading();
