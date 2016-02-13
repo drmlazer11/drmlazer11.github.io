@@ -9,7 +9,7 @@ var Upvote = (function (window, document) {
 		that = this;
 		
 		this.current_category = 'world';
-		this.loading_interval_count = 1;
+		this.loading_interval_count = 0;
 		
 		// ---------------------------------------------------------
 		// Muench launch
@@ -35,11 +35,9 @@ var Upvote = (function (window, document) {
 		window.addEventListener('load', function() {
 		    FastClick.attach(document.body);
 		    if (that.loading_interval_count == 0) {
-		    	
 		    	setTimeout(function() {
 		    		that.fn_loading_finish();
 		    	}, 7200);
-		    	
 		    }
 		    else if (that.loading_interval_count == 1) {
 			setTimeout(function() {
