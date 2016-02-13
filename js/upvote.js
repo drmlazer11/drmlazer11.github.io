@@ -23,11 +23,16 @@ var Upvote = (function (window, document) {
 		// ---------------------------------------------------------
           
           	this.fn_loading_entry();
-          	loading_pulse = setInterval(function() {
-          		that.fn_loading();
-          		that.loading_interval_count += 1;
-          	}, 2400);
-          	this.fn_loading();
+          	setTimeout(function() {
+          		loading_pulse = setInterval(function() {
+          			that.fn_loading();
+          			that.loading_interval_count += 1;
+          		}, 2400);
+          	}, 450);
+          	setTimeout(function() {
+          		this.fn_loading();
+          	}, 450);
+          	
           
         	$('.upvote-container').on('click', this.fn_tap_upvote.bind(this));
         	$('.category-container').on('click', this.fn_change_category.bind(this));
