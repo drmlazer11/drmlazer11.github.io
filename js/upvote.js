@@ -21,15 +21,22 @@ var Upvote = (function (window, document) {
 		// Skimmin launch
 		// ---------------------------------------------------------
           
+          	this.fn_loading_entry();
+          	loading_pulse = setInterval() {
+          		that.fn_loading();
+          	}, 2400);
+          	this.fn_loading();
+          
         	$('.upvote-container').on('click', this.fn_tap_upvote.bind(this));
         	$('.category-container').on('click', this.fn_change_category.bind(this));
 		
 		window.addEventListener('load', function() {
 		    FastClick.attach(document.body);
+		    this.fn_loading_entry();
 		}, false);
 		
 		this.fn_hide_rendering_icons();
-		this.fn_loading();
+		// this.fn_loading();
        	
     	};
     
@@ -39,79 +46,60 @@ var Upvote = (function (window, document) {
 		// Skimmin Core Functions
 		// ------------------------------------------------------
         
-        	// primarily used to hide slow rendering
-        	fn_loading: function() {
-            	
-            	that = this;
+        	fn_loading_entry: function() {
             
-            	$('#L').fadeIn(0);
-            	$('#L').addClass('animated zoomIn');
+            		$('#L').fadeIn(0);
+            		$('#L').addClass('animated zoomIn');
             	
-            	setTimeout(function() {
-            		$('#O').fadeIn(0);
-            		$('#O').addClass('animated zoomIn');	
-            	}, 65);
+            		setTimeout(function() {
+            			$('#O').fadeIn(0);
+            			$('#O').addClass('animated zoomIn');	
+            		}, 65);
             	
-            	setTimeout(function() {
-            		$('#A').fadeIn(0);
-            		$('#A').addClass('animated zoomIn');	
-            	}, 130);
+            		setTimeout(function() {
+            			$('#A').fadeIn(0);
+            			$('#A').addClass('animated zoomIn');	
+            		}, 130);
             	
-            	setTimeout(function() {
-            		$('#D').fadeIn(0);
-            		$('#D').addClass('animated zoomIn');	
-            	}, 195);
+            		setTimeout(function() {
+            			$('#D').fadeIn(0);
+            			$('#D').addClass('animated zoomIn');	
+            		}, 195);
             	
-            	setTimeout(function() {
-            		$('#I').fadeIn(0);
-            		$('#I').addClass('animated zoomIn');	
-            	}, 260);
+            		setTimeout(function() {
+            			$('#I').fadeIn(0);
+            			$('#I').addClass('animated zoomIn');	
+            		}, 260);
             	
-            	setTimeout(function() {
-            		$('#N').fadeIn(0);
-            		$('#N').addClass('animated zoomIn');	
-            	}, 325);
+            		setTimeout(function() {
+            			$('#N').fadeIn(0);
+            			$('#N').addClass('animated zoomIn');	
+            		}, 325);
             	
-            	setTimeout(function() {
-            		$('#G').fadeIn(0);
-            		$('#G').addClass('animated zoomIn');	
-            	}, 390);
+        	 	setTimeout(function() {
+            			$('#G').fadeIn(0);
+            			$('#G').addClass('animated zoomIn');	
+            		}, 390);
+            		
+        	},
             	
-            	
-            	setTimeout(function(){
+            	fn_loading: function() {
+            		
             		$('#loading-container').css('opacity', '.37');
             		$('#loading-container').css('-webkit-transform', 'scale(.98)');
-            	}, 1300);
-        	setTimeout(function(){
-        		$('#loading-container').css('opacity', '1');
-        		$('#loading-container').css('-webkit-transform', 'scale(1)');
-       		}, 2500);
-       		
-       		setTimeout(function(){
-            		$('#loading-container').css('opacity', '.37');
-            		$('#loading-container').css('-webkit-transform', 'scale(.98)');
-            	}, 3700);
-        	setTimeout(function(){
-        		$('#loading-container').css('opacity', '1');
-        		$('#loading-container').css('-webkit-transform', 'scale(1)');
-       		}, 4900);
-       		
-       		setTimeout(function(){
-            		$('#loading-container').css('opacity', '.37');
-            		$('#loading-container').css('-webkit-transform', 'scale(.98)');
-            	}, 6100);
+            		
+            		setTimeout(function(){
+        			$('#loading-container').css('opacity', '1');
+        			$('#loading-container').css('-webkit-transform', 'scale(1)');
+       			}, 1200);
+            		
+            	},
             	
-            	setTimeout(function() {
+            	fn_loading_finish: function() {
         		$('#loading-container').fadeOut(500);
-        		// $('#loading-container').addClass('animated zoomOut');
-        	}, 6800);
-        	setTimeout(function() {
-        		$('#content').fadeIn(0);
-        		$('#content').addClass('animated bounceInUp');
-        	}, 7250);
-        	
-        
-        	},	
+        		$('#content').fadeIn(500);
+        		clearInterval(loading_pulse);
+            	},
         
         	fn_hide_rendering_icons: function() {
         		
