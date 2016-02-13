@@ -96,9 +96,11 @@ var Upvote = (function (window, document) {
             	},
             	
             	fn_loading_finish: function() {
+        		
         		$('#loading-container').fadeOut(500);
         		$('#content').fadeIn(500);
         		clearInterval(loading_pulse);
+            	
             	},
         
         	fn_hide_rendering_icons: function() {
