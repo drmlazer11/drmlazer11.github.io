@@ -121,8 +121,7 @@ var Upvote = (function (window, document) {
             	
             	fn_loading_finish: function() {
         		
-        		$('#loading-container').fadeOut(500);
-        		// $('#content').fadeIn(1500);
+        		$('#loading-container').fadeOut(300);
         		$('#content').fadeIn(0);
         		$('#content').addClass('animated bounceInUp');
         		clearInterval(loading_pulse);
