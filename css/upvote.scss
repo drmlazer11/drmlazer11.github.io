@@ -29,7 +29,7 @@ body, html {
 	margin: 0;
 	padding: 0;
 	background-color: #fff;
-	-webkit-transform:translate3d(0,0,0);
+	-webkit-transform: translate3d(0,0,0);
 }
 
 html {
@@ -44,9 +44,14 @@ div, span {
 }
 
 #category-header {
-	font-size:2em;
-	width:100%;
-	text-align:center;
+	font-size: 2em;
+	width: 100%;
+	text-align: center;
+}
+
+#content {
+	width: 100%;
+	position: absolute;
 }
 
 .container {
@@ -65,19 +70,12 @@ div, span {
 .category-container {
 	cursor: pointer;
 	position: relative;
-	/*display: inline-block;*/
 	height: 100%;
 	margin-top: .5em;
-	/*width: calc(50% - .32em);
-	width: 30%;
-	margin-left: .65em;
-	margin-left: 35%;*/
 	margin: 0 auto;
-	width:200px;
 	border-radius: 4px;
 	-webkit-transition: -webkit-transform .25s;
 	z-index: 1000;
-	width: 200px;
 	width: 240px;
 }
 
