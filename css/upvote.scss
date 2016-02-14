@@ -283,7 +283,7 @@ div, span {
 .rendering-container {
 	position: relative;
 	width: 100%;
-	height:1em;
+	height: 1em;
 	overflow: hidden;
 }
 
@@ -322,7 +322,6 @@ div, span {
 	width: 100%; 
 	margin-top: 4em; 
 	padding-bottom: 5em; 
-	background: #f2f2f2;
 	padding-top: 1em;
 	background-color: #f2f2f2;
 }
@@ -450,7 +449,7 @@ img.top {
 
 .selected { opacity: 1; }
 
-.unselected { /*opacity: .4;*/color: rgba(52, 152, 219, 1); }
+.unselected { color: rgba(52, 152, 219, 1); }
 
 
 .animated {
