@@ -18,7 +18,7 @@ permalink: /upvote/
 		
 	</div>
 
-	<div id="content" class="display-none" style="position: absolute;">
+	<div id="content" class="display-none">
 	
 		<div class="upvote-outer-container">
 			<div class="upvote-container">
@@ -40,14 +40,14 @@ permalink: /upvote/
         
 	</div>
     
-    	<!-- <div class="rendering-container">
+    	<div class="rendering-container">
 		<div id="render-us-icon" class="render-icon"></div>
 		<div id="render-world-icon" class="render-icon"></div>
 		<div id="render-sports-icon" class="render-icon"></div>
 		<div id="render-business-icon" class="render-icon"></div>
 		<div id="render-technology-icon" class="render-icon"></div>
 		<div id="render-entertainment-icon" class="render-icon"></div>
-	</div> -->
+	</div>
 	
 </div>
     	
