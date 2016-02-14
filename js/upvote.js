@@ -31,7 +31,7 @@ var Upvote = (function (window, document) {
           	}, 450);
           	setTimeout(function() {
           		this.fn_loading();
-          	}, 450);
+          	}, 100);
           	
           
         	$('.upvote-container').on('click', this.fn_tap_upvote.bind(this));
