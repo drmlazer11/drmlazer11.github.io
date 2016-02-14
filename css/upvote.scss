@@ -2,6 +2,22 @@
 ### Front matter to ensure that Jekyll properly reads the file.
 ---
 
+/*******************************************************************/
+/***************************** Fonts *******************************/
+/*******************************************************************/
+
+@font-face {
+	font-family: 'Source Sans Pro Black';
+	font-style: normal;
+	src: url('SourceSansPro-Black.ttf') format('truetype'); 
+}
+
+@font-face {
+	font-family: 'Open Sans Light';
+	font-style: normal;
+	src: url('OpenSans-Light.ttf') format('truetype'); 
+}
+
 /**************************************************************/
 /****************** Generic Body, HTML CSS ********************/
 /**************************************************************/
@@ -727,21 +743,4 @@ img.top {
 .bounce {
   -webkit-animation-name: bounce;
   animation-name: bounce;
-}
-
-
-/*******************************************************************/
-/***************************** Fonts *******************************/
-/*******************************************************************/
-
-@font-face {
-	font-family: 'Source Sans Pro Black';
-	font-style: normal;
-	src: url('SourceSansPro-Black.ttf') format('truetype'); 
-}
-
-@font-face {
-	font-family: 'Open Sans Light';
-	font-style: normal;
-	src: url('OpenSans-Light.ttf') format('truetype'); 
 }
