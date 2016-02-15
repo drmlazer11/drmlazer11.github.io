@@ -141,7 +141,8 @@ p { margin: 0 0 1rem; }
 
 p.mission {
 	color: #333; 
-	font-style: italic; 
+	font-style: italic;
+	font-style: normal;
 	margin-bottom: .5rem;
 }
 
@@ -149,6 +150,7 @@ p.mission-secondary {
 	color: #888; 
 	font-style: italic;
 	margin-bottom: 3em;
+	font-style: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
