@@ -2,7 +2,7 @@
 layout: post
 title:  "Skimmin Loader"
 date:   2016-02-08 10:00:27 -0500
-categories: ":stoplight:"
+categories: ":vertical_traffic_light:"
 ---
 
 <a href="/google-loader">This was the loading screen on my third iteration of Skimmin.</a>
