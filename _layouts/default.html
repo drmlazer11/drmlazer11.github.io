@@ -38,53 +38,5 @@
 	convert_emojis();
     </script>
     
-    <script type="text/javascript"> 
-	
-	checkDate();
-    	createCookie('last_visit', 7);
-
-	function createCookie(name, days) {
-			
-		date = new Date();
-		readable_date = parseInt(date.getFullYear().toString() + date.getMonth().toString() + date.getDate().toString());
-			
-		if (days) {
-			var date = new Date();
-			date.setTime(date.getTime()+(days*24*60*60*1000));
-			var expires = "; expires="+date.toGMTString();
-		}
-			
-		else var expires = "";
-		document.cookie = name + "=" + readable_date + expires + "; path=/";
-		
-	};
-		
-	function readCookie(name) {
-			
-		var nameEQ = name + "=";
-		var ca = document.cookie.split(';');
-		for(var i=0;i < ca.length;i++) {
-			var c = ca[i];
-			while (c.charAt(0)==' ') c = c.substring(1,c.length);
-			if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-		}
-		return null;
-			
-	};
-		
-	function checkDate() {
-			
-		date = new Date();
-		readable_date = parseInt(date.getFullYear().toString() + date.getMonth().toString() + date.getDate().toString());
-		last_visit = parseInt(readCookie('last_visit'));
-			
-		if (last_visit != readable_date) {
-			$('#rendering-mask').fadeIn(0);
-			$('#rendering-mask').fadeOut(1000);
-		}
-	};
-    
-    </script>
-    
   </body>
 </html>
