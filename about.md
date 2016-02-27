@@ -30,7 +30,7 @@ permalink: /about/
     			
     		<div class="archive-item" style="margin-bottom:1.5rem;">
     			<span class="archive-emoji" style="background-color: #109d58; border-radius: 50%; height: .9rem; width: .9rem; display:inline-block;position:relative;top:.26rem;margin-right:1.25rem;"></span>
-    			<span class="post-date archive-date archive-emoji">:writing_hand_tone2:</span>
+    			<span class="post-date archive-date archive-emoji">:writing_hand_tone1:</span>
       			<a style="border-bottom:none;cursor:default;" href="#" class="archive-title">
         			 Good Grammar
       			</a>
