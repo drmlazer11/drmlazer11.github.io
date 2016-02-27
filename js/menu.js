@@ -1,10 +1,3 @@
-/*
-* Bamboo.js - minimal responsive javascript framework
-* Author: Andrew Greig
-* Copyright (c) 2013 Andrew Greig
-* Dual MIT/BSD license
-*/
-
 var Menu = (function (window, document) {
 
     that = this;
