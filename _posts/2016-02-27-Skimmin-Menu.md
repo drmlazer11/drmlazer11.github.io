@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Skimmin Menu"
-date:   2016-02-27 10:00:27 -0500
+title: "Skimmin Menu"
+date: 2016-02-27 10:00:27 -0500
 categories: ":gear:"
 ---
 
