@@ -4,20 +4,17 @@ title: Skimmin Menu
 permalink: /skimmin-menu/
 ---
 
-<!-- <body> -->
 <div class="desktop-screen">
     
-    	<div class="desktop-container">
-    		<div class="iphone-emoji"></div>
-    		<div class="desktop-message">Please view this on a mobile device...</div>
-    	</div>
-    	
+    <div class="desktop-container">
+    	<div class="iphone-emoji"></div>
+    	<div class="desktop-message">Please view this on a mobile device...</div>
     </div>
+</div>
     
-    <div class="options-container">
-              
-        <div id="about-us-circle" class="menu-circle about-us">
-            <div class="heart-emoji"></div>
+<div class="options-container">
+	<div id="about-us-circle" class="menu-circle about-us">
+		<div class="heart-emoji"></div>
         	<div id="about-us-circle-cover" class="circle-cover"></div>
         </div>
         <div id="about-us-text" class="menu-text about-us">About Us</div>
@@ -30,11 +27,10 @@ permalink: /skimmin-menu/
             <div class="speaking-head-emoji"></div>
         	<div id="feedback-circle-cover" class="circle-cover"></div>
         </div>
-        <div id="feedback-text" class="menu-text feedback">Feedback</div>
-    </div>
-        
-        
-    <div id="settings-fresh-screen" class="display-none">
+       	<div id="feedback-text" class="menu-text feedback">Feedback</div>
+</div>
+	
+<div id="settings-fresh-screen" class="display-none">
         <div id="settings-close-text" class="close-text">CLOSE</div>    	
         <div class="settings-category-heading-text">United States</div>
         <div id="settings-tappable-element-us" class="settings-category-tappable-element us">
@@ -60,11 +56,11 @@ permalink: /skimmin-menu/
         <div id="settings-tappable-element-entertainment" class="settings-category-tappable-element entertainment">
             <div id="settings-status-text-entertainment" class="settings-category-status-text">Show Stories</div>
         </div>
-    </div>
+</div>
          
         
-    <div id="about-fresh-screen" class="display-none">	
-        <div id="about-us-close-text" class="close-text">CLOSE</div>
+<div id="about-fresh-screen" class="display-none">
+	<div id="about-us-close-text" class="close-text">CLOSE</div>
         <div class="about-text"><span class="about-leader blue">Welcome</span> to Skimmin!</div>
         <div class="about-text"><span class="about-leader orange">We are on a mission</span> to promote a more informed society.</div>
         <div class="about-text"><span class="about-leader green">Our vision</span> is to create a lasting web resource, like Wikipedia . . .</div>
@@ -74,9 +70,9 @@ permalink: /skimmin-menu/
     </div>
         
            
-    <div class="render-typeface regular">A</div>
-    <div class="render-typeface bold">B</div>
-    <div class="render-typeface black">C</div>
+<div class="render-typeface regular">A</div>
+<div class="render-typeface bold">B</div>
+<div class="render-typeface black">C</div>
     
 
 <script src="http://davemuench.com/js/jquery-2.0.0.min.js"></script>
@@ -87,4 +83,4 @@ permalink: /skimmin-menu/
 	new Menu();
 </script>
 
-<!-- </body> -->
+</body>
