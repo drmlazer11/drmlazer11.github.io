@@ -1,5 +1,5 @@
 ---
-layout: skimmin-menu
+layout: menu
 title: Skimmin Menu
 permalink: /skimmin-menu/
 ---
