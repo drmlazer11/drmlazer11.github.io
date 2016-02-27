@@ -61,13 +61,13 @@ permalink: /skimmin-menu/
         
 <div id="about-fresh-screen" class="display-none">
 	<div id="about-us-close-text" class="close-text">CLOSE</div>
-        <div class="about-text"><span class="about-leader blue">Welcome</span> to Skimmin!</div>
-        <div class="about-text"><span class="about-leader orange">We are on a mission</span> to promote a more informed society.</div>
-        <div class="about-text"><span class="about-leader green">Our vision</span> is to create a lasting web resource, like Wikipedia . . .</div>
-        <div class="about-text"><span class="about-leader red">Where readers</span> can search for and view content organized around specific stories.</div>
-        <div class="about-text"><span class="about-leader purple">Soon we will</span> open our platform for others to contribute to this vision.</div>
-        <div class="about-text"><span class="about-leader turquoise">Stay tuned</span> for future updates!</div>
-    </div>
+	<div class="about-text"><span class="about-leader blue">Welcome</span> to Skimmin!</div>
+	<div class="about-text"><span class="about-leader orange">We are on a mission</span> to promote a more informed society.</div>
+	<div class="about-text"><span class="about-leader green">Our vision</span> is to create a lasting web resource, like Wikipedia . . .</div>
+	<div class="about-text"><span class="about-leader red">Where readers</span> can search for and view content organized around specific stories.</div>
+	<div class="about-text"><span class="about-leader purple">Soon we will</span> open our platform for others to contribute to this vision.</div>
+	<div class="about-text"><span class="about-leader turquoise">Stay tuned</span> for future updates!</div>
+</div>
         
            
 <div class="render-typeface regular">A</div>
