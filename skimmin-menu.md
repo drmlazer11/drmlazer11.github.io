@@ -4,6 +4,7 @@ title: Skimmin Menu
 permalink: /skimmin-menu/
 ---
 
+<body>
 <div class="desktop-screen">
     
     	<div class="desktop-container">
@@ -85,3 +86,5 @@ permalink: /skimmin-menu/
 <script>
 	new Menu();
 </script>
+
+</body>
