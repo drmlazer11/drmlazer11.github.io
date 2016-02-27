@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Skimmin Menu"
+title:  "Skimmin Settings"
 date:   2016-02-27 10:00:27 -0500
 categories: ":gear:"
 ---
