@@ -79,9 +79,9 @@ permalink: /skimmin-menu/
     <div class="render-typeface black">C</div>
     
 
-<script src="js/jquery-2.0.0.min.js"></script>
-<script src="js/menu.js"></script>
-<script src="js/fastclick.js"></script>
+<script src="http://davemuench.com/js/jquery-2.0.0.min.js"></script>
+<script src="http://davemuench.com/js/menu.js"></script>
+<script src="http://davemuench.com/js/fastclick.js"></script>
 
 <script>
 	new Menu();
