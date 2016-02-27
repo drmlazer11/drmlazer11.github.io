@@ -1,0 +1,423 @@
+/***********************************************************/
+/************************ Typefaces ************************/
+/***********************************************************/
+
+@font-face {
+	font-family: 'Source Sans Pro Regular';
+	font-style: normal;
+	src: url('SourceSansPro-Regular.ttf') format('truetype'); 
+}
+
+@font-face {
+	font-family: 'Source Sans Pro Bold';
+	font-style: normal;
+	src: url('SourceSansPro-Bold.ttf') format('truetype'); 
+}
+
+@font-face {
+	font-family: 'Source Sans Pro Black';
+	font-style: normal;
+	src: url('SourceSansPro-Black.ttf') format('truetype'); 
+}
+
+/************************************************************/
+/************************** Document ************************/
+/************************************************************/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    position: absolute;
+    font-size: 1.125em;
+}
+
+div, span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+/***************************************************/
+/***************** Desktop Message *****************/
+/***************************************************/
+
+.desktop-screen {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 10;
+}
+
+.desktop-container {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 16em;
+	height: 11em;
+	margin: auto;
+}
+
+.desktop-message {
+	width: 100%;
+	text-align: center;
+	font-family: 'Source Sans Pro Regular';
+	font-size: 1em;
+	margin-top: 1.5em;
+	color: #333;
+}
+
+.iphone-emoji {
+	margin: 0 auto;
+	width: 8em;
+	height: 8em;
+	background: url('../assets/1f4f1.svg');
+	background-size: cover;
+}
+
+/***************************************************/
+/*********************** Menu **********************/
+/***************************************************/
+
+.options-container {
+    height: 402px;
+    width: 5em;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.heart-emoji {
+	position: absolute;
+	left: 21px;
+	top: 22px;
+	width: 48px;
+	height: 48px;
+	background: url('../assets/1f493.svg');
+	background-size: cover;
+}
+
+.gear-emoji {
+	position: absolute;
+	left: 21px;
+	top: 21px;
+	width: 48px;
+	height: 48px;
+	background: url('../assets/2699.svg');
+	background-size: cover;
+}
+
+.speaking-head-emoji {
+	position: absolute;
+	left: 24px;
+	top: 15px;
+	width: 48px;
+	height: 48px;
+	background: url('../assets/1f5e3.svg');
+	background-size: cover;
+}
+
+.menu-circle {
+	position: absolute;
+	width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    background: #f4f4f4;
+}
+
+.circle-cover {
+	position: absolute;
+	width: 5em;
+	height: 5em;
+	border-radius: 50%;
+	background-color: #fff;
+	opacity: 0;
+	z-index: 1;
+}
+
+.menu-circle.about-us {
+	top: 0;
+}
+
+.menu-circle.settings {
+	top: 143px;
+}
+
+.menu-circle.feedback {
+	top: 286px;
+}
+
+.menu-text {
+	position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #8f8f8f;
+    font-family: 'Source Sans Pro Bold';
+}
+
+.menu-text.about-us {
+    top: 98px;
+}
+
+.menu-text.settings {
+    top: 241px;
+}
+
+.menu-text.feedback {
+    top: 384px;
+}
+
+.render-typeface {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: #fff;
+}
+
+.render-typeface.regular {
+	font-family: 'Source Sans Pro Regular';
+}
+
+.render-typeface.bold {
+	font-family: 'Source Sans Pro Bold';
+}
+
+.render-typeface.black {
+	font-family: 'Source Sans Pro Black';
+}
+	
+
+/*****************************************************/
+/****************** About Us CSS *******************/
+/*****************************************************/
+
+#about-fresh-screen {
+	position: absolute;
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1;
+    padding: 1.25em;
+}
+
+.about-text {
+    color: #333;
+    font-family:'Source Sans Pro Regular';
+    line-height: 1.4;
+    padding-top: 1em;
+}
+
+.about-leader {
+	font-family: 'Source Sans Pro Bold';
+}
+
+.about-leader.blue {
+	color: rgba(52, 152, 219, .8);
+}
+.about-leader.orange {
+	color: rgba(255, 140, 0, .85);
+}
+.about-leader.green {
+	color: rgba(0, 128, 0, .85);
+}
+.about-leader.red {
+	color: rgba(231, 76, 60, .85);
+}
+.about-leader.purple {
+	color: rgba(164, 121, 228, .85);
+}
+.about-leader.turquoise {
+	color: rgba(0, 128, 128, .75);
+}
+
+/*************************************************/
+/***************** Settings CSS ******************/
+/*************************************************/
+
+#settings-fresh-screen {
+	position: absolute;
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 1;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    padding: 1.25em;
+}
+
+.settings-category-tappable-element {
+    position: relative;
+    border-radius: 3px;
+    margin-top: .5em;
+    width: 100%;
+    height: 44px;
+}
+
+.settings-category-tappable-element.us {
+    background:rgba(52, 152, 219, .75);
+}
+
+.settings-category-tappable-element.world {
+    background:rgba(255, 140, 0, .7);
+}
+
+.settings-category-tappable-element.business {
+    background:rgba(0, 128, 0, .65);
+}
+
+.settings-category-tappable-element.sports {
+    background:rgba(231, 76, 60, .8);
+}
+
+.settings-category-tappable-element.technology {
+    background:rgba(0, 128, 128, .65);
+}
+
+.settings-category-tappable-element.entertainment {
+    background:rgba(164, 121, 228, .7);
+}
+
+.settings-category-tappable-element.muted {
+    background:rgba(143, 143, 143, .2);
+}
+
+.settings-category-status-text {
+    position: absolute;
+    color: #fff;
+    font-family: 'Source Sans Pro Bold';
+    top: .5625em;
+    text-align: center;
+    width: 100%;
+}
+
+.settings-category-status-text.muted {
+    color: rgba(143, 143, 143, .6);
+}
+
+.settings-category-heading-text {
+    position: relative;
+    color: #8f8f8f;
+    font-family:'Source Sans Pro Regular';
+    margin-top: 1em;
+}
+
+/********************************************************/
+/************************* Close ************************/
+/********************************************************/
+
+.close-text {
+	font-family: 'Source Sans Pro Black';
+    color: #afafaf;
+    position: relative;
+    border-bottom: 3px solid #c4c4c4;
+    width: 52px;
+}
+
+/********************************************************/
+/********************* Miscellaneous ********************/
+/********************************************************/
+
+.display-none { 
+    display: none; 
+}
+
+/*********************************************************/
+/************************* Animations ********************/
+/*********************************************************/
+
+.animated {
+  -webkit-animation-duration: .95s;
+  animation-duration: .95s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(1200px);
+    transform: translateY(1200px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(1200px);
+    -ms-transform: translateY(1200px);
+    transform: translateY(1200px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+  -webkit-animation-duration: .8s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+@-webkit-keyframes slideOutDown {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
+}
+
+@keyframes slideOutDown {
+  0% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    -ms-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
+}
+
+.slideOutDown {
+  -webkit-animation-name: slideOutDown;
+  animation-name: slideOutDown;
+  -webkit-animation-duration: .8s;
+}
+
+
