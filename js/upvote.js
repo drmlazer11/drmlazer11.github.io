@@ -222,4 +222,4 @@ var Upvote = (function (window, document) {
 
 	return Upvote;
 
-})(window, document);		
+})(window, document);
