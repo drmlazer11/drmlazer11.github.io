@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Griswold's Site"
+title: "Griswold's Website"
 date: 2016-03-30 08:00:27 -0500
 categories: ":bear:"
 ---
