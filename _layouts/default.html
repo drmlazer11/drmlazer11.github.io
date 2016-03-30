@@ -30,6 +30,7 @@
     <script type="text/javascript">
     	function convert_emojis() {
     		$(".date-emoji, .archive-emoji").each(function() {
+    			emojione.imageType = 'svg';
     			var input = $(this).html();
     			var output = emojione.shortnameToImage(input);
     			$(this).html(output);
