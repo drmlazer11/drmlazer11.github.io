@@ -1,0 +1,129 @@
+---
+### Front matter to ensure that Jekyll properly reads the file.
+---
+
+/**************************************************************/
+/****************** Generic Body, HTML CSS ********************/
+/**************************************************************/
+
+.unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-transform: translate3d(0,0,0);
+    background-color: #fff;
+    -webkit-transition: all .15s;
+}
+
+html {
+	font-size: 16px;
+}
+
+@media screen and (max-width: 50em) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 36em) {
+    html {
+        font-size: 6px;
+    }
+}
+
+div, span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+/*******************************************************/
+/******************* Brain Hurricane *******************/
+/*******************************************************/
+
+.container {
+	position: relative;
+	width: 100%; 
+	height: 100%;
+	background-color: #337147;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	background-color: #FF92BB;
+}
+
+.centered-container {
+	position: absolute;
+	left: 0; 
+	right: 0; 
+	top: 0; 
+	bottom: 0; 
+	width: 40rem; 
+	height: 41rem;
+	margin: auto;
+}
+
+.refresh {
+	position: absolute;
+	top: 16rem;
+	color: #fff;
+	font-size: 8rem; 
+	width: 100%; 
+	text-align: center; 
+	-webkit-transition: -webkit-transform .38s;
+	cursor: pointer; 
+}
+
+.industry-container {
+	width: 100%; 
+	background-color: #fff; 
+	height: 12rem; 
+	border-radius: 1rem;
+	position: absolute;
+}
+
+.industry-text {
+	font-family:'Dosis';
+	font-weight: bolder; 
+	letter-spacing: .04rem; 
+	font-size: 5rem; 
+	text-align: center; 
+	width: 100%; 
+	position: absolute; 
+	top: 2.9rem; 
+	color: #ff92bb;
+}
+
+.random-word-container {
+	width: 100%; 
+	background-color: #fff; 
+	height: 12rem; 
+	border-radius: 1rem; 
+	position: absolute; 
+	top: 28.7rem;
+}
+
+.random-word-text {
+	font-family: 'Dosis'; 
+	font-weight: bolder; 
+	letter-spacing: .04rem; 
+	font-size: 5rem; 
+	text-align: center; 
+	width: 100%; 
+	position: absolute; 
+	top: 2.9rem; 
+	color:#ff92bb;
+}
