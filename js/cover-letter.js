@@ -24,9 +24,9 @@ var coverLetter = (function (window, document) {
 			$(".drm").addClass('animated fadeInRight');
 
 			setTimeout(function() {
-				$('.animated-introduction-container').addClass('animated fadeOutUpBig');
+				$('.animated-introduction-container').addClass('animated fadeOutUp');
 				$(".cover-letter-container").fadeIn(0);
-				$(".cover-letter-container").addClass('animated fadeInUpBig');
+				$(".cover-letter-container").addClass('animated fadeInUp');
 			}, 3500);
 
 		},
