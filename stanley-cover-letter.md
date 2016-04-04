@@ -34,7 +34,7 @@ permalink: /stanley-cover-letter/
 
 		<div class="headline-text">SUPERPOWER</div>
 
-		<div class="white-summary-text">Okay, so maybe this is not a superpower in the traditional sense. But truth be told, my prowess with Google search enables me to operate at a higher level than most other humans. Because I am a self-taught programmer, Google has been my bread and butter for the past five years. So although there may be times when I do not have the answer, I can find it in the blink of an eye.</div>
+		<div class="white-summary-text">Okay, so maybe this is not a superpower in the traditional sense. But truth be told, my prowess with Google search enables me to operate at a higher level than most other humans. Because I am a <span style="text-decoration: underline;">self-taught</span> programmer, Google has been my bread and butter for the past five years. So although there may be times when I do not have the answer, I can find it in the blink of an eye.</div>
 		
 		<div class="headline-text">MENTALITY</div>
 
