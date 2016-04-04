@@ -1,5 +1,5 @@
 ---
-layout: stanley-cover-letter
+layout: cover-letter
 title: Stanley Cover Letter
 permalink: /stanley-cover-letter/
 ---
