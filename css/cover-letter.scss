@@ -5,11 +5,11 @@
 body, html {
 	width: 100%;
 	height: 100%;
-    margin: 0;
-    padding: 0;
-    -webkit-transform: translate3d(0,0,0);
-    background-color: #111;
-    overflow: hidden;
+	margin: 0;
+	padding: 0;
+	-webkit-transform: translate3d(0,0,0);
+	background-color: #111;
+	overflow: hidden;
 }
 
 html {
@@ -17,22 +17,22 @@ html {
 }
 
 @media screen and (max-width: 50em) {
-    html {
-        font-size: 12px;
-    }
+	html {
+    		font-size: 12px;
+	}
 }
 
 @media screen and (max-width: 36em) {
-    html {
-        font-size: 9px;
-    }
+	html {
+        	font-size: 9px;
+    	}
 }
 
 div, span {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
 }
 
 /*******************************************************/
@@ -47,7 +47,6 @@ div, span {
 	overflow-y: scroll;
 	overflow-x: hidden;
 	-webkit-overflow-scrolling: touch;
-
 }
 
 .animated-introduction-container {
@@ -58,8 +57,7 @@ div, span {
 	top: 0; 
 	bottom: 0;
 	width: 100%; 
-	height: 34rem; 
-	/*background-color: rgba(255, 255, 255, .1);*/
+	height: 34rem;
 }
 
 .sbd {
