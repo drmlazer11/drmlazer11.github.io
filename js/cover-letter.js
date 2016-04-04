@@ -1,22 +1,16 @@
 var coverLetter = (function (window, document) {
 
-    that = this;
+	that = this;
 	
 	// endEvent = hasTouch ? 'touchend' : 'mouseup',
 	
 	coverLetter = function (opts) {
 	
-	    that = this;
-				
-		this.int_refresh = 180;
-        
-		window.addEventListener('load', function() {
-		    FastClick.attach(document.body);
-		}, false);
+		that = this;
        
-      	this.fn_reveal_cover_letter();
+      		this.fn_reveal_cover_letter();
 
-    };
+    	};
     
 	coverLetter.prototype = {
 
