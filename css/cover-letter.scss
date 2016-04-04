@@ -1,0 +1,133 @@
+---
+### Front matter to ensure that Jekyll properly reads the file.
+---
+
+body, html {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-transform: translate3d(0,0,0);
+    background-color: #111;
+    overflow: hidden;
+}
+
+html {
+	font-size: 16px;
+}
+
+@media screen and (max-width: 50em) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 36em) {
+    html {
+        font-size: 9px;
+    }
+}
+
+div, span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+/*******************************************************/
+/******************* Brain Hurricane *******************/
+/*******************************************************/
+
+.container {
+	position: relative;
+	height: 100%; 
+	width: 100%;
+	background-color: #111;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+
+}
+
+.animated-introduction-container {
+	position: absolute; 
+	margin: auto; 
+	left: 0; 
+	right: 0; 
+	top: 0; 
+	bottom: 0;
+	width: 100%; 
+	height: 34rem; 
+	/*background-color: rgba(255, 255, 255, .1);*/
+}
+
+.sbd {
+	position: absolute; 
+	top: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 10rem; 
+	color: #ffd20d; 
+	font-family: 'Source Sans Pro';
+	font-weight: 900;
+}
+
+.plus {
+	position: absolute;
+	top: 11rem;
+	width: 100%;
+	text-align: center;
+	font-size: 10rem;
+	color: #ffd20d; 
+	font-family: 'Source Sans Pro'; 
+	font-weight: 900; 
+	color: #fff;
+}
+
+.drm {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-size: 10rem;
+	color: #ffd20d;
+	text-align: center;
+	font-family: 'Source Sans Pro';
+	font-weight: 900;
+}
+
+.cover-letter-container {
+	width: 100%;
+	max-width: 34rem;
+	position: relative;
+	margin: 0 auto;
+}
+
+.headline-text {
+	width: 100%;
+	text-align: left;
+	margin-top: 4rem;
+	font-size: 4rem;
+	color: #ffd20d;
+	font-family: 'Source Sans Pro';
+	font-weight: 900;
+	border-bottom: 12px solid rgba(255, 255, 255, .1);
+}
+
+.white-summary-text {
+	font-size: 1.5rem;
+	color: #fff;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	line-height: 1.5;
+	margin-top: 2rem;
+}
+
+
+.display-none {
+	display: none;
+}
+
+a {
+	color: #ffd20d;
+}
