@@ -11,6 +11,8 @@ permalink: /stanley-cover-letter/
 		<div class="display-none sbd">SBD</div>
 
 		<div class="display-none plus">+</div>
+		
+		<div class="render-open-sans-text" style="font-family: 'Open Sans'; font-size: .5rem; top: 11rem; right: 0; position: absolute; color: #fff;">H</div
 
 		<div class="display-none drm">DRM</div>
 
