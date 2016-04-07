@@ -12,8 +12,10 @@ layout: default
     		{% for post in site.posts %}
     		
     			<!-- <h2 id="{{post.title}}" class="archive-year" style="font-size: 1.8rem;">{{ post.title }}</h2> -->
-    			<span class="post-date" style="font-weight: bold;">{{ post.date | date: "%B %e, %Y" }}<span class="date-emoji"> &nbsp;{{ post.categories }}</span></span>
-    			<p class="mission">{{ post.content }}</p>
+    			<div class="archive-item">
+    				<span class="post-date" style="font-weight: bold;">{{ post.date | date: "%B %e, %Y" }}<span class="date-emoji"> &nbsp;{{ post.categories }}</span></span>
+    				<p class="mission">{{ post.content }}</p>
+    			</div>
     		
     		{% endfor %}
     		
