@@ -134,6 +134,7 @@ body {
 	padding: 2.5rem 1.5rem;
 	line-height: 1.5;
 	background-color: #fff;
+	background-color: #f2f2f2;
 	color: #555;
 }
 
@@ -327,7 +328,8 @@ h1 a { border-bottom: 0; }
 }
 
 .archive-item:hover {
-	opacity: .5;
+	/*opacity: .5;*/
+	background-color: #fff;
 	cursor: pointer;
 }
 
