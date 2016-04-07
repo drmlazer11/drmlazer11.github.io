@@ -4,16 +4,9 @@ layout: default
 
 <div class="body">
 	
-	<!-- <div class="archive"> -->
+	<div class="archive">
 		
-		<!-- <h2 class="archive-year" style="color: #333; margin-top: .5rem;">David R. Muench</h2>
-		<p class="mission">My mission is to help others recognize, develop and use their God-given abilities to grow in goodness, love and compassion.</p> -->
-		<!-- <p class="mission-secondary" style="color: #888;">Through utmost faith...</p>
-		
-		<hr> -->
-		
-		<div class="archive-item">
-    			<!-- <h2 id="{{post.title}}" class="archive-year date-emoji" style="color: #333;">{{ post.title }}</h2> -->
+		<!-- <div class="archive-item">
     			<span class="post-date" style="font-size: 4rem; width: 100%; text-align: center;"><span class="date-emoji">:grinning:</span></span>
     			<span class="post-date" style="font-size: 2rem; width: 100%; text-align: center; font-weight: bold;">David R. Muench</span>
     			<div class="description">Information Architect</div>
@@ -24,19 +17,29 @@ layout: default
     		{% for post in site.posts %}
     		
     			<div class="archive-item">
-    				<!-- <h2 id="{{post.title}}" class="archive-year date-emoji" style="color: #333;">{{ post.title }}</h2> -->
-    				<span class="post-date" style="font-size: 4rem; width: 100%; text-align: center;"><!-- {{ post.date | date: "%B %e, %Y" }} --><span class="date-emoji">{{ post.categories }}</span></span>
+    				<span class="post-date" style="font-size: 4rem; width: 100%; text-align: center;"><span class="date-emoji">{{ post.categories }}</span></span>
     				<span class="post-date" style="font-size: 2rem; width: 100%; text-align: center; font-weight: bold;">{{ post.title }}</span>
     				<div class="description">{{ post.date | date: "%B %e, %Y" }}</div>
     			</div>
     			
     			<hr style="width: 100%; background-color: #e0e0e0;">
     			
-    			<!-- <hr style="width: 100%; background-color: #f2f2f2;"> -->
+    		{% endfor %} -->
     		
-    		{% endfor %}
+    		{% for post in site.posts %}
+  			{% assign currentdate = post.date | date: "%Y" %}
+  			{% if currentdate != date %}
+    				<h2 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+    				{% assign date = currentdate %}
+  			{% endif %}
+  			<div class="archive-item">
+  				<span class="date-emoji">{{ post.categories }} &nbsp;&nbsp;</span>
+  				<a href="{{ post.url }}" class="archive-title">{{ post.title }}</a>
+  				<span class="post-date archive-date">{{ post.date | date: "%B %e, %Y" }}</span>
+  			</div>
+  		{% endfor %}
     		
-	<!-- </div> -->
+	</div>
 </div>
 
 {% include analytics.html %}
