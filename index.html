@@ -12,8 +12,8 @@ layout: default
     		{% for post in site.posts %}
     		
     			<h2 id="{{post.title}}" class="archive-year">{{ post.title }}</h2>
-    			<span class="post-date">{{ page.date | date: "%B %e, %Y" }}<span class="date-emoji"> &nbsp;{{ page.categories }}</span></span>
-    			<p class="mission">{{ page.excerpt }}</p>
+    			<span class="post-date">{{ post.date | date: "%B %e, %Y" }}<span class="date-emoji"> &nbsp;{{ post.categories }}</span></span>
+    			<p class="mission">{{ post.excerpt }}</p>
     		
     		{% endfor %}
     		
