@@ -19,7 +19,7 @@ layout: default
     			<!-- <div class="description">Information Architect</div> -->
     		</div>
     		
-    		<hr style="width: 100%;">
+    		<hr style="width: 100%; background-color: #e0e0e0;">
 		
     		{% for post in site.posts %}
     		
@@ -29,6 +29,8 @@ layout: default
     				<span class="post-date" style="font-size: 2rem; width: 100%; text-align: center; font-weight: bold;">{{ post.title }}</span>
     				<div class="description">{{ post.date | date: "%B %e, %Y" }}</div>
     			</div>
+    			
+    			<hr style="width: 100%; background-color: #e0e0e0;">
     			
     			<!-- <hr style="width: 100%; background-color: #f2f2f2;"> -->
     		
