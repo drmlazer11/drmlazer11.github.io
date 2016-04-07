@@ -16,6 +16,7 @@ layout: default
     				<!-- <span class="archive-emoji">{{ post.categories }} &nbsp;&nbsp;&nbsp;</span> -->
     				<!-- <h2 id="y{{post.date | date: "%Y"}}" class="archive-year">{{ currentdate }}</h2> -->
     				<h2 id="{{post.title}}" class="archive-year">{{ post.title }}</h2>
+    				<span class="post-date">{{ page.date | date: "%B %e, %Y" }}<span class="date-emoji"> &nbsp;{{ page.categories }}</span></span>
     				{% assign date = currentdate %}
     			{% endif %}
     			<div class="archive-item">
