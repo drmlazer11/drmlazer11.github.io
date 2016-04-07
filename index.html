@@ -13,11 +13,12 @@ layout: default
     			{% assign currentdate = post.date | date: "%Y" %}
     			{% if currentdate != date %}
     				{% unless forloop.first %} {% endunless %}
+    				<span class="archive-emoji">{{ post.categories }} &nbsp;&nbsp;&nbsp;</span>
     				<h2 id="y{{post.date | date: "%Y"}}" class="archive-year">{{ currentdate }}</h2>
     				{% assign date = currentdate %}
     			{% endif %}
     			<div class="archive-item">
-    				<span class="archive-emoji">{{ post.categories }} &nbsp;&nbsp;&nbsp;</span>
+    				<!-- <span class="archive-emoji">{{ post.categories }} &nbsp;&nbsp;&nbsp;</span> -->
     				<span class="post-date archive-date">{{ post.date | date: "%B %e, %Y" }}</span>
     				<a href="{{ site.baseurl }}{{ post.url }}" class="archive-title">
     					{{ post.title }}
