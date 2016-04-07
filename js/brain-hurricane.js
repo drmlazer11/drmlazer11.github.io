@@ -31,13 +31,13 @@ var brainHurricane = (function (window, document) {
 		
 		fn_tap_industry: function() {
 
-			var industries = ["Abortion", "Accounting", "Advertising", "PR", "Aerospace", "Agriculture", "Airlines", "Alcohol", 
+			var industries = ["Accounting", "Advertising", "PR", "Aerospace", "Agriculture", "Airlines", "Alcohol", 
 			"Architecture", "Automobiles", "Banking", "Beer", "Casinos", "Fashion", "Software", "Construction", "Ice Cream", "Defense", "Dentistry", "Education", "Ice Cream",
 			"Energy", "Farming", "Funeral Homes", "Weapons", "Healthcare", "Internet", "Music", "Art", "Payments", "Nursing Homes", "Pharmaceuticals", "Utilities", "IoT", "Photography", 
 			"Publishing", "Railroads", "Transportation", "Retail", "Spas", "Cruises", "Vacation", "Tourism", "Tobacco", "Shipping", "Waste", "Recycling", "Trash", "Steel", "Restaurants", "Gaming",
 			"Security", "Military", "3D Printing", "Drones", "Delivery", "E-Commerce", "Nutrition"];
 
-			var words = ["Abortion", "Accounting", "Advertising", "Public Relations", "Aerospace", "Agriculture", "Airlines", "Alcohol", 
+			var words = [Accounting", "Advertising", "Public Relations", "Aerospace", "Agriculture", "Airlines", "Alcohol", 
 			"Architecture", "Automobiles", "Banking", "Beer", "Casinos", "Fashion", "Software", "Construction", "Ice Cream", "Defense", "Dentistry", "Education", "Ice Cream",
 			"Energy", "Farming", "Funeral Homes", "Weapons", "Healthcare", "Internet", "Music", "Art", "Payments", "Nursing Homes", "Pharmaceuticals", "Utilities", "IoT", 
 			"Publishing", "Railroads", "Transportation", "Retail", "Spas", "Cruises", "Vacation", "Tourism", "Tobacco", "Shipping", "Waste", "Recycling", "Trash", "Steel", "Restaurants",
