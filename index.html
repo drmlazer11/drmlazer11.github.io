@@ -11,7 +11,7 @@ layout: default
 		
     		{% for post in site.posts %}
     		
-    			<div class="archive-item" style="opacity: .5;">
+    			<div class="archive-item">
     				<h2 id="{{post.title}}" class="archive-year date-emoji" style="color: #333;">{{ post.title }}</h2>
     				<span class="post-date">{{ post.date | date: "%B %e, %Y" }}<span class="date-emoji"> &nbsp;{{ post.categories }}</span></span>
     				<p class="mission">{{ post.content }}</p>
