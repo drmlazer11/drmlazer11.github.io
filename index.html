@@ -12,7 +12,7 @@ layout: default
     		{% for post in site.posts %}
     		
     			<h2 id="{{post.title}}" class="archive-year" style="font-size: 1.8rem;">{{ post.title }}</h2>
-    			<span class="post-date">{{ post.date | date: "%B %e, %Y" }}<span class="date-emoji"> &nbsp;{{ post.categories }}</span></span>
+    			<strike><span class="post-date">{{ post.date | date: "%B %e, %Y" }}<span class="date-emoji"> &nbsp;{{ post.categories }}</span></span></strike>
     			<p class="mission">{{ post.content }}</p>
     		
     		{% endfor %}
