@@ -28,15 +28,64 @@ html {
 	font-size: 16px;
 }
 
+.message-container {
+	width: 50rem; 
+	height: 16rem; 
+	margin: auto; 
+	left: 0; 
+	right: 0; 
+	top: 0; 
+	bottom: 0;
+	position: absolute; 
+	overflow: hidden;
+}
+
+.seeking-text {
+	width: 100%;
+	text-align: center;
+	font-family: 'Source Sans Pro';
+	letter-spacing: .1rem;
+	font-weight: 900;
+	color: rgba(0, 0, 255, 1);
+	font-size: 6rem;
+	position: relative;
+	margin-top: .25rem;
+}
+
+.knowledge-text {
+	font-family: 'Source Sans Pro';
+	letter-spacing: .1rem;
+	font-weight: 900;
+	width: 100%;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	font-size: 6rem;
+}
+
+
 @media screen and (max-width: 50em) {
     html {
         font-size: 12px;
     }
+
+    .message-container {
+    	width: 40rem;
+    }
+    .seeking-text, .knowledge-text {
+    	font-size: 6rem;
+    }
+
 }
 
 @media screen and (max-width: 36em) {
     html {
         font-size: 8px;
+    }
+    .message-container {
+    	width: 100%;
+    }
+    .seeking-text, .knowledge-text {
+    	font-size: 6rem;
     }
 }
 
@@ -51,19 +100,6 @@ html {
 	background-color: #111;
 	z-index: 1;
 	height: 100%;
-}
-
-.message-container {
-	width: 50rem; 
-	height: 16rem; 
-	margin: auto; 
-	left: 0; 
-	right: 0; 
-	top: 0; 
-	bottom: 0;
-	/*-webkit-transform: translate3d(0,0,0);*/
-	position: absolute; 
-	overflow: hidden;
 }
 
 .left-lining {
@@ -84,26 +120,6 @@ html {
 	height: 16rem; 
 	background-color: rgba(255, 255, 255, 1);
 	-webkit-transition: -webkit-transform 1s;
-}
-
-.seeking-text {
-	width: 100%;
-	text-align: center;
-	font-family: 'Source Sans Pro';
-	letter-spacing: .1rem;
-	font-weight: 900;
-	color: rgba(0, 0, 255, 1);
-	font-size: 6rem;
-}
-
-.knowledge-text {
-	font-family: 'Source Sans Pro';
-	letter-spacing: .1rem;
-	font-weight: 900;
-	width: 100%;
-	text-align: center;
-	color: rgba(255, 255, 255, 1);
-	font-size: 6rem;
 }
 
 .top-tv-screen {
