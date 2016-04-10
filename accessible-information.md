@@ -1,5 +1,5 @@
 ---
-layout: ai
+layout: accessible-information
 title: Accessible Information
 permalink: /accessible-information/
 ---
