@@ -1,0 +1,179 @@
+---
+### Front matter to ensure that Jekyll properly reads the file.
+---
+
+::-moz-selection {
+  background: rgba(0, 0, 255, 1);
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: rgba(0, 0, 255, 1);
+  color: #fff;
+  text-shadow: none;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-transform: translate3d(0,0,0);
+    background-color: #111;
+    overflow: hidden;
+}
+
+html {
+	font-size: 16px;
+}
+
+@media screen and (max-width: 50em) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 36em) {
+    html {
+        font-size: 8px;
+    }
+}
+
+.display-none {
+	display: none;
+}
+
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+	background-color: #111;
+	z-index: 1;
+	height: 100%;
+}
+
+.message-container {
+	width: 50rem; 
+	height: 16rem; 
+	margin: auto; 
+	left: 0; 
+	right: 0; 
+	top: 0; 
+	bottom: 0;
+	/*-webkit-transform: translate3d(0,0,0);*/
+	position: absolute; 
+	overflow: hidden;
+}
+
+.left-lining {
+	position: absolute;
+	left: 0;
+	top: -12rem;
+	width: 1rem; 
+	height: 16rem; 
+	background-color: rgba(0, 0, 255, 1); 
+	-webkit-transition: -webkit-transform 1s;
+}
+
+.right-lining {
+	position: absolute;
+	right: 0;
+	bottom: -12rem;
+	width: 1rem; 
+	height: 16rem; 
+	background-color: rgba(255, 255, 255, 1);
+	-webkit-transition: -webkit-transform 1s;
+}
+
+.seeking-text {
+	width: 100%;
+	text-align: center;
+	font-family: 'Source Sans Pro';
+	letter-spacing: .1rem;
+	font-weight: 900;
+	color: rgba(0, 0, 255, 1);
+	font-size: 6rem;
+}
+
+.knowledge-text {
+	font-family: 'Source Sans Pro';
+	letter-spacing: .1rem;
+	font-weight: 900;
+	width: 100%;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	font-size: 6rem;
+}
+
+.top-tv-screen {
+	position: absolute; 
+	width: 100%; 
+	height: 50%;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	z-index: 2;
+}
+
+.bottom-tv-screen {
+	position: absolute; 
+	width: 100%; 
+	height: 50%;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	z-index: 2;
+}
+
+.info-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 3;
+	-webkit-transform: translate3d(0,0,0);
+}
+
+.menu-container {
+	position: relative;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin: 0 auto;
+	width: 42rem;
+	-webkit-transform: translate3d(0,0,0);
+	/*-webkit-transform: translate3d(0,0,0);*/
+}
+
+.ai-text {
+	color: #999;
+	font-family: 'Source Sans Pro';
+	font-weight: 900;
+	letter-spacing: .15rem;
+	font-size: 8rem;
+	margin-top: 4rem;
+	padding-bottom: 2rem;
+	-webkit-transform: translate3d(0,0,0);
+}
+
+.info-header-text {
+	font-family: 'Source Code Pro';
+	font-weight: 900;
+	font-size: 2rem;
+	color: #111;
+	margin-top: 1rem;
+	-webkit-transform: translate3d(0,0,0);
+}
+
+.info-text {
+	font-family: 'Source Code Pro';
+	font-weight: 400;
+	line-height: 1.5;
+	font-size: 1.25rem;
+	color: #111;
+	margin-top: 1rem;
+	padding-bottom: 2rem;
+	-webkit-transform: translate3d(0,0,0);
+}
