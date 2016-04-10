@@ -35,13 +35,12 @@ permalink: /accessible-information/
 
 </div>
 
-
-<script src="js/TweenLite.min.js"></script>
-<script src="js/EasePack.min.js"></script>
-<script src="js/rAF.js"></script>
-<script src="js/synapses.js"></script>
-<script src="js/ai.js"></script>
-<script src="js/fastclick.js"></script>
+<script src="http://davemuench.com/js/TweenLite.min.js"></script>
+<script src="http://davemuench.com/js/EasePack.min.js"></script>
+<script src="http://davemuench.com/js/rAF.js"></script>
+<script src="http://davemuench.com/js/synapses.js"></script>
+<script src="http://davemuench.com/js/ai.js"></script>
+<script src="http://davemuench.com/js/fastclick.js"></script>
 
 <script>
 	new Ai();
