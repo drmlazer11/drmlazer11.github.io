@@ -11,7 +11,6 @@ var Ai = (function (window, document) {
 		}, false);
 
 		$('#insta-like-text').on('click', this.fn_tap_insta_like.bind(this));
-        // $('body').on('click', this.fn_enter.bind(this));
 
 		this.fn_animation();
 
