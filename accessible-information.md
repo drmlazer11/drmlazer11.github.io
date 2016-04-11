@@ -25,11 +25,11 @@ permalink: /accessible-information/
 					
 	<div class="menu-container display-none">	
 		<div class="ai-text" style="color: rgba(28, 147, 230, 1);">Ai</div>
-		<div class="info-header-text" style="color: #999;">About Us</div>
+		<div class="info-header-text" style="color: #444;">About Us</div>
 		<div class="info-text">Accessible Information LLC is dedicated to advancing our understanding of human cognition and artificial intelligence through the use of mathematical analysis and computational modeling.</div>
-		<div class="info-header-text" style="color: #999;">Team</div>
+		<div class="info-header-text" style="color: #444;">Team</div>
 		<div class="info-text">We're two anonymous hackers: frances and d-l33t.</div>
-		<div class="info-header-text" style="color: #999;">4/7/16</div>
+		<div class="info-header-text" style="color: #444;">4/7/16</div>
 		<div id="insta-like" class="info-text">Ai begins work on <span id="insta-like-text" style="color: rgba(28, 147, 230, 1); border-bottom: 1px solid rgba(28, 147, 230, 1); cursor: pointer;">Insta-Like.</span></div>
 	</div>
 
