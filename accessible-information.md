@@ -24,7 +24,7 @@ permalink: /accessible-information/
 <div class="info-container display-none">
 					
 	<div class="menu-container display-none">	
-		<div class="ai-text">Ai</div>
+		<div class="ai-text" style="color: rgba(28, 147, 230, 1);">Ai</div>
 		<div class="info-header-text">About Us</div>
 		<div class="info-text">Accessible Information LLC is dedicated to advancing our understanding of human cognition and artificial intelligence through the use of mathematical analysis and computational modeling.</div>
 		<div class="info-header-text">Team</div>
