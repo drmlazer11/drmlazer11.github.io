@@ -1,7 +1,7 @@
 (function() {
 
-    var color = 'rgba(0, 0, 255,';
-    var color1 = 'rgba(0, 0, 255, .3)';
+    var color = 'rgba(28, 147, 230,';
+    var color1 = 'rgba(28, 147, 230, .3)';
 
     var width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
 
