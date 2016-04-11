@@ -27,7 +27,7 @@ permalink: /accessible-information/
 		<div class="ai-text" style="color: rgba(28, 147, 230, 1);">Ai</div>
 		<div class="info-header-text" style="color: #333;">About Us</div>
 		<div class="info-text">Accessible Information leverages deep-learning algorithms to make sense of complex data in novel ways.</div>
-		<div class="info-header-text" style="color: #333;">Our Mission</div>
+		<div class="info-header-text" style="color: #333;">Mission</div>
 		<div class="info-text">We aim to enhance automation and improve efficiency in applications towards the advancement of humans.</div>
 		<div class="info-header-text" style="color: #333;">4/7/16</div>
 		<div id="insta-like" class="info-text">Ai begins work on <span id="insta-like-text" style="color: rgba(28, 147, 230, 1); border-bottom: 1px solid rgba(28, 147, 230, 1); cursor: pointer;">Insta-Like.</span></div>
