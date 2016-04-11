@@ -30,7 +30,7 @@ permalink: /accessible-information/
 		<div class="info-header-text" style="color: #333;">Mission</div>
 		<div class="info-text">We aim to enhance automation and improve efficiency in applications towards the advancement of humans.</div>
 		<div class="info-header-text" style="color: #333;">4/7/16</div>
-		<div id="insta-like" class="info-text">Ai begins work on <span id="insta-like-text" style="color: rgba(28, 147, 230, 1); border-bottom: 1px solid rgba(28, 147, 230, 1); cursor: pointer;">Insta-Like.</span></div>
+		<div id="insta-like" class="info-text">Ai begins work on <span id="insta-like-text" style="color: rgba(28, 147, 230, 1); border-bottom: 1px solid rgba(28, 147, 230, 1); cursor: pointer;">Emoti-Parser.</span></div>
 	</div>
 
 </div>
