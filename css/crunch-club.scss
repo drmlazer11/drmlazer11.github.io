@@ -270,6 +270,28 @@ div, span {
 	margin-bottom: 6rem;
 }
 
+.mission-heading-text {
+	position: relative; 
+	font-family: 'Fredoka One';
+	font-size: 4rem;
+	text-align: center; 
+	width: 100%; 
+	color: #fff; 
+	margin-top: 0rem;
+}
+
+.mission-description-text {
+	position: relative;
+	font-family: 'Dosis';
+	font-size: 2rem; 
+	width: 90%; 
+	color: #fff; 
+	margin-top: 3rem;
+	max-width: 40rem;
+	line-height: 1.4;
+	margin: 3rem auto;
+}
+
 .purchase-button {
 	position: relative; 
 	width: 100%; 
