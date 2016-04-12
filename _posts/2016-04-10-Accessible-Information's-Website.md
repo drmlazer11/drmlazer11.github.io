@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ai's Website"
+title:  "Accessible Information"
 date:   2016-04-10 08:00:27 -0500
 categories: ":eight_spoked_asterisk:"
 ---
