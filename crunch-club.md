@@ -87,7 +87,7 @@ permalink: /crunch-club/
 
 	<div class="mission-description-text">Our goal is to build a healthier and more productive society through a fundamental shift in nutrition. We believe that nuts, which contain the highest quality protein in the world, should be considered a staple of our diets, not just a snack food.</div>
 
-	<a href="sign-up.html">
+	<a href="http://davemuench.com/crunch-club-sign-up">
 		<div class="purchase-button">
 			<div class="purchase-button-text">JOIN</div>
 		</div>
