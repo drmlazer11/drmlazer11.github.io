@@ -2,7 +2,7 @@
 layout: post
 title:  "Ai's Website"
 date:   2016-04-10 08:00:27 -0500
-categories: ":thought_balloon:"
+categories: ":eight_spoked_asterisk:"
 ---
 
 <p>This past week I designed <a href="http://davemuench.com/accessible-information">Accessible Information's website.</a> I can't wait to begin hacking on some fun side projects.</p> 
