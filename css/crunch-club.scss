@@ -45,10 +45,6 @@ div, span {
     outline: 0;
 }
 
-
-
-
-
 .container {
 	position: relative;
 	width: 100%; 
@@ -318,4 +314,16 @@ div, span {
 
 .purchase-button:hover {
 	background-color: #508f64;
+}
+
+.sign-up-container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 40rem;
+	height: 24rem;
+	background-color: #337147;
+	margin: auto;
 }
