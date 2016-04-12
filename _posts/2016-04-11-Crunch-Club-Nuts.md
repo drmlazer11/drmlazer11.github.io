@@ -11,6 +11,6 @@ categories: ":deciduous_tree:"
 
 <img src="http://i.imgur.com/IFpB26T.png"/>
 
-<p>As it turned out, 35% of the 50 people who clicked on our Google Adwords advertisement clicked 'YES.' So we continued onwards, as we considered that worthy of optimism.</p>
+<p>As it turned out, 35% of the 50 people who clicked on our Google Adwords advertisement said 'YES.' So we continued moving forward.</p>
 
-<p>This was the <a href="http://davemuench.com/crunch-club">follow up landing page</a> that we advertised on Google Adwords. Unfortunately only 20% of people clicked 'JOIN,' and it was for this reason that we chose to can the venture.
+<p>This was the <a href="http://davemuench.com/crunch-club">follow up landing page</a> that we advertised on Google Adwords. Unfortunately only 20% of people clicked 'JOIN.' It was for this reason that we chose to stop working on the idea.
