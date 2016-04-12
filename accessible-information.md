@@ -11,7 +11,7 @@ permalink: /accessible-information/
 	<div class="message-container">
 		<div class="left-lining"></div>
 		<div class="right-lining"></div>
-		<div id="seeking-text" class="seeking-text display-none">EXPANDING</div>
+		<div id="seeking-text" class="seeking-text display-none">BUILDING</div>
 		<div class="knowledge-text display-none">KNOWLEDGE</div>
 	</div>
 
