@@ -6,9 +6,9 @@ permalink: /crunch-club-sign-up/
 
 <div class="container">
   <div class="mission-container">
-		<div class="emoji emoji-icon">:maple_leaf:</div>
+		<div class="big-emoji emoji">:maple_leaf:</div>
 		<div class="brand-header" style="margin-top: -1rem;">Awesome!</div>
-		<div class="mission-text" style="width: 100%; text-align: center; padding-left: 0; margin-top: 0rem;">We'll be going live soon!</div>			
+		<div class="mission-description-text" style="width: 100%; text-align: center; padding-left: 0; margin-top: 0rem;">We'll be going live soon!</div>			
 	</div>
 </div>
 
