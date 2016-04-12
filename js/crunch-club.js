@@ -8,8 +8,6 @@ var crunchClub = (function (window, document) {
 	crunchClub = function (opts) {
 	
 	    that = this;
-				
-        $('.purchase-button').on('click', this.fn_tap_purchase.bind(this));
 
         this.fn_check_if_first_visit();
     	this.fn_convert_emoji();
@@ -21,10 +19,6 @@ var crunchClub = (function (window, document) {
     };
     
 	crunchClub.prototype = {
-
-		// ------------------------------------------------------
-		// Skimmin Core Functions
-		// ------------------------------------------------------
         
        	fn_convert_emoji: function() {
 			
