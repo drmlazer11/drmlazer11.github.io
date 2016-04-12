@@ -1,0 +1,299 @@
+---
+### Front matter to ensure that Jekyll properly reads the file.
+---
+
+/**************************************************************/
+/****************** Generic Body, HTML CSS ********************/
+/**************************************************************/
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-transform: translate3d(0,0,0);
+    background-color: #337147;
+}
+
+html {
+	font-size: 16px;
+	/*-webkit-transition: .15s all;*/
+}
+
+@media screen and (max-width: 50em) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 36em) {
+    html {
+        font-size: 8px;
+    }
+}
+
+div, span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+
+
+
+
+.container {
+	position: relative;
+	width: 100%; 
+	height: 100%;
+	background-color: #337147;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+.header-container {
+	width: 100%;
+	height: 18rem; 
+	position: relative; 
+	background-color: #fff;
+}
+
+.header-text {
+	width: 100%; 
+	font-family: 'Dosis'; 
+	font-size: 8rem; 
+	color: #337147; 
+	position: absolute; 
+	text-align: center; 
+	top: 3.25rem;
+}
+
+
+
+
+
+.smiley-container {
+	position: relative;
+	width: 100%;
+	padding-top: 7rem;
+	padding-bottom: 6rem;
+	max-width: 40rem;
+	margin: 0 auto;
+}
+
+.big-emoji {
+	font-size: 12rem;
+	position: relative; 
+	width: 100%;
+	text-align: center;
+}
+
+
+.brand-header {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	font-family: 'Fredoka One'; 
+	color: #fff; 
+	font-size: 4rem;
+}
+
+.brand-subheader {
+	position: relative;
+	font-family: 'Dosis'; 
+	color: #fff;
+	font-size: 2rem;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.assortment-pack-container {
+	width: 95%;
+	max-width: 40rem;
+	background-color: rgba(255, 255, 255, .05);
+	margin: -1rem auto;
+	border-radius: 10px;
+}
+
+.assortment-pack-heading-container {
+	position: relative;
+	width: 100%;
+	height: 5rem;
+	border-bottom: 1px solid rgba(255, 255, 255, 0);
+	background-color: rgba(255, 255, 255, .05);
+	border-radius: 10px 10px 0px 0px;
+}
+
+.assortment-pack-heading-text {
+	color: #fff;
+	font-size: 2rem;
+	text-align: center;
+	width: 100%;
+	font-family: 'Dosis';
+	position: absolute;
+	top: 1.25rem;
+}
+
+
+.assortment-pack-subcontainer-1 {
+	position: relative;
+	display: inline-block;
+	width: 33.1%;
+	height: 13.3rem;
+	border-bottom: 1px solid rgba(255, 255, 255, .04);
+	border-right: 1px solid rgba(255, 255, 255, .04);
+}
+
+.assortment-pack-subcontainer-2 {
+	position: relative;
+	display: inline-block;
+	width: 33.1%;
+	height: 13.3rem;
+	border-bottom: 1px solid rgba(255, 255, 255, .04);
+	border-right: 1px solid rgba(255, 255, 255, .04);
+}
+
+.assortment-pack-subcontainer-3 {
+	position: relative;
+	display: inline-block;
+	width: 33.1%;
+	height: 13.3rem;
+	border-bottom: 1px solid rgba(255, 255, 255, .04);
+}
+
+.assortment-pack-subcontainer-4 {
+	position: relative;
+	display: inline-block;
+	width: 33.1%;
+	height: 13.3rem;
+	border-bottom: 1px solid rgba(255, 255, 255, .04);
+	border-right: 1px solid rgba(255, 255, 255, .04);
+}
+
+.assortment-pack-subcontainer-5 {
+	position: relative;
+	display: inline-block;
+	width: 33.1%;
+	height: 13.3rem;
+	border-bottom: 1px solid rgba(255, 255, 255, .04);
+	border-right: 1px solid rgba(255, 255, 255, .04);
+}
+
+.assortment-pack-subcontainer-6 {
+	position: relative;
+	display: inline-block;
+	width: 33.1%;
+	height: 13.3rem;
+	border-bottom: 1px solid rgba(255, 255, 255, .04);
+}
+
+.assortment-pack-subcontainer-7 {
+	position: relative;
+	display: inline-block;
+	width: 33.1%;
+	height: 13.3rem;
+	border-right: 1px solid rgba(255, 255, 255, .04);
+}
+
+.assortment-pack-subcontainer-8 {
+	position: relative;
+	display: inline-block;
+	width: 33.1%;
+	height: 13.3rem;
+	border-right: 1px solid rgba(255, 255, 255, .04);
+}
+
+.assortment-pack-subcontainer-9 {
+	position: relative;
+	display: inline-block;
+	width: 33.1%;
+	height: 13.3rem;
+}
+
+.flag-emoji {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-family: 'Dosis';
+	font-size: 2.5rem;
+	top: 2.5rem;
+}
+
+.nut-type-text {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-family: 'Dosis';
+	font-size: 1.5rem;
+	top: 7rem;
+}
+
+.nut-volume-text {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: #99b8a3;
+	font-family: 'Dosis';
+	font-size: 1.5rem;
+	top: 9.5rem;
+}
+
+.assortment-pack-calorie-container {
+	position: relative;
+	width: 100%;
+	height: 5rem;
+	border-top: 1px solid rgba(255, 255, 255, 0);
+	background-color: rgba(255, 255, 255, .05);
+	border-radius: 0px 0px 10px 10px;
+}
+
+.assortment-pack-calorie-text {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 2rem;
+	font-family: 'Dosis';
+	top: 1.25rem;
+}
+
+.nut-type-text.last {
+	margin-bottom: 6rem;
+}
+
+.purchase-button {
+	position: relative; 
+	width: 100%; 
+	max-width: 20rem; 
+	height: 8rem; 
+	border-radius: 1.25rem;
+	margin: 0 auto; 
+	margin-bottom: 8rem;
+	margin-top: 4rem;
+	background-color: #477F59; 
+	border-bottom: .3rem solid #234f31;
+	cursor: pointer;
+}
+
+.purchase-button-text {
+	position: absolute;
+	width: 100%; 
+	text-align: center; 
+	color: #fff; 
+	top: 1.5rem; 
+	font-size: 4rem; 
+	font-family: 'Fredoka One';
+}
+
+.purchase-button:hover {
+	background-color: #508f64;
+}
