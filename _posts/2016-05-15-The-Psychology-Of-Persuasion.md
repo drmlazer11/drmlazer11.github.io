@@ -37,15 +37,15 @@ categories: ":dog2:"
 
 <h3>Similarity</h3>
 
-<p>We like people who are similar to us. This fact seems to hold true whether the similarity is in the area of opinions, personal traits, background or lifestyle. Consequently, those who wish to be liked in order to increase our compliance can accomplish that purpose by appearing similar to us in any of a wide variety of ways. Dress is a good example. Studies have shown that we are more likely to help those who dress like us.</p>
+<p>We like people who are similar to us. This fact seems to hold true whether the similarity is in the area of opinions, personal traits, background or lifestyle. Dress is a good example. Studies have shown that we are more likely to help those who dress like us.</p>
 
 <h3>Compliments</h3>
 
-<p>As it turns out, we are phenomenal suckers for flattery. Although there are limits to our gullibility - especially when we can be sure that the flatterer is trying to manipulate us - we tend, as a rule, to believe praise and to like those who provide it, often times when it is clearly false.</p>
+<p>As it turns out, we are phenomenal suckers for flattery. Although there are limits to our gullibility - especially when we are sure that the flatterer is trying to manipulate us - we tend, as a rule, to believe praise and to like those who provide it, often times when it is clearly false.</p>
 
 <h3>Association</h3>
 
-<p>Ask any weatherwoman if she likes to report the news about a devastating storm coming into town. Her answer will undoubtedly be, "No way!" That's because there is a natural human tendency to dislike a person who brings us unpleasant information, even when that person did not cause the bad news. The simple association with it is enough to stimulate our dislike.</p>
+<p>Ask any weatherman if he likes to report the news about a devastating storm coming into town. His answer will undoubtedly be, "No way!" That's because there is a natural human tendency to dislike a person who brings us unpleasant information, even when that person didn't cause the bad news. The simple association with it is enough to stimulate our dislike.</p>
 
 <h2>Authority</h2>
 
@@ -53,7 +53,7 @@ categories: ":dog2:"
 
 <p>Titles and clothing are two ways in which authority is typically conveyed. For instance, when M.D. is attached to someone's name, we assume the person must be very knowledgeable about medicine. Similarly, when we see someone in a fresh-pressed suit and tie, we associate an authoritative feeling towards them.</p>
 
-<p style="font-style: italic">Be careful. Titles and clothing are easily faked.</p>
+<p><em>Be careful. Titles and clothing are easily faked.</em></p>
 
 <h2>Scarcity</h2>
 
