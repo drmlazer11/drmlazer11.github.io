@@ -45,7 +45,7 @@ categories: ":ok:"
 
 <h3>Association</h3>
 
-<p>Ask any weatherwoman if she likes to report the news about a devastating storm coming into town. Their answer will undoubtedly be, "No way!" That's because there is a natural human tendency to dislike a person who brings us unpleasant information, even when that person did not cause the bad news. The simple association with it is enough to stimulate our dislike.</p>
+<p>Ask any weatherwoman if she likes to report the news about a devastating storm coming into town. Her answer will undoubtedly be, "No way!" That's because there is a natural human tendency to dislike a person who brings us unpleasant information, even when that person did not cause the bad news. The simple association with it is enough to stimulate our dislike.</p>
 
 <h2>Authority</h2>
 
