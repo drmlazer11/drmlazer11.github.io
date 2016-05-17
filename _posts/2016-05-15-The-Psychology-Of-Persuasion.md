@@ -9,7 +9,7 @@ categories: ":dog2:"
 
 <p>Since many of the classes I took at Northeastern focused on marketing, I thought it would be a good idea to learn more about the sales side of things. I had some free time yesterday so I decided to read <em>Influence, The Psychology of Persuasion</em>. I figured - if nothing else - it would provide me with some fundamental concepts about psychology that I could utilize in a sales role. And boy was I right.</p>
 
-<p>The book outlines six "weapons of influence" used by compliance professionals (marketers, sales people, recruiters, etc.) to increase our willingness to say yes to their requests. I'll briefly describe these six tactics below.</p>
+<p>The book outlines six "weapons of influence" used by compliance professionals (marketers, sales people, recruiters, etc.) to increase our willingness to say yes to their requests. I'll give a brief description of these six tactics below.</p>
 
 <h2>Reciprocation</h2>
 
