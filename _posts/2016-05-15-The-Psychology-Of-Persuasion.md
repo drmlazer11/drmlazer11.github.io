@@ -51,10 +51,10 @@ categories: ":dog2:"
 
 <p>We are trained from birth that obedience to proper authority is right and disobedience is wrong. This essential message fills parental lessons, schoolhouse rhymes, stories and songs of our childhood and is carried forward in the legal, military and political systems we encounter as adults. Religious instruction contributes as well. The very first book of the Bible, for example, describes how failure to obey authority produced the loss of paradise for Adam, Eve and the rest of the human race.</p>
 
-<p>Titles and clothing are two ways in which authority is typically conveyed. For instance, when M.D. is attached to someone's name, we assume the person must be very knowledgeable about medicine. Similarly, when we see someone in a fresh-pressed suit and tie, we associate an authoritative feeling towards them.</p>
+<p>Titles and clothing are two ways in which authority is typically conveyed. For instance, when "M.D." is attached to someone's name, we assume the person must be very knowledgeable about medicine. Similarly, when we see someone in a fresh-pressed suit and tie, we associate an authoritative feeling towards them.</p>
 
 <p><em>Be careful. Titles and clothing are easily faked.</em></p>
 
 <h2>Scarcity</h2>
 
-<p>"There aren't more than five of these convertibles in the entire country. And when they're gone, that's it, 'cause we're not making 'em anymore." Does this sound at all familiar? Phrases like this are used by compliance professionals who understand the scarcity principle. As a rule, if it is rare or becoming rare, it is more valuable. That's why flawed items, such as an abnormally marked rookie baseball card, are worth so much in the collectibles market.</p>
+<p>"There aren't more than five of these convertibles in the entire country. And when they're gone, that's it, 'cause we're not making 'em anymore." Does this sound familiar? Phrases like this are used by compliance professionals who understand the scarcity principle. As a rule, if it is rare or becoming rare, it is more valuable. That's why flawed items, such as an abnormally marked rookie baseball card, are worth so much in the collectibles market.</p>
