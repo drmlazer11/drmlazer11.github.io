@@ -13,7 +13,7 @@ categories: ":dog2:"
 
 <h2>Reciprocation</h2>
 
-<p>How many times have you gone to a supermarket and had someone offer you a free sample of cheese? The rationale behind this behavior is simple: humans inherently feel a sense of obligation to comply with people who have done a favor for them, even if they did not request said favor.</p>
+<p>How many times have you gone to a supermarket and had someone offer you a free sample of cheese? The rationale behind this behavior is simple: humans inherently feel a sense of obligation to comply with people who have done a favor for them, even if they didn't request that favor.</p>
 
 <p>One example of this can be found within the Hare Krishna Society. Members of the religion rely heavily upon donations, and as such, can often be found talking to pedestrians in large cities. One solicitation technique commonly employed by the sect is to hand out free flowers or informational booklets to their audience. As a result, people feel indebted to these Krishna members and are much more likely to donate when asked.</p>
 
