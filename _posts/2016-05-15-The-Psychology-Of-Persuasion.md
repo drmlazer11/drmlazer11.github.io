@@ -2,14 +2,14 @@
 layout: post
 title:  "The Psychology Of Persuasion"
 date:   2016-05-16 08:00:27 -0500
-categories: ":ok:"
+categories: ":dog2:"
 ---
 
 <p>As I transition away from entrepreneurship, at least for the time being, I've begun considering a career in marketing and/or sales. Not only would this allow me to harness my formal business education, but it would also enable me to leverage my innate ability to connect with people quickly and effortlessly.</p>
 
 <p>Since many of the classes I took at Northeastern focused on marketing, I thought it would be a good idea to learn more about the sales side of things. I had some free time yesterday so I decided to read <em>Influence, The Psychology of Persuasion</em>. I figured - if nothing else - it would provide me with some fundamental concepts about psychology that I could utilize in a sales role. And boy was I right.</p>
 
-<p>I would highly recommend this book to anyone. Even if you're thinking, "But I'm not an aspiring marketing or sales professional." That's okay! Because although you may not profit from this new found knowledge, it will prevent you from falling into the numerous traps set by compliance professionals. The book outlines six "weapons of influence" used by marketers, sales people, recruiters, etc. to increase our willingness to comply with their requests: reciprocation, commitment and consistency, social proof, likability, authority, and scarcity.</p>
+<p>I would highly recommend this book to anyone. Even if you're thinking, "But I'm not an aspiring marketing or sales professional." That's okay! Because although you may not profit from this new found knowledge, it will prevent you from falling into the numerous traps set by compliance professionals. The book outlines six "weapons of influence" used by marketers, sales people, recruiters, etc. to increase our willingness to comply with their requests. reciprocation, commitment and consistency, social proof, likability, authority, and scarcity.</p>
 
 <h2>Reciprocation</h2>
 
