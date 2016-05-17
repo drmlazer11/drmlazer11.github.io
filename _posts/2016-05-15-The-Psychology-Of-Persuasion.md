@@ -9,7 +9,7 @@ categories: ":dog2:"
 
 <p>Since many of the classes I took at Northeastern focused on marketing, I thought it would be a good idea to learn more about the sales side of things. I had some free time yesterday so I decided to read <em>Influence, The Psychology of Persuasion</em>. I figured - if nothing else - it would provide me with some fundamental concepts about psychology that I could utilize in a sales role. And boy was I right.</p>
 
-<p>I would highly recommend this book to anyone. Even if you're thinking, "But I'm not an aspiring marketing or sales professional." That's okay! Because although you may not profit from this new found knowledge, it will prevent you from falling into the numerous traps set by compliance professionals. The book outlines six "weapons of influence" used by marketers, sales people, recruiters, etc. to increase our willingness to comply with their requests. reciprocation, commitment and consistency, social proof, likability, authority, and scarcity.</p>
+<p>The book outlines six "weapons of influence" used by compliance professionals (marketers, sales people, recruiters, etc.) to increase our willingness to say yes to their requests.</p>
 
 <h2>Reciprocation</h2>
 
