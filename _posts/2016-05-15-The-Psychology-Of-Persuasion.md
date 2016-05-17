@@ -11,23 +11,23 @@ categories: ":ok:"
 
 <p>I would highly recommend this book to anyone. Even if you're thinking, "But I'm not an aspiring marketing or sales professional." That's okay! Because although you may not profit from this new found knowledge, it may prevent you from falling into the traps set by compliance professionals. The book outlines six "weapons of influence" used by marketers, sales people, recruiters, etc. to increase our willingness to comply with their requests: reciprocation, commitment and consistency, social proof, likability, authority, and scarcity.</p>
 
-<h2>1. Reciprocation</h2>
+<h2>Reciprocation</h2>
 
 <p>How many times have you gone to a supermarket and had someone offer you a free sample of cheese? The rationale behind this behavior is simple: humans inherently feel a sense of obligation to comply with people who have done a favor for them, even if they did not request said favor.</p>
 
 <p>One example of this can be found within the Hare Krishna Society. Members of the religion rely heavily upon donations, and as such, can often be found talking to pedestrians in large cities. One solicitation technique commonly employed by the sect is to hand out free flowers or informational booklets to their audience. As a result, people feel indebted to these Krishna members and are much more likely to donate when asked.</p>
 
-<h2>2. Commitment and Consistency</h2>
+<h2>Commitment and Consistency</h2>
 
 <p>Humans perceive consistency as an extremely desirable trait - both in ourselves and in others. When someone doesn't exhibit this trait, they are viewed as fickle, uncertain, pliant, scatterbrained or unstable. Therefore, if someone can get you to make a commitment (that is, to take a stand or go on record), they will have set the stage for your automatic and ill-considered consistency with that earlier commitment. Let's take an example. Telephone solicitors for charity commonly open their call with something along the lines of, "Hello Mr. Muench. How are you feeling this evening?" The caller's intent with this sort of introduction is not merely to seem friendly or caring, although that is undoubtedly part of it. Instead, the purpose is to get you to respond - as you normally do to such polite, superficial inquiries - with a polite, superficial comment of your own: "Just fine" or "Real good" or "I'm doing great, thanks." Once you have publicly stated that all is well, it becomes much easier for the solicitor to corner you into aiding those for whom all is not well. "I'm glad to hear that, because I'm calling to ask if you'd be willing to make a donation to help out the unfortunate victims of..." The theory is that people who have just asserted that they are doing/feeling fine, even as a routine part of a sociable exchange, will consequently find it awkward to appear stingy in context of their own admittedly favored circumstances.</p>
 
-<h2>3. Social Proof</h2>
+<h2>Social Proof</h2>
 
 <p>One means we use to determine what is correct is to find out what other people think is correct. This principle applies especially to the way we decide what constitutes correct behavior. We view a behavior as more correct in a given situation to the degree that we see others performing it. Whether the question is what to do with an empty popcorn box in a movie theater, how fast to drive on a certain stretch of highway, or how to eat the chicken at a dinner party, the actions of those around us will be important in defining the answer.</p>
 
 <p>The principle of social proof is so strong that researchers have even used it as therapy for various problems in young children. For example, we have all seen terribly shy children standing alone at the fringes of the games and groupings of their peers. If unaddressed, a long-term pattern of isolation tends to appear, which creates persistent difficulties in social comfort and adjustment through adulthood. As a remedy, some schools have begun showing these children a film containing eleven different scenes in a nursery-school setting. Each scene began by showing a different solitary child watching some ongoing social activity and then actively joining the activity, to everyone's enjoyment. This twenty-three-minute movie, viewed just once, is often enough to reverse a potential pattern of lifelong maladaptive behavior.</p>
 
-<h2>4. Likability</h2>
+<h2>Likability</h2>
 
 <p>Few of us would be surprised to learn that, as a rule, we most prefer to say yes to the requests of someone we know and like. But what are the factors that determine someone's likability?</p>
 
@@ -47,7 +47,7 @@ categories: ":ok:"
 
 <p>Ask any weatherwoman if she likes to report the news about a devastating storm coming into town. Their answer will undoubtedly be, "No way!" That's because there is a natural human tendency to dislike a person who brings us unpleasant information, even when that person did not cause the bad news. The simple association with it is enough to stimulate our dislike.</p>
 
-<h2>5. Authority</h2>
+<h2>Authority</h2>
 
 <p>We are trained from birth that obedience to proper authority is right and disobedience is wrong. This essential message fills parental lessons, schoolhouse rhymes, stories and songs of our childhood and is carried forward in the legal, military and political systems we encounter as adults. Religious instruction contributes as well. The very first book of the Bible, for example, describes how failure to obey authority produced the loss of paradise for Adam, Eve and the rest of the human race.</p>
 
@@ -55,6 +55,6 @@ categories: ":ok:"
 
 <p style="font-style: italic">Be careful. Titles and clothing are easily faked.</p>
 
-<h2>6. Scarcity</h2>
+<h2>Scarcity</h2>
 
 <p>"There aren't more than five of these convertibles in the entire country. And when they're gone, that's it, 'cause we're not making 'em anymore." Does this sound at all familiar? Phrases like this are used by compliance professionals who understand the scarcity principle. As a rule, if it is rare or becoming rare, it is more valuable. That's why flawed items, such as an abnormally marked rookie baseball card, are worth so much in the collectibles market.</p>
