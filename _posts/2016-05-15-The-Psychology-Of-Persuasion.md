@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Influence: The Psychology Of Persuasion"
+title:  "The Psychology Of Persuasion"
 date:   2016-05-16 08:00:27 -0500
 categories: ":ok:"
 ---
