@@ -5,7 +5,7 @@ date:   2016-05-16 08:00:27 -0500
 categories: ":ok:"
 ---
 
-<p>As I transition away from entrepreneurship, at least for the time being, I've begun considering a career in marketing and/or sales. Not only would this allow me to harness my formal business education, but it would also enable me to leverage my innate ability to connect with other people.</p>
+<p>As I transition away from entrepreneurship, at least for the time being, I've begun considering a career in marketing and/or sales. Not only would this allow me to harness my formal business education, but it would also enable me to leverage my ability to connect with people quickly and effortlessly.</p>
 
 <p>Since many of the classes I took at Northeastern focused on marketing, I thought it would be a good idea to learn more about the sales side of things. Yesterday I had some free time, so I read Influence, The Psychology of Persuasion. I figured - if nothing else - it would provide me with some fundamental concepts about psychology that I could utilize in a sales role. And boy was I right.</p>
 
