@@ -31,7 +31,7 @@ categories: ":thought_balloon:"
 
 <h2>Likability</h2>
 
-<p>Few of us would be surprised to learn that, as a rule, we most prefer to say yes to the requests of someone we know and like. But what are the factors that determine someone's likability?</p>
+<p>Few of us would be surprised to learn that we most prefer to say yes to the requests of someone we know and like. But what are the factors that determine someone's likability?</p>
 
 <h3>Physical Attractiveness</h3>
 
