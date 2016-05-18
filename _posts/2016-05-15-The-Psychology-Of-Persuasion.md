@@ -35,7 +35,7 @@ categories: ":dog2:"
 
 <h3>Physical Attractiveness</h3>
 
-<p>Although it is generally acknowledged that good-looking people have an advantage in social interaction, recent findings indicate that we may have sorely underestimated the size and reach of that advantage. In fact, social scientists have described it as a "halo effect." A halo effect occurs when one positive characteristic of a person <span style="text-decoration: underline">dominates</span> the way that person is viewed by others.</p>
+<p>Although it is generally acknowledged that good-looking people have an advantage in social interaction, recent findings indicate that we may have sorely underestimated the size and reach of that advantage. In fact, social scientists have described it as a "halo effect." A halo effect occurs when one positive characteristic of a person <em>dominates</em> the way that person is viewed by others.</p>
 
 <h3>Similarity</h3>
 
