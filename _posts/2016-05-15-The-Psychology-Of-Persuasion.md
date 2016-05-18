@@ -7,7 +7,7 @@ categories: ":dog2:"
 
 <p>As I transition away from entrepreneurship, at least for the time being, I've begun considering a career in marketing and/or sales. This trajectory would enable me to harness my formal business education while simultaneously enabling me to leverage my innate ability to connect with others.</p>
 
-<p>Since many of the classes I took at Northeastern focused on marketing, I thought it would be a good idea to learn more about the sales side of things. I had some free time yesterday so I decided to read <em>Influence, The Psychology of Persuasion</em>. I figured - if nothing else - it would provide me with some fundamental concepts about psychology that I could utilize in a sales role. And boy was I right.</p>
+<p>Since many of the classes I took at Northeastern focused on marketing, I thought it would be a good idea to learn more about the sales side of things. I had some free time yesterday so I decided to read <em>Influence, The Psychology of Persuasion</em>. I figured - if nothing else - it would provide me with some fundamental concepts about psychology that I could utilize in a sales role.</p>
 
 <p>The book outlines six "weapons of influence" used by compliance professionals (marketers, sales people, recruiters, etc.) to increase our willingness to say yes to their requests. I'll give a brief description of these six tactics below.</p>
 
