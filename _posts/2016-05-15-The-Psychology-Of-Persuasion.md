@@ -60,3 +60,7 @@ categories: ":dog2:"
 <h2>Scarcity</h2>
 
 <p>"There aren't more than five of these convertibles in the entire country. And when they're gone, that's it, 'cause we're not making 'em anymore." Does this sound familiar? Phrases like this are used by compliance professionals who understand the scarcity principle. As a rule, if it is rare or becoming rare, it is more valuable. That's why flawed items, such as an abnormally marked rookie baseball card, are worth so much in the collectibles market.</p>
+
+<h2>Takeaway</h2>
+
+<p>Overall I really enjoyed this book and would highly recommend it to anyone. Even if you're thinking, "But I'm not an aspiring sales or marketing professional." That's okay! Because the knowledge will prevent you - the consumer - from falling into any of the numerous traps that compliance professionals (deviously and non-deviously) set.<a href="http://www.amazon.com/Influence-Psychology-Persuasion-Robert-Cialdini/dp/006124189X">Here's a link to purchase the book.</a></p>
