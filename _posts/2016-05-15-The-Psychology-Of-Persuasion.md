@@ -7,7 +7,7 @@ categories: ":thought_balloon:"
 
 <p>As I transition away from entrepreneurship, at least for the time being, I've begun considering a career in marketing and/or sales. This trajectory would enable me to harness my formal business education while simultaneously enabling me to leverage my innate ability to connect with others.</p>
 
-<p>Since many of the classes I took at Northeastern focused on marketing, I thought it would be a good idea to learn more about the sales side of things. I had some free time yesterday so I decided to read <em>Influence, The Psychology of Persuasion</em>. I figured - if nothing else - it would provide me with some fundamental concepts about psychology that I could utilize in a sales role.</p>
+<p>Since many of the classes I took at Northeastern focused on marketing, I thought it would be a good idea to learn more about the sales side of things. I had some free time yesterday so I decided to read <em>Influence, The Psychology of Persuasion</em>. I figured — if nothing else — it would provide me with some fundamental concepts about psychology that I could utilize in a sales role.</p>
 
 <p>The book outlines six "weapons of influence" used by compliance professionals (marketers, sales people, recruiters, etc.) to increase our willingness to say yes to their requests. Below is a brief description of these six tactics.</p>
 
@@ -19,9 +19,9 @@ categories: ":thought_balloon:"
 
 <h2>Commitment and Consistency</h2>
 
-<p>Humans perceive consistency as an extremely desirable trait - both in ourselves and in others. When someone doesn't exhibit this trait, they are viewed as fickle, uncertain, pliant, scatterbrained or unstable. Therefore, if someone can get you to make a commitment (that is, to take a stand or go on record), they will have set the stage for your automatic and ill-considered consistency with that earlier commitment.</p>
+<p>Humans perceive consistency as an extremely desirable trait — both in ourselves and in others. When someone doesn't exhibit this trait, they are viewed as fickle, uncertain, pliant, scatterbrained or unstable. Therefore, if someone can get you to make a commitment (that is, to take a stand or go on record), they will have set the stage for your automatic and ill-considered consistency with that earlier commitment.</p>
 
-<p>Let's take an example. Telephone solicitors for charity commonly open their call with something along the lines of, "Hello Mr. Muench. How are you feeling this evening?" The caller's intent with this sort of introduction is not merely to seem friendly or caring, although that is undoubtedly part of it. Instead, the purpose is to get you to respond - as you normally do to such polite, superficial inquiries - with a polite, superficial comment of your own: "Just fine" or "Real good" or "I'm doing great, thanks." Once you have publicly stated that all is well, it becomes much easier for the solicitor to corner you into aiding those for whom all is not well. "I'm glad to hear that, because I'm calling to ask if you'd be willing to make a donation to help out the unfortunate victims of..." The theory is that people who have just asserted that they are doing/feeling fine, even as a routine part of a sociable exchange, will consequently find it awkward to appear stingy in context of their own admittedly favored circumstances.</p>
+<p>Let's take an example. Telephone solicitors for charity commonly open their call with something along the lines of, "Hello Mr. Muench. How are you feeling this evening?" The caller's intent with this sort of introduction is not merely to seem friendly or caring, although that is undoubtedly part of it. Instead, the purpose is to get you to respond — as you normally do to such polite, superficial inquiries — with a polite, superficial comment of your own: "Just fine" or "Real good" or "I'm doing great, thanks." Once you have publicly stated that all is well, it becomes much easier for the solicitor to corner you into aiding those for whom all is not well. "I'm glad to hear that, because I'm calling to ask if you'd be willing to make a donation to help out the unfortunate victims of..." The theory is that people who have just asserted that they are doing/feeling fine, even as a routine part of a sociable exchange, will consequently find it awkward to appear stingy in context of their own admittedly favored circumstances.</p>
 
 <h2>Social Proof</h2>
 
@@ -43,7 +43,7 @@ categories: ":thought_balloon:"
 
 <h3>Compliments</h3>
 
-<p>As it turns out, we are phenomenal suckers for flattery. Although there are limits to our gullibility - especially when we are sure that the flatterer is trying to manipulate us - we tend, as a rule, to believe praise and to like those who provide it, often times when it is clearly false.</p>
+<p>As it turns out, we are phenomenal suckers for flattery. Although there are limits to our gullibility — especially when we are sure that the flatterer is trying to manipulate us — we tend, as a rule, to believe praise and to like those who provide it, often times when it is clearly false.</p>
 
 <h3>Association</h3>
 
