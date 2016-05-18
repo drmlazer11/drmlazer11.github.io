@@ -43,7 +43,7 @@ categories: ":thought_balloon:"
 
 <h3>Compliments</h3>
 
-<p>As it turns out, we are phenomenal suckers for flattery. Although there are limits to our gullibility — especially when we are sure that the flatterer is trying to manipulate us — we tend, as a rule, to believe praise and to like those who provide it, often times when it is clearly false.</p>
+<p>We are phenomenal suckers for flattery. Although there are limits to our gullibility — especially when we are sure that the flatterer is trying to manipulate us — we tend, as a rule, to believe praise and to like those who provide it, often times when it is clearly false.</p>
 
 <h3>Association</h3>
 
