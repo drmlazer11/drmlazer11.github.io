@@ -2,7 +2,7 @@
 layout: post
 title:  "Psychology Of Persuasion"
 date:   2016-05-16 08:00:27 -0500
-categories: ":dog2:"
+categories: ":thought_balloon:"
 ---
 
 <p>As I transition away from entrepreneurship, at least for the time being, I've begun considering a career in marketing and/or sales. This trajectory would enable me to harness my formal business education while simultaneously enabling me to leverage my innate ability to connect with others.</p>
