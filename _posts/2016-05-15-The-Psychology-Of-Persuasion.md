@@ -63,6 +63,8 @@ categories: ":dog2:"
 
 <!-- <h2><span style="color: #3cba54">T</span><span style="color: #f4c20d">a</span><span style="color: #db3236">k</span><span style="color: #4885ed">e</span><span style="color: #3cba54">a</span><span style="color: #f4c20d">w</span><span style="color: #db3236">a</span><span style="color: #4885ed">y</span></h2> -->
 
-<h2><em>Takeaway</em></h2>
+<hr>
+
+<h2>Takeaway</h2>
 
 <p>Overall I really enjoyed this book and would highly recommend it to anyone. Even if you're thinking, "But I'm not an aspiring sales or marketing professional." That's okay! Because the knowledge will prevent you - the consumer - from falling into any of the numerous traps that compliance professionals (deviously and non-deviously) set. <a href="http://www.amazon.com/Influence-Psychology-Persuasion-Robert-Cialdini/dp/006124189X">Here's a link to purchase the book.</a></p>
