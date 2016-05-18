@@ -59,7 +59,7 @@ categories: ":dog2:"
 
 <h2>Scarcity</h2>
 
-<p>"There aren't more than five of these convertibles in the entire country. And when they're gone, that's it, 'cause we're not making 'em anymore." Does this sound familiar? Phrases like this are used by compliance professionals who understand the scarcity principle. As a rule, if it is rare or becoming rare, it is more valuable. That's why flawed items, such as an abnormally marked rookie baseball card, are worth so much in the collectibles market.</p>
+<p>"There aren't more than five of these convertibles in the entire country. And when they're gone, that's it, 'cause we're not making 'em anymore." Does this sound familiar? Phrases like this are used by compliance professionals who understand the scarcity principle. As a rule, if it is rare or becoming rare, it is more valuable. That's why flawed items, such as an abnormally marked rookie card, are worth so much in the collectibles market.</p>
 
 <!-- <h2><span style="color: #3cba54">T</span><span style="color: #f4c20d">a</span><span style="color: #db3236">k</span><span style="color: #4885ed">e</span><span style="color: #3cba54">a</span><span style="color: #f4c20d">w</span><span style="color: #db3236">a</span><span style="color: #4885ed">y</span></h2> -->
 
