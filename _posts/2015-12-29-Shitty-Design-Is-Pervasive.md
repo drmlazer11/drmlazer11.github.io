@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Shitty Design Is Pervasive
+title:  Crappy Design Is Pervasive
 date: 2015-12-29 12:04:49
 categories: ":poop:"
 ---
@@ -13,7 +13,7 @@ categories: ":poop:"
 
 <img src="http://i.imgur.com/XyxW68b.jpg">
 
-This brings me to the point of my post: Shitty design is pervasive. A couple days ago I was on LinkedIn and came across a photo of the "elimination card" that Harvey was handed. 
+This brings me to the point of my post: crappy design is pervasive. A couple days ago I was on LinkedIn and came across a photo of the "elimination card" that Harvey was handed. 
 
 <img src="http://i.imgur.com/wqfhqip.jpg">
 
